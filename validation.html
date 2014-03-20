@@ -91,54 +91,48 @@
 	<div class="section">
 		<div class="container">
 			<div class="page-header">
-				<h1>Development</h1>
+				<h1>Invoice Validation Service </h1>
 			</div>
 			
-			<div class="sect1">
-<h2 id="source_code">Source Code</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The konik.io source code is hosted on github.</p>
+			
+
+
+<div class="container">
+   <div class="row well">
+
+      <div class="col-lg-6 col-md-6">
+         <h4>ZUGFeRD Online Validation</h4>
+         <p>This online service allows you to validate your PDF or XML file with the konik library.</p>
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+         <form id = "validate_form" method="post" action="//localhost:8080/validate" enctype="multipart/form-data" onsubmit="">
+            <div class="form-group">
+               <label for="upload_file">PDF or XML</label> 
+               <input type="file" name="file" id="upload_file">
+               <p id="upload_file_help_block"class="help-block">Create validation report</p>
+<!--                <p class="bg-danger"></p> -->
+            </div>
+            <button type="submit" class="btn btn-primary btn-large clearfix">Submit</button>
+         </form>
+      </div>
+   </div>
 </div>
-<div class="paragraph">
-<p><a href="https://github.com/konik-io/">https://github.com/konik-io/</a></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="first_steps">First Steps</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Before you start make sure that <a href="http://maven.apache.org">Maven</a> and <a href="http://git-scm.com/">Git</a> are installed and working on your computer.</p>
-</div>
-<div class="paragraph">
-<p>Check out the source code to a directory of your choice. We use <code>konik.io</code> as a default example.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="bash language-bash">	&gt; git clone https://github.com/konik-io/barn barn</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Next Step will build the Konik library and run the tests.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="bash language-bash">	&gt; cd barn
-	&gt; mvn install</code></pre>
-</div>
-</div>
-<div class="paragraph">
-<p>Now you should take you favorite IDE and import the project.</p>
-</div>
-<div class="sect2">
-<h3 id="get_to_know_the_data_model">Get to know the data model</h3>
-<div class="paragraph">
-<p>Make yourself familiar with the ZUGFeRD Standard. Read first the <a href="/docs/index.html#data_model">konik documentation</a> and download the the <a href="http://www.ferd-net.de/front_content.php?idart=865">ZUGFeRD info package</a> for reference.</p>
-</div>
-</div>
-</div>
-</div>
+<script src="http://cdn.jsdelivr.net/jquery.form/3.50/jquery.form.min.js"></script>
+<script>
+	$(document).ready(function() {
+		var options = {
+			dataType : 	'json',
+			success : 	successResponse
+		};
+		$('#validate_form').ajaxForm(options);
+	});
+	function successResponse(data) {
+		console.log("repsonse received");
+		console.log(data.message);
+	}
+</script>
+
 			
 		</div>
 	</div>

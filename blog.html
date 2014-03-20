@@ -13,15 +13,17 @@
     <title>Konik is a open source ZUGFeRD invoicing in and output library for Java.</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cosmo/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="//yandex.st/highlightjs/7.5/styles/default.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/obsidian.css" rel="stylesheet" type="text/css">
-    <link href="/css/mb.css" rel="stylesheet" type="text/css">
-	<link href="/css/konik.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cosmo/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="//yandex.st/highlightjs/7.5/styles/default.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/obsidian.css" type="text/css">
+    <link rel="stylesheet" href="/css/mb.css"  type="text/css">
+	<link rel="stylesheet" href="/css/konik.css" type="text/css">
     
     <!-- icon -->
     <link href="/favicon.ico"  rel="konik.io icon"  type="image/x-icon" >
+    
+    <script src="//cdn.jsdelivr.net/jquery/2.1.0/jquery.min.js"></script>
     
     <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -61,25 +63,158 @@
     
   </div><!-- /.container -->
 </nav>  	
-  	
-    <div class="container">
+<div id="Blog" class="section">  	
+	<div class="container">
+		<div class="row">
+		    <div class="col-lg-12">
+		      <h1 class="page-header">&lt;B&gt;log</h1>
+			</div>
+		</div>
+	</div>
 
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="page-header">&lt;B&gt;log</h1>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-8">
-		          	<h2>Konik 0.1.0 and iText-Carriage released to Maven Central</h2>
-		          	<p><i class="fa fa-clock-o"></i> Posted on 02 March 2014</p>
-		          	 
-		          		<div id="preamble">
+	<div class="container">
+		<div class="row">
+			<!-- tags -->
+			<div class="col-lg-4 col-md-4 col-sm-3 col-xs-12 pull-right">
+			  <div class="well">
+			    <h4>Post Tags</h4>
+					
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Feature<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#JSR 330 Dependency Injection Integration into the Konik libraries">JSR 330 Dependency Injection Integration into the Konik libraries</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Development<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#JSR 330 Dependency Injection Integration into the Konik libraries">JSR 330 Dependency Injection Integration into the Konik libraries</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Dependency Injection<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#JSR 330 Dependency Injection Integration into the Konik libraries">JSR 330 Dependency Injection Integration into the Konik libraries</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released to Maven Central">Konik library and iText-Carriage version 0.1.0 released to Maven Central</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.1.0<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released to Maven Central">Konik library and iText-Carriage version 0.1.0 released to Maven Central</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Changelog<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released to Maven Central">Konik library and iText-Carriage version 0.1.0 released to Maven Central</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">on our own<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Project Start">Project Start</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+			  </div><!-- /well -->
+			</div><!-- col-lg-4 -->
+	
+	
+		      
+				<div id="JSR 330 Dependency Injection Integration into the Konik libraries" class="col-lg-8 col-md-8 col-sm-9">
+			          	<h2>JSR 330 Dependency Injection Integration into the Konik libraries</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 03 August 2015</p>
+			          		<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>Today the Konik library and the Konik iText Carriage were released to the Maven Central repository.
-Both libraries have the version <strong>0.1.0</strong>.</p>
+<p>Starting with the Version 0.2.0 the Konik library and iText-Carriage support <a href="https://jcp.org/en/jsr/detail?id=330" target="_blank">JSR 330</a> dependency injection.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="injectable_konik_classes">Injectable Konik classes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Singleton classes <code>InvoiceTransformer</code> in the Konik library, <code>ITextPdfInvoiceExtractor</code> and <code>ITextPdfInvoiceAppender</code> in iText-Carriage module can be injected into your application. The only requirement is that your Dependency Injection Framework supports JSR-330. Even though DI frameworks are widely used the Konik library and its modules does not enforce you to use a DI framework. You can still instantiate the classes above with the <code>new</code> Operator.</p>
+</div>
+<div class="sect2">
+<h3 id="which_dependency_injection_frameworks_are_supported">Which Dependency Injection Frameworks are supported?</h3>
+<div class="paragraph">
+<p>All common Dependency Injection Frameworks and JEE6 compatible Application Servers support JSR-330 Dependency Injection. This means if your application is based on Spring, Guice, JEE6, Apache OpenWebBeans or JBoss Weld you are able to inject the Konik classes mentioned above into your application. The only requirement is that the JSR-330 API <code>javax.inject.*</code> is on your classpath.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="konik_library_spring_example">Konik library Spring example</h3>
+<div class="paragraph">
+<p>Only Spring above Version 3 supports JSR-330. Because the JSR-330 dependency is optional in spring you need to add it yourself.
+In you project <code>pom.xml</code> add the following dependecy.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">	&lt;dependency&gt;
+		&lt;groupId&gt;javax.inject&lt;/groupId&gt;
+		&lt;artifactId&gt;javax.inject&lt;/artifactId&gt;
+		&lt;version&gt;1&lt;/version&gt;
+	&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>When using Spring with a XML configuration append the Konik library package name <code>io.konik</code> to the component scanning directive.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">	&lt;context:component-scan base-package="com.myCompany, io.konik" /&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>For Java based Spring configuration append the <code>io.konik</code> package in the <code>@ComponentScan</code> annotation which has the same result as the XML configuration.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">	@Configuration
+	@ComponentScan("com.myCompany, io.konik")
+	@EnableAutoConfiguration
+	class Application {
+
+	//...</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="other_dependency_injection_frameworks">Other Dependency Injection Frameworks</h3>
+<div class="paragraph">
+<p>OpenWebBeans has also JSR-330 API as an optional dependency similar to Spring. But for OpenWebBeans a slightly different JSR-330 dependency coordinates are used.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">	&lt;dependency&gt;
+		&lt;groupId&gt;org.apache.geronimo.specs&lt;/groupId&gt;
+	    &lt;artifactId&gt;geronimo-atinject_1.0_spec&lt;/artifactId&gt;
+	    &lt;version&gt;1.0&lt;/version&gt;
+	&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Using the Konik library with Goolge Guice does not need any special setup as Guice already bundled with JSR-330. This is also true for JEE6 Applications Servers. If in doubt you should look up the reference manual of your Dependency Injection Framework which normally deals in a greater detail with this topic.</p>
+</div>
+</div>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Konik library and iText-Carriage version 0.1.0 released to Maven Central" class="col-lg-8 col-md-8 col-sm-9">
+			          	<h2>Konik library and iText-Carriage version 0.1.0 released to Maven Central</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 02 March 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Today the Konik library and the Konik iText Carriage were released to the Maven Central Repository.
+Both libraries carry the version <strong>0.1.0</strong>.</p>
 </div>
 </div>
 </div>
@@ -89,7 +224,7 @@ Both libraries have the version <strong>0.1.0</strong>.</p>
 <p>Since this is the first release everything has changed compared to the previous version. These Release Notes are intended to highlight what already works what does not work and what you can expect for the next release.</p>
 </div>
 <div class="paragraph">
-<p>The <code>Konik</code> ZUGFeRD model is completely implemented. Reading and writing XML according to the standard should be fine.</p>
+<p>The ZUGFeRD model is completely supported by Konik. Reading and writing XML content according to the ZUGFeRD specification is working.</p>
 </div>
 <div class="paragraph">
 <p>On the Konik to do list there are various model validations which are still not implemented.</p>
@@ -107,12 +242,13 @@ The package contains the Konik libraries and all dependent libraries.</p>
 <div class="paragraph">
 <p>All artifacts can be found on Maven Central by the Group ID: <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22" target="_blank">io.konik</a>.</p>
 </div>
-</div>
-		          		<hr>
-		          	<h2>Project Start</h2>
-		          	<p><i class="fa fa-clock-o"></i> Posted on 01 December 2013</p>
-		          	 
-		          		<div id="preamble">
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Project Start" class="col-lg-8 col-md-8 col-sm-9">
+			          	<h2>Project Start</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 01 December 2013</p>
+			          		<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>The beginning of the konik library project.</p>
@@ -131,49 +267,13 @@ The further development of this library will be influenced by the ZUGFeRD adopti
 </div>
 </div>
 </div>
-</div>
-		          		<hr>
-        </div><!-- col-lg-8 -->
-        
-        <div class="col-lg-4">
-          
-          
-          <div class="well">
-            <h4>Post Tags</h4>
-			
-				
-				  <div class="btn-group">
-					  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release<span class="caret"></span></button>
-					  <ul class="dropdown-menu">
-					    	  <li><a href="/blog/2014/february/release-0.1.0.html">Konik 0.1.0 and iText-Carriage released to Maven Central</a></li>
-					  </ul>
-				  </div><!--btn-group -->
-				  <div class="btn-group">
-					  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.1.0<span class="caret"></span></button>
-					  <ul class="dropdown-menu">
-					    	  <li><a href="/blog/2014/february/release-0.1.0.html">Konik 0.1.0 and iText-Carriage released to Maven Central</a></li>
-					  </ul>
-				  </div><!--btn-group -->
-				  <div class="btn-group">
-					  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Changelog<span class="caret"></span></button>
-					  <ul class="dropdown-menu">
-					    	  <li><a href="/blog/2014/february/release-0.1.0.html">Konik 0.1.0 and iText-Carriage released to Maven Central</a></li>
-					  </ul>
-				  </div><!--btn-group -->
-				  <div class="btn-group">
-					  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">on our own<span class="caret"></span></button>
-					  <ul class="dropdown-menu">
-					    	  <li><a href="/blog/2013/project_start.html">Project Start</a></li>
-					  </ul>
-				  </div><!--btn-group -->
-			  
-          </div><!-- /well -->
-          
-        </div><!-- col-lg-4 -->
-        
-      </div> <!-- row -->
-      
-    </div><!-- /.container -->
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+		</div><!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.section -->
+	
 
 
     <div class="container">
@@ -186,7 +286,6 @@ The further development of this library will be influenced by the ZUGFeRD adopti
       </footer>
     </div><!-- /.container -->
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <script src="//yandex.st/highlightjs/7.5/highlight.min.js"></script>
     <script src="/js/konik.js"></script>
