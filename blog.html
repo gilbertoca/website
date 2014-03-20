@@ -151,8 +151,8 @@
 <div class="sect2">
 <h3 id="konik_library_spring_example">Konik library Spring example</h3>
 <div class="paragraph">
-<p>Only Spring above Version 3 supports JSR-330. Because the JSR-330 dependency is optional in spring you need to add it yourself.
-In you project <code>pom.xml</code> add the following dependecy.</p>
+<p>Only Spring above Version 3 supports JSR-330. Because the dependency to JSR-330 API is declared optional in Spring you need to add it yourself.
+For example in your project <code>pom.xml</code> file add the following dependency.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -164,7 +164,10 @@ In you project <code>pom.xml</code> add the following dependecy.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>When using Spring with a XML configuration append the Konik library package name <code>io.konik</code> to the component scanning directive.</p>
+<p>The next step is to tell Spring to look for additional dependencies. The step is only needed if you restricted Spring component scanning to certain packages otherwise you are now ready to go.</p>
+</div>
+<div class="paragraph">
+<p>For Spring with a XML configuration append the Konik library package name <code>io.konik</code> to the component scanning directive.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -188,7 +191,7 @@ In you project <code>pom.xml</code> add the following dependecy.</p>
 <div class="sect2">
 <h3 id="other_dependency_injection_frameworks">Other Dependency Injection Frameworks</h3>
 <div class="paragraph">
-<p>OpenWebBeans has also JSR-330 API as an optional dependency similar to Spring. But for OpenWebBeans a slightly different JSR-330 dependency coordinates are used.</p>
+<p>OpenWebBeans has also JSR-330 API as an optional dependency similar to Spring. But for OpenWebBeans a recommended to use a different JSR-330 dependency coordinates.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -200,7 +203,7 @@ In you project <code>pom.xml</code> add the following dependecy.</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Using the Konik library with Goolge Guice does not need any special setup as Guice already bundled with JSR-330. This is also true for JEE6 Applications Servers. If in doubt you should look up the reference manual of your Dependency Injection Framework which normally deals in a greater detail with this topic.</p>
+<p>Using the Konik library with Goolge Guice does not need any special setup as Google Guice is already bundled with JSR-330. This is also true for JEE6 Applications Servers. If in doubt you should look up the reference manual of your Dependency Injection Framework which normally deals in a greater detail with this topic.</p>
 </div>
 </div>
 </div>
