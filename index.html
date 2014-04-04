@@ -28,7 +28,7 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+	  ga('require', 'displayfeatures');
 	  ga('create', 'UA-45977479-1', 'auto');
 	  ga('send', 'pageview');
 	</script>
@@ -63,16 +63,17 @@
 </nav>	
 	
 <a href="https://github.com/konik-io"><img align="right" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+
 <div id="Intro" class="section">
 
    <div class="container">
 
       <div class="row">
-      
+
          <div class="col-lg-6 col-md-6 col-sm-6">
             <h1>Konik - Open Source library for ZUGFeRD compliant invoicing</h1>
-            <h2>Contains everything you need for an easy ZUGFeRD invoicing in and output.</h2>
-            
+            <h2>Contains everything you need for easy ZUGFeRD invoicing input and output.</h2>
+
             <div class="well-lg">
                <a href="#Quickstart" class="btn btn-lg btn-primary">Get started!</a>
             </div>
@@ -86,7 +87,8 @@
       
    </div>
    
-</div>	
+</div>
+	
 <div class="section-colored">
 
       <div class="container">
@@ -100,21 +102,22 @@
         <div class="row">
           <div class="col-lg-4 col-md-4">
             <h3><i class="fa fa-heart"></i> Open Source</h3>
-            <p>First open source library to easily crate, read and validate <a href="www.ferd-net.de">ZUGFeRD</a> invoices for the JVM. Licensed under <a href="http://www.gnu.org/licenses/agpl-3.0.html">AGPL 3.0.</a></p>
+            <p>First open source library to easily create, read, and validate <a href="www.ferd-net.de">ZUGFeRD</a> invoices for the JVM. Licensed under <a href="http://www.gnu.org/licenses/agpl-3.0.html">AGPL 3.0.</a></p>
           </div>
           <div class="col-lg-4 col-md-4">
             <h3><i class="fa fa-bullhorn"></i> Beyond the obvious</h3>
-            <p>Easy understandable API which is also well documented. Validation of the invoice against the ZUGFeRD defenition and country specific regulations allows you process the invoice without suprises.</p>
+            <p>Easily understandable API which is also well documented. Validation of the invoice against the ZUGFeRD definition and country-specific regulations allow you process the invoice without any surprises.</p>
           </div>
           <div class="col-lg-4 col-md-4">
             <h3><i class="fa fa-road"></i> With options to choose</h3>
-            <p>Easy way of invoice appending or extracting. Multiple PDF Carriages allows you to choose the perfect on for your needs.</p>
+            <p>Easy way of invoice appending or extracting. Multiple PDF Carriages allow you to choose the perfect one for your needs.</p>
           </div>
         </div><!-- /.row -->
 
       </div><!-- /.container -->
 
-</div><!-- /.section -->	
+</div><!-- /.section -->
+	
 <div id="Quickstart" class="section">
 
    <div class="container">
@@ -141,11 +144,11 @@
          
          
          <div class="col-lg-6 col-md-6 col-sm-6">
-            <p>The easiest way to get started using konik in your project is with a
-               dependency management system that is able to access <a href="http://search.maven.org/#search|ga|1|g%3A%22io.konik%22">the Maven Central Repository.</a></p>
-            <p>Copy the code snippet in the black box to your projects pom file.</p>
+            <p>The easiest way to get started using Konik in your project is with a
+               Dependency Management System that is able to access <a href="http://search.maven.org/#search|ga|1|g%3A%22io.konik%22">the Maven Central Repository.</a></p>
+            <p>Copy the code snippet in the black box to your project’s pom file.</p>
          <h3>Alternative</h3>
-         <p>Not using a dependency management system? No Problem. Get the zip package containing compiled binaries, source code and documentation.</p>
+         <p>Not using a Dependency Management System? No Problem. Get the zip package containing compiled binaries, source code, and documentation.</p>
          <div>
             <a id="download-zip-package" href="http://search.maven.org/remotecontent?filepath=io/konik/distribution/0.1.0/distribution-0.1.0.zip" class="btn btn-lg btn-primary">Download Zip Package</a>
          </div>
@@ -155,7 +158,8 @@
       <!-- /.row -->
    </div>
    <!-- /.container -->
-</div>	
+</div>
+	
 <div id="Support" class="section-colored">
 
    <div class="container">
@@ -176,11 +180,11 @@
                   </header>
                   <p>
                      If you have a question on how to accomplish a goal with the <a href="//konik.io">Konik</a>
-                     library or have a different how to do X question. Please <a
-                        href="//stackoverflow.com/questions/tagged/konik+or+konik.io" target="_blank">see</a> first if a
-                     similar question has been asked before. If this is not the case you <a href="//stackoverflow.com/questions/ask" target="_blank"> create a new question</a>. We are monitoring the <a
+                     library or have a different “How to do X” question, please <a
+                        href="//stackoverflow.com/questions/tagged/konik+or+konik.io" target="_blank">check </a> if a
+                     similar question has been asked before. If this is not the case, then you can <a href="//stackoverflow.com/questions/ask" target="_blank"> create a new question</a>. We closely monitor the <a
                         href="//stackoverflow.com/questions/tagged/konik+or+konik.io">Konik
-                        tags</a> and will answer your questions.
+                        tags</a> and will answer all of your questions.
                   </p>
                </div>
             </article>
@@ -196,8 +200,8 @@
                      </h3>
                   </header>
                   <p>
-                     Found a bug? The fastest way to get it fixed is to <a href="https://github.com/konik-io/barn/issues/new" target="_blank">raise a ticket</a> on
-                     GitHub. You can also <a href="https://github.com/konik-io/barn/issues/new" target="_blank">see</a> if a similar ticket already exist and comment on that. We try our best to provide a fix for the next release.
+                     Found a bug? The fastest way to get it fixed is to <a href="https://github.com/konik-io/barn/issues/new" target="_blank">create a ticket</a> on
+                     GitHub. You can also <a href="https://github.com/konik-io/barn/issues/new" target="_blank">see</a> if a similar ticket already exists and comment on that. We always try our best to provide a fix for the next release.
                   </p>
                   <p>The ticketing system is also a perfect place to request a new feature.</p>
                </div>
@@ -214,14 +218,12 @@
             <p>When you think that GitHub and Stack Overflow are not the right places to ask your questions.</p>
          </div>
          <div class="col-lg-4 col-md-4">
-            <a class="btn btn-lg btn-primary pull-right" href="http://www.google.com/recaptcha/mailhide/d?k=01q8vnbfNmxk0T5DM_GteAAg==&amp;c=zwuGbJbE2eqJvqdTIykGHA==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501q8vnbfNmxk0T5DM_GteAAg\75\75\46c\75zwuGbJbE2eqJvqdTIykGHA\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal the e-mail address">Send us an E-mail</a>
+            <a class="btn btn-lg btn-primary pull-right" href="http://www.google.com/recaptcha/mailhide/d?k=01q8vnbfNmxk0T5DM_GteAAg==&amp;c=zwuGbJbE2eqJvqdTIykGHA==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501q8vnbfNmxk0T5DM_GteAAg\75\75\46c\75zwuGbJbE2eqJvqdTIykGHA\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal the Email address">Send us an Email</a>
          </div>
       </div>
    </div>
 
 </div>
-
-
 	
     <div class="container">
       <footer>

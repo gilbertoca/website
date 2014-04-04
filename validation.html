@@ -10,7 +10,7 @@
     <meta content="/img/logo.png" property="og:image">
     <meta name="keywords" content="ZUGFeRD, Open Source, Java, JVM">
 
-    <title>Invoice Validation Service </title>
+    <title>ZUGFeRD Online invoice validation service</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cosmo/bootstrap.min.css" type="text/css">
@@ -28,7 +28,7 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+	  ga('require', 'displayfeatures');
 	  ga('create', 'UA-45977479-1', 'auto');
 	  ga('send', 'pageview');
 	</script>
@@ -89,15 +89,14 @@
 	<div class="section">
 		<div class="container">
 			<div class="page-header">
-				<h1>Invoice Validation Service </h1>
+				<h1>ZUGFeRD Online invoice validation service</h1>
 			</div>
 			
 			
 <div class="container">
    <div class="row well">
-
       <div class="col-lg-6 col-md-6">
-         <h4>ZUGFeRD Online Validation</h4>
+         <h4>Online validation for ZUGFeRD compliant invoices</h4>
          <p>This online service allows you to validate your PDF or XML file with the konik library.</p>
       </div>
 
@@ -113,6 +112,9 @@
          </form>
       </div>
    </div>
+   <div id="server_result" class="row">
+     
+   </div>
 </div>
 <script src="//cdn.jsdelivr.net/jquery/2.1.0/jquery.min.js"></script>
 <script src="http://cdn.jsdelivr.net/jquery.form/3.50/jquery.form.min.js"></script>
@@ -127,6 +129,14 @@
 	function successResponse(data) {
 		console.log("repsonse received");
 		console.log(data.message);
+		String alarmType; 
+		switch(data.status){
+			case "VALID":alarmType = "alert-success" break;
+			case "INVALID": case "ERROR"; alarmType = "alert-danger" break;
+			default: alarmType = "alert-danger";
+		}
+		$("#server_result").append('<div class="alert alert-success"> <p class="bg-danger">'+ data.statusMessage +'</p></div>');
+		
 	}
 </script>
 
