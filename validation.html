@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ZUGFeRD open source data model implementation for Java and the JVM done right with the Konik library.">
+    <meta name="description" content="Online Service for validating ZUGFeRD invoices in PDF or XML format">
     <meta name="author" content="Vadim Bauer">
     <meta content="/img/logo.png" property="og:image">
-    <meta name="keywords" content="ZUGFeRD, Open Source, Java, JVM">
+    <meta name="keywords" content="ZUGFeRD Online Service,ZUGFeRD Online Validation, ZUGFeRD Invoice Validation, ZUGFeRD Online, Invoice Validation, ZUGFeRD PDF validation, ZUGFeRD XML validation">
 
-    <title>ZUGFeRD Online invoice validation service</title>
+    <title>ZUGFeRD Online Validation </title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cosmo/bootstrap.min.css" type="text/css">
@@ -57,6 +57,7 @@
         <li><a href="/index.html#Quickstart">Quick Start</a></li>
         <li><a href="/docs/index.html">Documentation</a></li>
         <li><a href="/development.html">Development</a></li>
+        <li><a href="/validation.html">Validation</a></li>
         <li><a href="/blog.html">Blog</a></li>
          <li><a href="/index.html#Support">Support</a></li>
       </ul>
@@ -82,6 +83,7 @@
         <li><a href="/index.html#Quickstart">Quick Start</a></li>
         <li><a href="/docs/index.html">Documentation</a></li>
         <li><a href="/development.html">Development</a></li>
+        <li><a href="/validation.html">Validation</a></li>
         <li><a href="/blog.html">Blog</a></li>
          <li><a href="/index.html#Support">Support</a></li>
       </ul>
@@ -92,15 +94,15 @@
 	<div class="section">
 		<div class="container">
 			<div class="page-header">
-				<h1>ZUGFeRD Online invoice validation service</h1>
+				<h1>ZUGFeRD Online Validation </h1>
 			</div>
 			
 			
 <div class="container">
    <div class="row well">
       <div class="col-lg-6 col-md-6">
-         <h4>Online validation for ZUGFeRD compliant invoices</h4>
-         <p>This online service allows you to validate your PDF or XML file with the konik library.</p>
+         <h4>Validity test for ZUGFeRD compliant invoices</h4>
+         <p>This online service allows to validate a PDF or XML file with using the Konik library.</p>
       </div>
 
       <div class="col-lg-6 col-md-6">
@@ -109,7 +111,6 @@
                <label for="upload_file">PDF or XML</label> 
                <input type="file" name="file" id="upload_file">
                <p id="upload_file_help_block"class="help-block">Create validation report</p>
-<!--                <p class="bg-danger"></p> -->
             </div>
             <button type="submit" class="btn btn-primary btn-large clearfix">Submit</button>
          </form>
