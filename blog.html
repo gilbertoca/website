@@ -293,9 +293,9 @@ In your project <code>pom.xml</code> file, add the following dependency.</p>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="xml language-xml">&lt;dependency&gt;
-	&lt;groupId&gt;javax.inject&lt;/groupId&gt;
-	&lt;artifactId&gt;javax.inject&lt;/artifactId&gt;
-	&lt;version&gt;1&lt;/version&gt;
+   &lt;groupId&gt;javax.inject&lt;/groupId&gt;
+   &lt;artifactId&gt;javax.inject&lt;/artifactId&gt;
+   &lt;version&gt;1&lt;/version&gt;
 &lt;/dependency&gt;</code></pre>
 </div>
 </div>
@@ -310,17 +310,22 @@ In your project <code>pom.xml</code> file, add the following dependency.</p>
 <pre class="highlight"><code class="xml language-xml">&lt;context:component-scan base-package="com.myCompany, io.konik" /&gt;</code></pre>
 </div>
 </div>
-<div class="paragraph">
-<p>For Java-based Spring configuration, append the <code>io.konik</code> package in the <code>@ComponentScan</code> annotation.</p>
-</div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="xml language-xml">@Configuration
-@ComponentScan("com.myCompany, io.konik")
+<pre class="highlight"><code class="java language-java">@Configuration
+@ComponentScan("com.myCompany, io.konik")<i class="conum" data-value="1"></i><b>(1)</b>
 @EnableAutoConfiguration
 class Application {
 // ...</code></pre>
 </div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>For Java-based Spring configuration, append the <code>io.konik</code> package in the <code>@ComponentScan</code> annotation.</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect2">
@@ -331,9 +336,9 @@ class Application {
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="xml language-xml">&lt;dependency&gt;
-	&lt;groupId&gt;org.apache.geronimo.specs&lt;/groupId&gt;
-    &lt;artifactId&gt;geronimo-atinject_1.0_spec&lt;/artifactId&gt;
-    &lt;version&gt;1.0&lt;/version&gt;
+   &lt;groupId&gt;org.apache.geronimo.specs&lt;/groupId&gt;
+   &lt;artifactId&gt;geronimo-atinject_1.0_spec&lt;/artifactId&gt;
+   &lt;version&gt;1.0&lt;/version&gt;
 &lt;/dependency&gt;</code></pre>
 </div>
 </div>
