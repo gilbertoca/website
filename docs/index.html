@@ -93,44 +93,44 @@
 <h2 id="quick_start">Quick Start</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following code from the test case <code>MinimalInvoice.java</code> represents a valid invoice data according to the ZUGFeRD data model.</p>
+<p>The following code from the test case <a href="https://github.com/konik-io/barn/blob/master/konik/src/test/java/io/konik/examples/MinimalInvoice.java"><code>MinimalInvoice.java</code></a> represents a valid invoice data according to the ZUGFeRD data model.</p>
 </div>
 <div class="paragraph">
 <p>Let us step through the code and take a look at the interesting parts.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">      Invoice invoice = new Invoice(BASIC);<i class="conum" data-value="1"></i><b>(1)</b>
-      invoice.setHeader(new ExchangeDocument().setId("20131122-42").setTypeCode("380")
-            .setIssued(new DateTime(new Date())).addName("Rechnung"));
+<pre class="highlight"><code class="java language-java">Invoice invoice = new Invoice(BASIC);<i class="conum" data-value="1"></i><b>(1)</b>
+invoice.setHeader(new ExchangeDocument().setId("20131122-42").setTypeCode("380")
+      .setIssued(new DateTime(new Date())).addName("Rechnung"));
 
-      Trade tradeTransaction = new Trade();
-      tradeTransaction.addAgreement(new TradeAgreement().setSellerTradeParty(
-            new TradeParty().setName("Seller Inc.").setAddress(new Address("35578", "Fontanestr, 14", "Wetzlar", "DE"))
-                  .addTaxRegistration(new TaxRegistration("DE122...", "FC"))).setBuyerTradeParty(
-            new TradeParty().setName("Buyer Inc.").setAddress(new Address("50667", "Domkloster 4", "Köln", "DE"))
-                  .addTaxRegistration(new TaxRegistration("DE123...", "FC"))));
+Trade tradeTransaction = new Trade();
+tradeTransaction.addAgreement(new TradeAgreement().setSellerTradeParty(
+      new TradeParty().setName("Seller Inc.").setAddress(new Address("35578", "Fontanestr, 14", "Wetzlar", "DE"))
+            .addTaxRegistration(new TaxRegistration("DE122...", "FC"))).setBuyerTradeParty(
+      new TradeParty().setName("Buyer Inc.").setAddress(new Address("50667", "Domkloster 4", "Köln", "DE"))
+            .addTaxRegistration(new TaxRegistration("DE123...", "FC"))));
 
-      tradeTransaction.setDelivery(new Delivery().setEvent(new Event(new Date(), F102)));
+tradeTransaction.setDelivery(new Delivery().setEvent(new Event(new Date(), F102)));
 
-      tradeTransaction.setTradeSettlement(new TradeSettlement().setPaymentReference("20131122-42").setInvoiceCurrency("EUR")
-            .addPaymentMeans(new PaymentMeans().setPayerAccount(new DebtorFinancialAccount("DE01234..")).setPayerInstitution(
-                  new DebtorFinancialInstitution("GENO...")))
-            .setMonetarySummation(new MonetarySummation().
-                  setNetTotal(new Amount(100d, "EUR")).setTaxTotal(new Amount(19d, "EUR")).setGrandTotal(new Amount(119d, "EUR"))));
+tradeTransaction.setTradeSettlement(new TradeSettlement().setPaymentReference("20131122-42").setInvoiceCurrency("EUR")
+      .addPaymentMeans(new PaymentMeans().setPayerAccount(new DebtorFinancialAccount("DE01234..")).setPayerInstitution(
+            new DebtorFinancialInstitution("GENO...")))
+      .setMonetarySummation(new MonetarySummation().
+            setNetTotal(new Amount(100d, "EUR")).setTaxTotal(new Amount(19d, "EUR")).setGrandTotal(new Amount(119d, "EUR"))));
 
-      tradeTransaction.addItem(new Item().setProduct(new TradeProduct().setName("Webcam HD")));
+tradeTransaction.addItem(new Item().setProduct(new TradeProduct().setName("Webcam HD")));
 
-      invoice.addTrade(tradeTransaction);
+invoice.addTrade(tradeTransaction);
 
 
-      JAXBContext jaxb = JAXBContext.newInstance("com.konikframework.zugferd"); <i class="conum" data-value="2"></i><b>(2)</b>
-      Marshaller marshaller = jaxb.createMarshaller();
-      marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);//prettify xml output for humans
-      ByteArrayOutputStream os = new ByteArrayOutputStream();
-      marshaller.marshal(invoice, os);
+JAXBContext jaxb = JAXBContext.newInstance("io.konik.zugferd"); <i class="conum" data-value="2"></i><b>(2)</b>
+Marshaller marshaller = jaxb.createMarshaller();
+marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);//prettify xml output for humans
+ByteArrayOutputStream os = new ByteArrayOutputStream();
+marshaller.marshal(invoice, os);
 
-      System.out.println(os.toString());</code></pre>
+System.out.println(os.toString());</code></pre>
 </div>
 </div>
 <div class="colist arabic">
@@ -141,7 +141,7 @@
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>After filling the invoice with data create a new JAXB Context with path <code>com.konikframework.zugferd</code>.</td>
+<td>After filling the invoice with data create a new JAXB Context with path <code>io.konik.zugferd</code>.</td>
 </tr>
 </table>
 </div>
