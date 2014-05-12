@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog about Konik development. News about ZUGFeRD and electronic invoicing. ">
+    <meta name="author" content="Vadim Bauer">
+    <meta content="/img/logo.png" property="og:image">
+    <meta name="keywords" content="Konik development blog, ZUGFeRD News, Konik library changelog">
+
+    <title>Blog about Konik development and buzz from the ZUGFeRD world</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cosmo/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/obsidian.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/obsidian.css" type="text/css">
+    <link rel="stylesheet" href="/css/mb.css"  type="text/css">
+	<link rel="stylesheet" href="/css/konik.css" type="text/css">
+    
+    <!-- JQuery on top to use it in our code -->
+    <script src="//cdn.jsdelivr.net/jquery/2.1.0/jquery.min.js"></script>
+    
+    <!-- icon -->
+    <link href="/favicon.ico"  rel="konik.io icon"  type="image/x-icon" >
+    
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  ga('require', 'displayfeatures');
+	  ga('create', 'UA-45977479-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	    
+  </head>
+
+  <body>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" href="/">Konik</a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/index.html#Quickstart">Quick Start</a></li>
+        <li><a href="/docs/index.html">Documentation</a></li>
+        <li><a href="/development.html">Development</a></li>
+        <li><a href="/validation.html">Validation</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+         <li><a href="/index.html#Support">Support</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+    
+  </div><!-- /.container -->
+</nav>  	
+<div id="Blog" class="section">  	
+	<div class="container">
+		<div class="row">
+		    <div class="col-lg-12">
+		      <h1 class="page-header">&lt;B&gt;log</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<!-- tags -->
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			  <div class="">
+			    <h4>Post Tags</h4>
+					
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">ZUGFeRD Weekly<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#ZUGFeRD Weekly News #13">ZUGFeRD Weekly News #13</a></li>
+						    	  <li><a href="#ZUGFeRD Weekly News #14">ZUGFeRD Weekly News #14</a></li>
+						    	  <li><a href="#ZUGFeRD Weekly News #15">ZUGFeRD Weekly News #15</a></li>
+						    	  <li><a href="#ZUGFeRD Weekly News #16">ZUGFeRD Weekly News #16</a></li>
+						    	  <li><a href="#ZUGFeRD Weekly News #17">ZUGFeRD Weekly News #17</a></li>
+						    	  <li><a href="#ZUGFeRD Weekly News #18">ZUGFeRD Weekly News #18</a></li>
+						    	  <li><a href="#ZUGFeRD Weekly News #19">ZUGFeRD Weekly News #19</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">performance<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik performance measurements">Konik performance measurements</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> benchmarks<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik performance measurements">Konik performance measurements</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> jmh<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik performance measurements">Konik performance measurements</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
+						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.2.0<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Changelog<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
+						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Feature<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
+						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Feature<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Dependency Injection with the Konik library">Dependency Injection with the Konik library</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> How-to<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Dependency Injection with the Konik library">Dependency Injection with the Konik library</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Dependency Injection<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Dependency Injection with the Konik library">Dependency Injection with the Konik library</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.1.0<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">on our own<span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik project Start">Konik project Start</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+			  </div><!-- /well -->
+			</div><!-- col-lg-4 -->
+	
+	
+		      
+				<div id="ZUGFeRD Weekly News #19" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #19</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 12 May 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ZUGFeRD related news and articles from 5<sup>th</sup> April until 11<sup>th</sup> May.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Bonpago will present a free <a href="http://www.pressebox.de/inaktiv/bonpago-gmbh/Bonpago-stellt-mit-dem-Forschungsprojekt-E-Docs-kostenloses-ZUGFeRD-Tool-zum-elektronischen-Rechnungsaustausch-auf-den-M-Days-in-Frankfurt-vor/boxid/677033">ZUGFeRD tool</a> for electronic invoice exchange on the M-days in Frankfurt.</p>
+</li>
+<li>
+<p>iText is currently implementing <a href="http://sourceforge.net/p/itext/code/6355/">ZUGFeRD XML invoice attachment and detachment</a> functionality for the next iText release.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="ZUGFeRD Weekly News #18" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #18</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 04 May 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ZUGFeRD related news and articles from 28<sup>th</sup> April until 5<sup>th</sup> May.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Last week was dominated by news about the <a href="http://www.ferd-net.de/front_content.php?idcat=231&amp;lang=3">ZUGFeRD Release Candidate</a> like on <a href="http://www.heise.de/ix/meldung/Standard-fuer-Elektronische-Rechnungen-weiterer-Release-Kandidat-2177616.html">Heise</a> and
+<a href="http://www.project-consult.de/ecm/news/2013/zugferd_standard_f%C3%BCr_die_elektronische_rechnung#comment-2497">Project Consult</a>.</p>
+</li>
+<li>
+<p><a href="http://www.pdf-tools.com/pdf/context/zugferd.aspx?l=en-us">PDF Tools</a> announced support for attaching and extracting ZUGFeRD XML content for their PDF library products.</p>
+</li>
+<li>
+<p>GISA published product details about <a href="http://www.gisa.de/sandbox/3076.html">ZUGFeRD complete package</a>.</p>
+</li>
+<li>
+<p>DocuWare announced the availability of their <a href="http://www.docuware.com/de/produkt/zugferd">DocuWare ZUGFeRD service</a>.</p>
+</li>
+<li>
+<p>FibuNet <a href="http://www.fibunet.de/pressemitteilungen/artikel/invoice-control-fibunet-webic-geht-mit-zugferd-vorneweg.html">announced</a> support ZUGFeRD for incoming invoice processing of their ERP software FibuNet webIC.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="ZUGFeRD Weekly News #17" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #17</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 27 April 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ZUGFeRD related news and articles from 21<sup>st</sup> April until 27<sup>th</sup> April.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Yet another <a href="http://www.ferd-net.de/front_content.php?idcat=231&amp;lang=3">ZUGFeRD Release Candidate</a> is available for review.
+The final 1.0 release should then be published on 25th<sup>th</sup> of June.</p>
+</li>
+<li>
+<p>Electronic Business Extensible Markup Language (ebXML) is becoming an <a href="http://www.project-consult.de/ecm/news/2014/zugferd_datenmodell_ebxml_ist_jetzt_internationaler_iso_standard">official ISO standard</a>.
+The data model defined in <a href="http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=61433">ISO 15000-5:2014</a> is also part of ZUGFeRD.
+This ISO announcement is one of the reasons for a new ZUGFeRD release candidate.</p>
+</li>
+<li>
+<p>Konik will have a new ZUGFeRD compliant release in the next weeks.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Konik performance measurements" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Konik performance measurements</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 23 April 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Starting with the latest release we are going to publish benchmark results of the Konik library.
+Our objective is to create and maintain a library that is scalable enough to process many hundreds of PDFs per second.
+Initially we start small by <a href="https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java">benchmarking</a> <a href="https://github.com/konik-io/barn/blob/master/itext-carriage/src/main/java/io/konik/itext/appender/ITextPdfInvoiceAppender.java"><code>ITextPdfInvoiceAppender</code></a>.</p>
+</div>
+<div class="paragraph">
+<p>For an brief overview the <a href="https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java"><code>ITextAppenderBenchmark</code></a> is performing the following steps.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Reading a sample PDF from disk</p>
+</li>
+<li>
+<p>Marshalling the invoice model to XML</p>
+</li>
+<li>
+<p>Appending the generated XML to PDF</p>
+</li>
+<li>
+<p>Reading existing XMP content from the PDF</p>
+</li>
+<li>
+<p>Changing the XMP content to add ZUGFeRD information</p>
+</li>
+<li>
+<p>Overwriting the XMP content of the PDF with the modified XMP version</p>
+</li>
+<li>
+<p>Writing the final PDF to output stream or byte array</p>
+</li>
+</ul>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Benchmark interpretation</dt>
+<dd>
+<p>The benchmarks mode is set to measure operation throughput per second <em>(ops/s)</em></p>
+</dd>
+<dt class="hdlist1">Benchmark setup</dt>
+<dd>
+<p>20 samples were taken after a JVM warm up phase of 20 iterations.</p>
+</dd>
+<dt class="hdlist1">Hardware information</dt>
+<dd>
+<p>The benchmarks were performed on a MacBookAir4,2 having a 1.8 GHz Intel Core i7 CPU.</p>
+</dd>
+</dl>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="plain language-plain">Benchmark                                                              Mode   Threads   Samples       Mean     Units
+i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,16     ops/s
+i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4        20      38,25     ops/s
+i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1        20      26,88     ops/s</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The following benchmark is equal to the one above, except that the code under test does not read, modify or appends XMP
+content to the PDF. Results of this benchmark represent the state of the iText-Carriage prior version 0.2.0.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="plain language-plain">Benchmark                                                              Mode   Threads   Samples       Mean     Units
+i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,97     ops/s
+i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4	     20      39,32     ops/s
+i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1	     20      29,30     ops/s</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Finally we also benchmarked, the throughput of the XMP Appender which parses, modifies builds XMP content.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="plain language-plain">Benchmark                                                              Mode   Threads   Samples       Mean     Units
+i.k.b.XmpAppenderBenchmark.append_reuseAppender                       thrpt         1        20     656,90     ops/s
+i.k.b.XmpAppenderBenchmark.append_reuseAppenderWithThreads            thrpt         4        20    1203,26     ops/s
+i.k.b.XmpAppenderBenchmark.append_withNewAppender                     thrpt         1        20     439,76     ops/s</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="conclusion">Conclusion</h3>
+<div class="paragraph">
+<p>Good news is that there was no performance drop when going from release 0.1.0 to 0.2.0. On the other hand Konik and iText
+are able to process almost 40 PDFs per second on a 2011 MacBook Air. This is not a bad number but it
+now needs attention to not become slower when more features are added. Possible performance improvements can be achieved by
+parallelizing the invoice marshalling and XMP creation. This improvements should hopefully get us close to the 50 PDFs per second.</p>
+</div>
+<div class="paragraph">
+<p>More benchmark results can be obtained from the {http://ci.konik.io/view/All/job/benchmarks/}[Konik CI Server]
+performing nightly benchmark tests of the library.</p>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Konik library and iText-Carriage version 0.2.0 released" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Konik library and iText-Carriage version 0.2.0 released</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 22 April 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>A new version of the Konik library and the Konik iText Carriage.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="release_notes">Release Notes</h3>
+<div class="paragraph">
+<p>Two new features were added.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://github.com/konik-io/barn/issues/1" target="_blank">ZUGFeRD compliant XMP content with itext-carriage</a></p>
+</li>
+<li>
+<p><a href="https://github.com/konik-io/barn/issues/7" target="_blank">Benchmark Library</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Also some minor changes made it into the release.</p>
+</div>
+<div class="paragraph">
+<p>A <code>zip</code> <a href="https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.2.0/distribution-0.2.0.zip" class="download-zip-package" target="_blank">distribution package</a>
+is also available for users without a Build System.</p>
+</div>
+<div class="paragraph">
+<p>Artifacts are available on the Central Repository by the <a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22" target="_blank">io.konik</a> Group ID.</p>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="ZUGFeRD Weekly News #16" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #16</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 21 April 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ZUGFeRD related news and articles from 13<sup>th</sup> April until 20<sup>th</sup> April.
+The last ZUGFeRD week was really quite, mostly because of the easter holidays in Germany.
+Nevertheless a few announcements and articles made it into ZUGFeRD weekly news.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.luratech.com/en/products/luratech-zugferd-extraction-sdk/" target="_blank">Luratech released</a> a ZUGFeRD invoice extraction SDK for .NET and native C.</p>
+</li>
+<li>
+<p>The company <a href="http://www.d-velop.de/zugferd-rechnungen-verarbeiten/" target="_blank">D.velop</a> announced ZUGFeRD support for their ECM product.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="articles">Articles</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Ecosio published an <a href="http://ecosio.com/blog/2014/04/16/EU-Richtlinie-zur-elektronischen-Rechnung-verabschiedet/" target="_blank">interesting article</a> elaborating
+the European Parliament directive in respect to the different
+invoicing standards across Europe.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="ZUGFeRD Weekly News #15" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #15</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 13 April 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ZUGFeRD related news and articles from 7<sup>th</sup> April until 13<sup>th</sup> April.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>AustriaPro the e-Invoice standardization organization
+responsible for the <a href="http://ebInterface.at">ebInterface</a> specification, published the
+<a href="https://www.wko.at/Content.Node/AUSTRIAPRO/ebInvoice_4p1_englisch.pdf">English version</a> of the ebInterface documentation.</p>
+</li>
+<li>
+<p>AustriaPro <a href="https://www.wko.at/Content.Node/AUSTRIAPRO/Aktuelles/News_aus_dem_AK_E-Billing.html">announced</a> to create a free ZUGFeRD to ebInterface converter and
+vice versa by the end of this year.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="articles">Articles</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ecosio <a href="http://ecosio.com/blog/2014/04/04/Vorteile-der-e-Rechnung-nutzen/">elaborates on the benefits of the e-invoice</a> in comparison
+to the paper invoice.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="ZUGFeRD Weekly News #14" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #14</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 06 April 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ZUGFeRD related news and articles from 31<sup>st</sup> March until 6<sup>th</sup> April.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>The German Insurance Association is hosting a <a href="http://www.versicherungsakademie.de/fileadmin/user_upload/DVA/Dokumente/V804-pro01-ftzahlungsverkehr-052014.pdf">Payment transaction symposium<sup></a>
+on the 21</sup><sup>st</sup> and 22<sup>nd</sup> of May.</p>
+</li>
+<li>
+<p>At the <a href="http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility">iText Summit 2014<sup></a> in Köln, the <a href="http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility">archiving
+and accessibility</sup></a> talk will contain a ZUGFeRD use case.</p>
+</li>
+<li>
+<p>The Congress <a href="http://www.neue-verwaltung.de/fachforen/" target="_blank">Neue Verwaltung</a> will have an expert forum that deals
+with ZUGFeRD in terms of public administration.</p>
+</li>
+<li>
+<p>The Tanges Academy is hosting a seminar <a href="http://www.tangens-akademie.de/seminardatenbank_die_elektronische_rechnung_2014_04_06_2014_nuernberg.html">Die elektronische Rechnung 2014<sup></a>
+on the 4</sup><sup>th</sup> of June in Nürenberg. The focus of the seminar will be legal
+and fiscal aspects  of ZUGFeRD and electronic invoices.</p>
+</li>
+<li>
+<p>The <a href="http://www.bva.bund.de/SharedDocs/Kurzmeldungen/DE/BVA/2014/eRechnung_oeffentliche_Verwaltung.html" target="_blank">Bundesverwaltungsamt</a> presents his experiences with eBilling in
+public administration.</p>
+</li>
+<li>
+<p>Gisa announced a new <a href="http://www.gisa.de/aktuelles/gisa-bietet-basisloesung-fuer-elektronische-rechnungen-mit-zugferd-3060.html" target="_blank">ZUGFeRD converter</a>.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="articles">Articles</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Neopost is discussing <a href="http://www.verband-e-rechnung.org/de/presse/pressemitteilungen-mitglieder/282-eu-richtlinie-bringt-neuen-rueckenwind-fuer-e-invoicing" target="_blank">the consequences of the EU Directive regarding electronic invoices</a>.</p>
+</li>
+<li>
+<p>PDF Association published three talks on YouTube from seminars hosted in 2013.</p>
+<div class="paragraph">
+<p><a href="https://www.youtube.com/watch?v=gsN-O-1NJJk" target="_blank">Der neue deutsche Rechnungsdatenstandard ZUGFeRD</a> presented by Bernd Wild.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.youtube.com/watch?v=cRTd_hDbCQg" target="_blank">PDF/A-3 als Trägerformat für ZUGFeRD-E-Rechnungen</a> by Thomas Zellmann.</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.youtube.com/watch?v=vJyNsZZO5D0" target="_blank">PDF/A-3 - Das ZUGFeRD Datenmodell</a> by Andreas Pelekies</p>
+</div>
+</li>
+<li>
+<p>Stefan Willuda asks <a href="http://www.mailconsult.net/blog/zugferd-bringt-der-standard-den-durchbruch-fuer-die-e-rechnung/" target="_blank">whether ZUGFeRD has the potential to make a breakthrough in e-billing?</a></p>
+</li>
+<li>
+<p>The <a href="http://www.ecmguide.de/input-output/postbearbeitung/aiim-studie-papierberge-in-der-rechnungsverarbeitung-17965.aspx" target="_blank">Ecmguide</a> elaborates on the findings of an AIIM study about
+electronic invoice ROI.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="ZUGFeRD Weekly News #13" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>ZUGFeRD Weekly News #13</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 30 March 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>This is a new format for the Konik Blog to summarize this week’s happenings in the ZUGFeRD universe.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="news">News</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://artikelfan.de/pm/recht-und-gesetz/eu-parlament-bringt-e-invoicing-richtlinie-auf-den-weg-20119.htm" target="_blank">The European Parliament adopted a new directive on electronic invoicing</a>.
+This is one of this week&#8217;s news highlights.</p>
+</li>
+<li>
+<p>Webinar Announcement <a href="https://www2.gotomeeting.com/register/186086394" target="_blank">ZUGFeRD für SAP</a> on May 9, 11:00 by LuraTech
+and LS GmbH. Both companies will present their SAP ZUGFeRD Module to create
+and process invoices.</p>
+</li>
+<li>
+<p>Crossinx announced a software module <a href="http://www.postmaster-magazin.de/index.php/software2/11524-rechnungen-im-mittelstand.html" target="_blank">Invoice1 Inbound</a>
+for processing inbound invoices. This software is also capable of processing
+ZUGFeRD invoices.</p>
+</li>
+<li>
+<p>GS1 Germany is hosting an <a href="http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/?etcc_med=Advertising&amp;etcc_cmp=Veranstaltungen&amp;etgs1_prod=Praxistag+Elektronische+Rechnung&amp;etcc_#Beschreibung">all-day electronic invoicing workshop<sup></a>
+on the 12</sup><sup>th</sup> of July. The main focus of the event will be ZUGFeRD.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="articles">Articles</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.cowo.de/a/2556240" target="_blank">ZUGFeRD für die E-Rechnung</a>. An article explaining ZUGFeRD to
+managers and people not familiar with ZUGFeRD. Within the article, there is
+also an announcement that the final release of ZUGFeRD is expected this summer.</p>
+</li>
+</ul>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Dependency Injection with the Konik library" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Dependency Injection with the Konik library</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 20 March 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Starting with version 0.2.0, the Konik library and iText-Carriage are supporting <a href="https://jcp.org/en/jsr/detail?id=330" target="_blank">JSR 330</a> dependency injection.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="injectable_konik_classes">Injectable Konik Classes</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Singleton classes <code>InvoiceTransformer</code> in the Konik library <code>ITextPdfInvoiceExtractor</code> and <code>ITextPdfInvoiceAppender</code> in the iText-Carriage module can now be injected into your application. The only requirement is that your Dependency Injection Framework supports JSR-330. Even though DI frameworks are widely used, the Konik library and its modules do not force you to use a DI framework at all. You can still instantiate the above classes with the <code>new</code> Operator.</p>
+</div>
+<div class="sect2">
+<h3 id="which_dependency_injection_frameworks_are_supported">Which Dependency Injection Frameworks are supported?</h3>
+<div class="paragraph">
+<p>All common Dependency Injection Frameworks and JEE6 compatible Application Servers support JSR-330 Dependency Injection. This means that if your application is based on Spring, Guice, JEE6, Apache OpenWebBeans, or JBoss Weld, then you are able to inject the Konik classes mentioned above into your application. The only requirement is that the JSR-330 API <code>javax.inject.*</code> is on your classpath, which is not always true, as the following examples explain.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="spring_and_konik_example">Spring and Konik example</h3>
+<div class="paragraph">
+<p>Make sure that you use Spring above Version 3, which supports JSR-330. The dependency on the JSR-330 API are declared as optional in Spring, which means that you need to add the JSR-330 library to your application.
+In your project <code>pom.xml</code> file, add the following dependency.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">&lt;dependency&gt;
+   &lt;groupId&gt;javax.inject&lt;/groupId&gt;
+   &lt;artifactId&gt;javax.inject&lt;/artifactId&gt;
+   &lt;version&gt;1&lt;/version&gt;
+&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The next step is to configure Spring to search additional dependencies. This step is only necessary if you restricted Spring component scanning to certain packages beforehand. Otherwise, you are ready to go.</p>
+</div>
+<div class="paragraph">
+<p>For Spring with an XML configuration, append the Konik library package name <code>io.konik</code> to the existing component scanning directive.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">&lt;context:component-scan base-package="com.myCompany, io.konik" /&gt;</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">@Configuration
+@ComponentScan("com.myCompany, io.konik")<i class="conum" data-value="1"></i><b>(1)</b>
+@EnableAutoConfiguration
+class Application {
+// ...</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>For Java-based Spring configuration, append the <code>io.konik</code> package in the <code>@ComponentScan</code> annotation.</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="other_dependency_injection_frameworks">Other Dependency Injection Frameworks</h3>
+<div class="paragraph">
+<p>OpenWebBeans also has JSR-330 API as an optional dependency, similar to Spring. The only minor difference is that OpenWebBeans recommends the use of a different JSR-330 dependency Jar package.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">&lt;dependency&gt;
+   &lt;groupId&gt;org.apache.geronimo.specs&lt;/groupId&gt;
+   &lt;artifactId&gt;geronimo-atinject_1.0_spec&lt;/artifactId&gt;
+   &lt;version&gt;1.0&lt;/version&gt;
+&lt;/dependency&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Using the Konik library with Google Guice does not need any special setup, as Google Guice is already bundled with JSR-330. This is also true for JEE6 Applications Servers. If in doubt, you should look up the reference manual of your Dependency Injection Framework, which normally goes into greater detail about this topic.</p>
+</div>
+</div>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Konik library and iText-Carriage version 0.1.0 released" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Konik library and iText-Carriage version 0.1.0 released</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 02 March 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Today, the Konik library and the Konik iText Carriage were released to the Maven Central Repository.
+Both libraries carry the version <strong>0.1.0</strong>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="release_notes">Release Notes</h3>
+<div class="paragraph">
+<p>Since this is the first release, everything has changed in comparison to the previous version.
+These Release Notes are intended to highlight what already works, what does not work,
+and what you can expect for the next release.</p>
+</div>
+<div class="paragraph">
+<p>The ZUGFeRD model is completely supported by Konik. Reading and writing XML content
+according to the ZUGFeRD specification is working.</p>
+</div>
+<div class="paragraph">
+<p>On the Konik to-do list, there are various model validations that have still not
+been implemented.</p>
+</div>
+<div class="paragraph">
+<p><code>iText-Carriage</code> allows users to attach and extract ZUGFeRD Model Data from a PDF.
+The functionality is still limited because currently, iText-Carriage strictly
+expects the incoming PDFs to be <strong>PDF/3-B</strong> compliant.
+However, this will change with a feature release. The second issue is that
+in the current state, no <a href="http://de.wikipedia.org/wiki/Extensible_Metadata_Platform" target="_blank">XMP</a>
+Metadata is written to the PDF when the XML content is attached.</p>
+</div>
+<div class="paragraph">
+<p>A <code>zip</code> <a href="https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.1.0/distribution-0.1.0.zip" class="download-zip-package" target="_blank">distribution package</a>
+in the Maven Central Repository is intended for users who are not using a Build System.
+The package contains the Konik libraries and all dependent libraries.</p>
+</div>
+<div class="paragraph">
+<p>All artifacts can be found on Maven Central by the Group ID:
+<a href="http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22" target="_blank">io.konik</a>.</p>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+				<div id="Konik project Start" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Konik project Start</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 01 December 2013</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The beginning of the Konik library project.</p>
+</div>
+<div class="paragraph">
+<p>The goal of the library is to provide an easy way to create, read, and validate ZUGFeRD invoices.
+Our vision is to provide the #1 library resource for every application that deals with reading and writing ZUGFeRD invoices.</p>
+</div>
+<div class="paragraph">
+<p>Moreover, I hope that with the Konik library, the ZUGFeRD standard will continue to gain momentum, especially in small and medium-sized enterprises.
+Further development of this highly useful library will be influenced by increased adoption of the ZUGFeRD standard, as well as user input.</p>
+</div>
+<div class="imageblock text-center">
+<div class="content">
+<img src="/img/konik-logo-on-white-bg.png" alt="Konik library logo" width="400">
+</div>
+</div>
+<div class="paragraph text-center">
+<p>Uma (Horse). Ink drawing on paper by unnamed artist. Year ca. 1890.</p>
+</div>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
+		</div><!-- /.row -->
+	</div> <!-- /.container -->
+</div> <!-- /.section -->
+	
+
+
+    <div class="container">
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+           <p class="pull-right">Copyright &copy; Konik.io 2013 Baked with <a href="http://jbake.org">JBake</a></p>
+          </div>
+        </div>
+      </footer>
+    </div><!-- /.container -->
+
+    <script async src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/languages/java.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/languages/xml.min.js"></script>
+    <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/languages/bash.min.js"></script>
+    <script src="/js/konik.js"></script>
+  </body>
+
+</html>
+
+

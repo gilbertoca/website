@@ -1,0 +1,10 @@
+io.konik
+io.konik.exception
+io.konik.harness
+io.konik.invoice.profiles
+io.konik.util
+io.konik.validation
+io.konik.zugferd
+io.konik.zugferd.datatype.qualified
+io.konik.zugferd.datatype.unqualified
+io.konik.zugferd.entity
