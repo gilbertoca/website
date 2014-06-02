@@ -15,7 +15,7 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.2/cosmo/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/styles/obsidian.min.css" type="text/css">
     <link rel="stylesheet" href="/css/obsidian.css" type="text/css">
     <link rel="stylesheet" href="/css/mb.css"  type="text/css">
@@ -68,9 +68,12 @@
 </nav>  	
 <div id="Blog" class="section">  	
 	<div class="container">
-		<div class="row">
-		    <div class="col-lg-12">
-		      <h1 class="page-header">&lt;B&gt;log</h1>
+		<div class="row page-header">
+		    <div class="col-lg-10">
+		      <h1>&lt;B&gt;log</h1>
+			</div>
+			<div class="col-lg-2">
+		      <h1 class="text-right"><a class="fa fa-rss" href="feed.xml"></a></h1>
 			</div>
 		</div>
 	</div>
@@ -83,7 +86,13 @@
 			    <h4>Post Tags</h4>
 					
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">ZUGFeRD Weekly<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">RSS Feed <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik Blog as RSS Feed">Konik Blog as RSS Feed</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">ZUGFeRD Weekly <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#ZUGFeRD Weekly News #13">ZUGFeRD Weekly News #13</a></li>
 						    	  <li><a href="#ZUGFeRD Weekly News #14">ZUGFeRD Weekly News #14</a></li>
@@ -98,7 +107,7 @@
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
 						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
@@ -106,7 +115,7 @@
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Feature<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Feature <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
 						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
@@ -114,62 +123,62 @@
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">performance<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">performance <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik performance measurements">Konik performance measurements</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> benchmarks<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> benchmarks <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik performance measurements">Konik performance measurements</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> jmh<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> jmh <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik performance measurements">Konik performance measurements</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.2.0<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.2.0 <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Changelog<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Changelog <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
 						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Feature<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Feature <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Dependency Injection with the Konik library">Dependency Injection with the Konik library</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> How-to<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> How-to <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Dependency Injection with the Konik library">Dependency Injection with the Konik library</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Dependency Injection<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Dependency Injection <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Dependency Injection with the Konik library">Dependency Injection with the Konik library</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.1.0<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown"> Konik 0.1.0 <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">on our own<span class="caret"></span></button>
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">on our own <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Konik project Start">Konik project Start</a></li>
 						  </ul>
@@ -179,6 +188,18 @@
 	
 	
 		      
+				<div id="Konik Blog as RSS Feed" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Konik Blog as RSS Feed</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 02 June 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The Konik Blog is now also available as a RSS feed. Subscribe to the RSS feed by clicking on the <a target="_blank" class="fa fa-rss fa-2x" href="feed.xml"></a> RSS Feed icon here or next to the Blog title.</p>
+</div>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
 				<div id="ZUGFeRD Weekly News #22" class="col-lg-12 col-md-12 col-sm-12">
 			          	<h2>ZUGFeRD Weekly News #22</h2>
 			          	<p><i class="fa fa-clock-o"></i> Posted on 01 June 2014</p>
