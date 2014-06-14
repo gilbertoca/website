@@ -6,9 +6,81 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Sat, 14 Jun 2014 10:56:04 +0000</pubDate>
-    <lastBuildDate>Sat, 14 Jun 2014 10:56:04 +0000</lastBuildDate>
+    <pubDate>Sat, 14 Jun 2014 12:51:38 +0000</pubDate>
+    <lastBuildDate>Sat, 14 Jun 2014 12:51:38 +0000</lastBuildDate>
 
+    <item>
+      <title>Looking back on the GS1 electronic invoice practice day</title>
+      <link>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Last week I was present with Konik at the &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoice practice day&lt;/a&gt;. When looking back at the event, which
+was full of talks related to electronic invoicing where many had an emphasis on ZUGFeRD.
+The only two presented business cases didn&amp;#8217;t include ZUGFeRD. During the break I didn&amp;#8217;t had time to ask the two speakers
+if they had any plans to integrate ZUGFeRD into their electronic invoice process.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;What pleasantly surprised me was the large number of visitors. Going thru the participation list of around 90 participants
+I can recognize more then a half of the participants were end users interested mainly in ZUGFeRD.
+From the IT side, some companies were already working or investigating ZUGFeRD for their projects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The atmosphere was mainly dominated by waiting for the first release with the hope of a general ZUGFeRD
+success before everyone wants to ramp up the projects. Interesting was also the fact that I didn&amp;#8217;t see many ERP companies,
+but mostly backup and CMS vendors. Participants sometimes criticized the lack of PR for ZUGFeRD and especially
+the spread among tax consultants.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Everyone is waiting for a ZUGFeRD success to minimize risk, while everyone hopes for success because the
+demand is high. I personally think that with the Konik library one can minimize risk and effort in implementing ZUGFeRD compliant invoicing for vendors and end users.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
+    <item>
+      <title>ZUGFeRD Weekly News #24</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #24</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #24</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ZUGFeRD related news and articles from 9&lt;sup&gt;th&lt;/sup&gt; June until 14&lt;sup&gt;th&lt;/sup&gt; June.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;iText published the &lt;a href=&quot;http://itextpdf.com/Zugferd-case&quot;&gt;Konik ZUGFeRD case&lt;/a&gt; for the next weeks PDF days. iText is giving away some tickets.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Based on the Konik Library, &lt;a href=&quot;http://z-rechnung.de/&quot;&gt;z-rechnung.de&lt;/a&gt; is going to be released as a open ZUGFeRD Online Invoice Service,
+where everyone can create ZUGFeRD compliant invoices and send the resulting PDF directly to their clients.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD is nominated as a successful cooperation project in eGoverment.
+You are welcome to vote for the &lt;a href=&quot;http://www.egovernment-wettbewerb.de/online-voting/online-voting.html&quot;&gt;audience Award&lt;/a&gt; until the 20&lt;sup&gt;th&lt;/sup&gt; of June.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Bonpago &lt;a href=&quot;http://www.financialsupplychain.de/?p=364&quot;&gt;comments&lt;/a&gt; on their view on the &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoicing best practice&lt;/a&gt; day last week.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>ZUGFeRD Weekly News #23</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #23</link>
