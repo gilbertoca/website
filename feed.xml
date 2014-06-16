@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Sun, 15 Jun 2014 13:13:12 +0000</pubDate>
-    <lastBuildDate>Sun, 15 Jun 2014 13:13:12 +0000</lastBuildDate>
+    <pubDate>Mon, 16 Jun 2014 11:59:13 +0000</pubDate>
+    <lastBuildDate>Mon, 16 Jun 2014 11:59:13 +0000</lastBuildDate>
 
     <item>
       <title>Looking back on the GS1 electronic invoice practice day</title>
@@ -18,31 +18,33 @@
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This week I participated with Konik at the &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoice practice day&lt;/a&gt;. When looking back on the event which
-was full of talks related to electronic invoicing where many had an emphasis on ZUGFeRD. The only two presented business
-cases didn’t include ZUGFeRD. During the break I didn’t had time to ask the two speakers if they had any plans to
-integrate ZUGFeRD into their electronic invoice process. I plan to catch up with them via E-mail and post results of
-the conversation.&lt;/p&gt;
+&lt;p&gt;This week I participated in the &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoice practice day&lt;/a&gt; with Konik. :ooking back on the event which
+was full of talks related to electronic invoicing where many had an emphasis on ZUGFeLooking back on the event,
+it was full of talks related to electronic invoicing, many of which placed an emphasis on ZUGFeRD.
+The only two presented business cases did not include ZUGFeRD. During the break I did not have time to
+ask the two speakers if they had any plans to integrate ZUGFeRD into their electronic invoice process.
+I plan to catch up with them via E-mail and post results of the conversation.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;What pleasantly surprised me was the large number of visitors. Going through the participation list of around 90
-participants I can recognize more than half of the participants were end users mainly interested in ZUGFeRD.
-From the IT side, some companies were already working or investigating with ZUGFeRD for their projects.&lt;/p&gt;
+&lt;p&gt;What pleasantly surprised me was the large number of visitors.
+Going through the list of around 90 participants, I recognized more than half of the participants
+were end users mainly interested in ZUGFeRD. From the IT side, some companies were already working with
+or investigating ZUGFeRD for their projects.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The atmosphere was mainly dominated by waiting for the first release with the hope of a general ZUGFeRD success before
-everyone wants to ramp up the projects. Interesting was also the fact that I didn’t see many ERP companies,
-but mostly backup and CMS vendors. Participants sometimes criticized the lack of PR for ZUGFeRD and especially the
-spread among tax consultants.&lt;/p&gt;
+&lt;p&gt;The atmosphere was mainly dominated by people waiting for the first release with the hope of a general ZUGFeRD
+success before ramping up their projects. Also interesting was the fact that I did not see many ERP companies,
+but mostly backup and CMS vendors. Participants sometimes criticized the lack of PR for ZUGFeRD, especially
+among tax consultants.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Everyone is waiting for a ZUGFeRD success to minimize risk, while everyone hopes for success because the demand is high.
-I personally think that with the Konik library the investment costs can be kept on a low level which also means
-that it is a low risk and effort to implement ZUGFeRD compliant invoicing for vendors and end users.&lt;/p&gt;
+&lt;p&gt;Everyone is waiting for a ZUGFeRD success to minimize risk, while at the same time hoping for success because the demand is high.
+I personally think that with the Konik library the investment costs can be kept at a low level, which also means
+that it is a low risk and minimal effort to implement ZUGFeRD-compliant invoicing for vendors and end users.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 		</description>
