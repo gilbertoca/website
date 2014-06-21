@@ -6,9 +6,25 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Tue, 17 Jun 2014 14:58:07 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Jun 2014 14:58:07 +0000</lastBuildDate>
+    <pubDate>Sat, 21 Jun 2014 10:16:50 +0000</pubDate>
+    <lastBuildDate>Sat, 21 Jun 2014 10:16:50 +0000</lastBuildDate>
 
+    <item>
+      <title>Join Konik Discussion Forum</title>
+      <link>http://konik.io/blog.html#Join Konik Discussion Forum</link>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Join Konik Discussion Forum</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;There is a new &lt;a href=&quot;https://groups.google.com/forum/#!forum/konik-io&quot;&gt;Discussion Forum&lt;/a&gt; for Konik library that is going to host all the topics and discussions that don&amp;#8217;t fit into GitHub
+issues or on Stack Overflow.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>Looking back on the GS1 electronic invoice practice day</title>
       <link>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</link>
