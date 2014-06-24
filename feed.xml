@@ -6,9 +6,39 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Sun, 22 Jun 2014 17:05:17 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Jun 2014 17:05:17 +0000</lastBuildDate>
+    <pubDate>Tue, 24 Jun 2014 22:18:56 +0000</pubDate>
+    <lastBuildDate>Tue, 24 Jun 2014 22:18:56 +0000</lastBuildDate>
 
+    <item>
+      <title>Konik library 0.5.0 release</title>
+      <link>http://konik.io/blog.html#Konik library 0.5.0 release</link>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Konik library 0.5.0 release</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Konik library is approaching the 1.0 release in big steps. Just in time with the official ZUGFeRD announcement we finished our 0.5.0 release.
+This is the in between release and does not yet support all 1.0 ZUGFeRD features.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;release_notes&quot;&gt;Release Notes&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Konik domain model can be considered stable. For the final 1.0 release we are planning to extend the model without breaking the
+existing API.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;A &lt;code&gt;zip&lt;/code&gt; &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.5.0/distribution-0.5.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
+is also available for users without a Build System.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Artifacts are available on the Central Repository by the &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22&quot; target=&quot;_blank&quot;&gt;io.konik&lt;/a&gt; Group ID.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>ZUGFeRD Weekly News #25</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #25</link>
