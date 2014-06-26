@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Tue, 24 Jun 2014 22:18:56 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Jun 2014 22:18:56 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Jun 2014 07:44:27 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Jun 2014 07:44:27 +0000</lastBuildDate>
 
     <item>
       <title>Konik library 0.5.0 release</title>
@@ -18,15 +18,15 @@
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Konik library is approaching the 1.0 release in big steps. Just in time with the official ZUGFeRD announcement we finished our 0.5.0 release.
-This is the in between release and does not yet support all 1.0 ZUGFeRD features.&lt;/p&gt;
+&lt;p&gt;The Konik library 1.0 is being scheduled to be released in big steps. Just in time with the official ZUGFeRD announcement we completed our 0.5.0 release.
+This is the &quot;in-between&quot; release and it does not support all of the features of ZUGFeRD 1.0.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;release_notes&quot;&gt;Release Notes&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Konik domain model can be considered stable. For the final 1.0 release we are planning to extend the model without breaking the
+&lt;p&gt;The Konik domain model can now be considered stable. For the final 1.0 release, we are planning to extend the model without breaking the
 existing API.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
