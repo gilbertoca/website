@@ -6,9 +6,47 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Thu, 26 Jun 2014 07:44:27 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Jun 2014 07:44:27 +0000</lastBuildDate>
+    <pubDate>Mon, 30 Jun 2014 08:20:51 +0000</pubDate>
+    <lastBuildDate>Mon, 30 Jun 2014 08:20:51 +0000</lastBuildDate>
 
+    <item>
+      <title>ZUGFeRD Weekly News #26</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #26</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #26</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ZUGFeRD related news and articles from 22&lt;sup&gt;nd&lt;/sup&gt; June until 29&lt;sup&gt;th&lt;/sup&gt; June.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This week was dominated by the official ZUGFeRD 1.0 announcement. Hundreds of news sources picked up this recentness.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;An excerpt of ZUGFeRD 1.0 news from various sources.
+&lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=946&quot;&gt;Ferd&lt;/a&gt;, &lt;a href=&quot;http://www.handelsblatt.com/unternehmen/management/strategie/zugferd-rechnungsstandard-koennte-firmen-millionen-ersparen/10104678.html&quot;&gt;Handelsblatt&lt;/a&gt;, &lt;a href=&quot;http://www.golem.de/news/pdf-und-xml-zugferd-fuer-elektronische-rechnung-vorgestellt-1406-107463.html&quot;&gt;Golem&lt;/a&gt;, &lt;a href=&quot;http://www.tecchannel.de/software/news/2062896/zugferd_10_soll_elektronische_rechnung_auf_den_weg_bringen/&quot;&gt;TechChannel&lt;/a&gt;, &lt;a href=&quot;http://www.cio.de/news/wirtschaftsnachrichten/2961791/&quot;&gt;CIO&lt;/a&gt;, &lt;a href=&quot;http://www.focus.de/finanzen/news/unternehmen/abschied-vom-papier-so-kann-der-mittelstand-112-milliarden-euro-sparen_id_3945147.html&quot;&gt;Focus&lt;/a&gt;, &lt;a href=&quot;http://www.heise.de/open/meldung/ZUGFeRD-Version-1-0-des-Standards-fuer-elektronische-Rechnungen-veroeffentlicht-2237978.html&quot;&gt;Heise&lt;/a&gt; and &lt;a href=&quot;http://www.din.de/cmd?level=tpl-artikel&amp;amp;cmstextid=227429&amp;amp;bcrumblevel=1&amp;amp;languageid=de&quot;&gt;DIN&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;German Institute for Standardization (DIN) officially launched a &lt;a href=&quot;https://www.din-zugferd-validation.org&quot;&gt;ZUGFeRD validation service&lt;/a&gt;
+which now supports ZUGFeRD 1.0&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD Info package is available for &lt;a href=&quot;http://www.awv-net.de/updates/zugferd/zugferd10.zip&quot;&gt;download&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>Konik library 0.5.0 release</title>
       <link>http://konik.io/blog.html#Konik library 0.5.0 release</link>
