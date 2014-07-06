@@ -6,9 +6,53 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Mon, 30 Jun 2014 08:20:51 +0000</pubDate>
-    <lastBuildDate>Mon, 30 Jun 2014 08:20:51 +0000</lastBuildDate>
+    <pubDate>Sun, 6 Jul 2014 22:17:49 +0000</pubDate>
+    <lastBuildDate>Sun, 6 Jul 2014 22:17:49 +0000</lastBuildDate>
 
+    <item>
+      <title>ZUGFeRD Weekly News #27</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #27</link>
+      <pubDate>Sun, 6 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #27</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ZUGFeRD related news and articles from 29&lt;sup&gt;th&lt;/sup&gt; June until 6&lt;sup&gt;th&lt;/sup&gt; July.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD wins the 3rd place in the &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=953&quot;&gt;eGovernment competition&lt;/a&gt; that was mentioned in weekly #24.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;T-Systems Multimedia Solutions offers a &lt;a href=&quot;http://www.t-systems-mms.com/unternehmen/newsroom/detail/t-systems-multimedia-solutions-unterstuetzt-einheitlichen-elektronischen-rechnungsstandard-zugferd.html?tx_ttnews%5BbackPid%5D=17&amp;amp;cHash=56051912df5adaa1cd10de3740eaf4ee&quot;&gt;ZUGFeRD Validator&lt;/a&gt; which according to the announcement should be able
+to validate PDF content against the structured XML data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;article&quot;&gt;Article&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The Data Processing Organization for Tax Agents and Related Tax Services Providers Germany (DATEV) made a
+&lt;a href=&quot;https://www.datev-blog.de/2014/07/03/zugferd-ein-standard-fuer-die-digitale-rechnung/&quot;&gt;positive statement&lt;/a&gt; about the feature of ZUGFeRD&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>ZUGFeRD Weekly News #26</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #26</link>
