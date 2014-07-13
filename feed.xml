@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Sun, 13 Jul 2014 15:21:36 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jul 2014 15:21:36 +0000</lastBuildDate>
+    <pubDate>Sun, 13 Jul 2014 16:22:46 +0000</pubDate>
+    <lastBuildDate>Sun, 13 Jul 2014 16:22:46 +0000</lastBuildDate>
 
     <item>
       <title>ZUGFeRD Weekly News #28</title>
@@ -51,6 +51,12 @@
 &lt;li&gt;
 &lt;p&gt;E-docs published a &lt;a href=&quot;http://www.e-docs-standards.de/cms/images/Publikationen/Leitfaden/Franken_Loosen_Bernius_-_eRechnung_Fallbeispiel_THW.pdf&quot;&gt;case study&lt;/a&gt; based on the electronic invoice project for the Federal Agency for Technical Relief (THW).
 Page 133 is showing a figure of a PDF to ZUGFeRD converter from &lt;a href=&quot;http://www.task-edoc.de/edoc.shtml&quot;&gt;TASK eDoc Services&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Federal Ministry of the Interior (BMI) published the &lt;a href=&quot;http://www.bmi.bund.de/SharedDocs/Downloads/DE/Broschueren/2014/e-rechnung.html&quot;&gt;Guidelines for Electronic invoicing in public administration&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Here is a &lt;a href=&quot;http://www.project-consult.de/ecm/news/2013/zugferd_standard_f%C3%BCr_die_elektronische_rechnung#comment-2547&quot;&gt;critical comment&lt;/a&gt; regarding the &lt;a href=&quot;http://www.bmi.bund.de/SharedDocs/Downloads/DE/Broschueren/2014/e-rechnung.html&quot;&gt;Guidelines for Electronic invoicing in public administration&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
