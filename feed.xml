@@ -6,9 +6,139 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Sun, 13 Jul 2014 16:22:46 +0000</pubDate>
-    <lastBuildDate>Sun, 13 Jul 2014 16:22:46 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Jul 2014 14:15:55 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Jul 2014 14:15:55 +0000</lastBuildDate>
 
+    <item>
+      <title>Errors in the ZUGFeRD Specification Part 1</title>
+      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</link>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This is a summary of my finding regarding the ZUGFeRD specification while working on Konik 1.0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;incoherent_date_formats&quot;&gt;Incoherent date formats&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Lets take a look at chapter 6.5.3 of the ZUGFeRD format specification. The chapter defines the two date formats in ZUGFeRD.
+One where the date string is accompanied by a format code and another one described only as a string.
+The last one did not exist in the RC Specification.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Following questions arise&lt;/dt&gt;
+&lt;dd&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred2379.htm&quot; target=&quot;_blank&quot;&gt;UN/EDIFACT 2379 - Date or time or period format code&lt;/a&gt; specifies around 80 different date formats.
+Should all formats be allowed in ZUGFeRD or only the named &lt;code&gt;102&lt;/code&gt;, &lt;code&gt;610&lt;/code&gt; and &lt;code&gt;616&lt;/code&gt;?
+Furthermore &lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred2379.htm&quot;&gt;UN/EDIFACT 2379&lt;/a&gt; also defines periods.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;IssueDateTime&lt;/code&gt; is defined in the specification as &lt;code&gt;yyyy-MM-ddTHH:mm:ss&lt;/code&gt; (Example: 2013-08-05T00:00:00).
+The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:simpleType name=&quot;DateMandatoryDateTimeType&quot;&amp;gt;
+	&amp;lt;xs:union memberTypes=&quot;xs:dateTime xs:date&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
+&amp;lt;/xs:simpleType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;This means that &lt;code&gt;yyyy-MM-ddTHH:mm:ss&lt;/code&gt; and &lt;code&gt;yyyy-MM-dd&lt;/code&gt; are both valid types which is not clear from the specification.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;incorrect_xsd&quot;&gt;Incorrect XSD&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;definedtradecontact&quot;&gt;DefinedTradeContact&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The &lt;code&gt;DefinedTradeContact&lt;/code&gt; within a &lt;code&gt;TradePartyType&lt;/code&gt; is defined with an unbound occurrence. According to the specification it should occur maximum one time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:complexType name=&quot;TradePartyType&quot;&amp;gt;
+	&amp;lt;xs:sequence&amp;gt;
+		&amp;lt;xs:element name=&quot;ID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
+		&amp;lt;xs:element name=&quot;GlobalID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
+		&amp;lt;xs:element name=&quot;Name&quot; type=&quot;udt:TextType&quot; minOccurs=&quot;0&quot;/&amp;gt;
+		&amp;lt;xs:element name=&quot;DefinedTradeContact&quot; type=&quot;ram:TradeContactType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
+		&amp;lt;xs:element name=&quot;PostalTradeAddress&quot; type=&quot;ram:TradeAddressType&quot; minOccurs=&quot;0&quot;/&amp;gt;
+		&amp;lt;xs:element name=&quot;SpecifiedTaxRegistration&quot; type=&quot;ram:TaxRegistrationType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
+	&amp;lt;/xs:sequence&amp;gt;
+&amp;lt;/xs:complexType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Correct should be &lt;code&gt;maxOccurs=&quot;1&quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;notetype&quot;&gt;NoteType&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Model and Schema definition declare &lt;code&gt;ContentCode&lt;/code&gt; as optional and with a max occurrence of one.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;img/blog/july/IncludedNote_Model.png&quot; alt=&quot;ZUGFeRD Model Included Note&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 1. Model definition page 7.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;img/blog/july/IncludedNote_Schema.png&quot; alt=&quot;ZUGFeRD Schema Included Note&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 2. Schema description page 50.&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:complexType name=&quot;NoteType&quot;&amp;gt;
+	&amp;lt;xs:sequence&amp;gt;
+		&amp;lt;xs:element name=&quot;ContentCode&quot; type=&quot;udt:CodeType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
+		&amp;lt;xs:element name=&quot;Content&quot; type=&quot;udt:TextType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
+		&amp;lt;xs:element name=&quot;SubjectCode&quot; type=&quot;udt:CodeType&quot; minOccurs=&quot;0&quot;/&amp;gt;
+	&amp;lt;/xs:sequence&amp;gt;
+&amp;lt;/xs:complexType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Within the XSD &lt;code&gt;ContentCode&lt;/code&gt; is defined as &lt;code&gt;0..N&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>ZUGFeRD Weekly News #28</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #28</link>
