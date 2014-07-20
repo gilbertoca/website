@@ -6,9 +6,37 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Thu, 17 Jul 2014 14:15:55 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Jul 2014 14:15:55 +0000</lastBuildDate>
+    <pubDate>Sun, 20 Jul 2014 20:54:44 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Jul 2014 20:54:44 +0000</lastBuildDate>
 
+    <item>
+      <title>ZUGFeRD Weekly News #29</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #29</link>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #29</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ZUGFeRD related news and articles from 13&lt;sup&gt;th&lt;/sup&gt; July until 20&lt;sup&gt;th&lt;/sup&gt; July.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;article&quot;&gt;Article&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DsiN published a &lt;a href=&quot;https://www.dsin-blog.de/elektronische-rechnungen-im-unternehmen&quot;&gt;blog post&lt;/a&gt; with tips and background information for invoice sender and receiver
+regarding ZUGFeRD and electronic invoicing.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>Errors in the ZUGFeRD Specification Part 1</title>
       <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</link>
