@@ -86,6 +86,13 @@
 			    <h4>Post Tags</h4>
 					
 					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Specification errors <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Errors in the ZUGFeRD Specification Part 1">Errors in the ZUGFeRD Specification Part 1</a></li>
+						    	  <li><a href="#Errors in the ZUGFeRD Specification Part 2">Errors in the ZUGFeRD Specification Part 2</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
 						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">ZUGFeRD Weekly <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#ZUGFeRD Weekly News #13">ZUGFeRD Weekly News #13</a></li>
@@ -105,12 +112,6 @@
 						    	  <li><a href="#ZUGFeRD Weekly News #27">ZUGFeRD Weekly News #27</a></li>
 						    	  <li><a href="#ZUGFeRD Weekly News #28">ZUGFeRD Weekly News #28</a></li>
 						    	  <li><a href="#ZUGFeRD Weekly News #29">ZUGFeRD Weekly News #29</a></li>
-						  </ul>
-					  </div><!--btn-group -->
-					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Specification errors <span class="caret"></span></button>
-						  <ul class="dropdown-menu">
-						    	  <li><a href="#Errors in the ZUGFeRD Specification Part 1">Errors in the ZUGFeRD Specification Part 1</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
@@ -207,6 +208,179 @@
 	
 	
 		      
+				<div id="Errors in the ZUGFeRD Specification Part 2" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Errors in the ZUGFeRD Specification Part 2</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 24 July 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Last week I posted about <a href="#Errors in the ZUGFeRD Specification Part 1">Errors in the ZUGFeRD Specification</a>.
+A reply to my questions came very quick from FeRD(Forum elektronische Rechnung Deutschland) telling that
+the documentation and the resulting XSD Schema are correct.</p>
+</div>
+<div class="paragraph">
+<p>The explanation for the differences is based on the fact the
+ZUGFeRD XSD schema is designed following the <a href="http://www.xfront.com/GlobalVersusLocal.html">Venetian blind</a>
+XML Schema design pattern.</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Die CCL ist nach dem Desingprinzip Venetian Blind aufgebaut (Kapitel 6.1, sowie technische Dokumentation Kapitel 4.3),
+wodurch sich XSD und Spezifikation formal unterscheiden.
+Die Lösung dafür bietet die ebenfalls veröffentlichte Schematron-Datei (Kapitel 10.6), die genau diese Designlücke schließt.
+Eine Validierung erfolgt bei ZUGFeRD also immer in der Kombination aus XSD-Validierung und Schematron-Validierung.
+Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also volle Richtigkeit.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>After reading about XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>There is no explanation why the resulting cardinalities need to be <code>1..N</code> instead of <code>1..1</code> in the XSD Schema file.</p>
+</li>
+<li>
+<p><a href="http://www.xfront.com/backward-forward-compatibility/">Designing forward and backward compatible XML Schemas</a> is very difficult.</p>
+</li>
+<li>
+<p>The XSD Schema alone is pretty useless for ZUGFeRD invoice validation.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Finally we have to take into account all the four different documentations provided.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ZUGFeRD Model (Chapter "3 Das semantische ZUGFeRD-Datenmodell" in "Das ZUGFeRD-Format_1p0_technische_Dokumentation.pdf")</p>
+</li>
+<li>
+<p>ZUGFeRD Schema (Chapter "4 Das ZUGFeRD-Schema" in "Das ZUGFeRD-Format_1p0_technische_Dokumentation.pdf")</p>
+</li>
+<li>
+<p>ZUGFeRD XSD File (ZUGFeRD_1p0.xsd)</p>
+</li>
+<li>
+<p>ZUGFeRD Schematron (ZUGFeRD_1p0.scmt)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Only all four together provide us with a valid ZUGFeRD compliant invoice.
+Validating your XML Invoice file only against the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
+Also a successful validation of an XML file against Schematron is not a guarantee.</p>
+</div>
+<div class="paragraph">
+<p>Now even CEFEG shutdown their validation service, because it is based on XSD
+Schema validation and Schematron which can not guarantee a correct invoice
+at the current state of development at least.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/blog/july/din-zugferd-validation.org_error_message.png" alt="Error Message on din-zugferd-validation.org telling that they can't validate correctly ZUGFeRD Invoices">
+</div>
+<div class="title">Figure 1. Error Message on the eInvoice Validation Portal din-zugferd-validation.org.</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="incorrect_xml_examples">Incorrect XML Examples</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>This week I am going to publish <a href="files/blog/Beispielrechnung_1p0_COMFORT_corrected.xml">corrected XML Invoice Example File</a>.
+While working on the next release of the Konik library and adding
+validation features to the library if noticed that some of the existent ZUGFeRD
+examples were marked as incorrect.</p>
+</div>
+<div class="paragraph">
+<p>Lets take a look at file <code>Beispielrechnung_1p0_COMFORT.xml</code> which is part of the
+ZUGFeRD specification package as an example to explain what is incorrect
+regarding the ZUGFeRD model.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">&lt;ram:SpecifiedTradeAllowanceCharge&gt;
+   &lt;ram:ChargeIndicator&gt;
+      &lt;udt:Indicator&gt;false&lt;/udt:Indicator&gt;
+   &lt;/ram:ChargeIndicator&gt;
+   &lt;ram:BasisAmount currencyID="EUR"&gt;10.00&lt;/ram:BasisAmount&gt;
+   &lt;ram:ActualAmount&gt;1.00&lt;/ram:ActualAmount&gt; <i class="conum" data-value="1"></i><b>(1)</b>
+   &lt;!-- ... --&gt;
+&lt;/ram:SpecifiedTradeAllowanceCharge&gt;
+&lt;!-- ... --&gt;
+&lt;ram:SpecifiedLogisticsServiceCharge&gt;
+   &lt;ram:Description&gt;Versandkosten&lt;/ram:Description&gt;
+   &lt;ram:AppliedAmount&gt;5.80&lt;/ram:AppliedAmount&gt; <i class="conum" data-value="2"></i><b>(2)</b>
+    &lt;!-- ... --&gt;
+&lt;/ram:SpecifiedLogisticsServiceCharge&gt;</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>The <code>ActualAmount</code> contains only the value and no attribute with the currency like in <code>BasisAmount</code> one line above.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td><code>AppliedAmount</code> is also defined as <code>udt:AmountType</code> and hence should also required to contain a currency attribute.</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>The ZUGFeRD model stated that all <code>udt:AmountType</code> require an Currency Code.
+.<code>udt:AmountType</code> requiring a currency code in <code>ApplicableTradeTax</code>
+image::img/blog/july/AmountType_Example.png["udt:AmountType requiring a currency code"]</p>
+</div>
+<div class="paragraph">
+<p>The Model and the Schema declare <code>udt:AmountType</code> as required but not the XSD File.</p>
+</div>
+<div class="sect2">
+<h3 id="solution">Solution</h3>
+<div class="paragraph">
+<p>The first solution and probably the best is to use a library such as Konik which will
+assist you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the
+XSD Schema Validation and Schematron optional.</p>
+</div>
+<div class="paragraph">
+<p>Second solution would be to modify the XSD Schema file according the the model
+and ZUGFeRD schema definition to get at least an error when validation the
+xml against the XSD Schema.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="xml language-xml">&lt;xs:schema xmlns:udt="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15" elementFormDefault="qualified" version="15.0"&gt;
+	&lt;xs:complexType name="AmountType"&gt;
+		&lt;xs:simpleContent&gt;
+			&lt;xs:extension base="xs:decimal"&gt;
+				&lt;xs:attribute name="currencyID" type="udt:AmountTypeCurrencyIDContentType" use="required"/&gt; <i class="conum" data-value="1"></i><b>(1)</b>
+			&lt;/xs:extension&gt;
+		&lt;/xs:simpleContent&gt;
+	&lt;/xs:complexType&gt;</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Add <code>use="required"</code> to mark the attribute as required so validation XML Files
+against the XSD Schema will fail.</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Maybe due to Venetian blind schema design requirements or the automatic generation
+of the XSD Schema File from the ZUGFeRD Schema definition this was not done.</p>
+</div>
+</div>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
 				<div id="ZUGFeRD Weekly News #29" class="col-lg-12 col-md-12 col-sm-12">
 			          	<h2>ZUGFeRD Weekly News #29</h2>
 			          	<p><i class="fa fa-clock-o"></i> Posted on 20 July 2014</p>

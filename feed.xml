@@ -6,9 +6,185 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Thu, 24 Jul 2014 11:36:07 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Jul 2014 11:36:07 +0000</lastBuildDate>
+    <pubDate>Thu, 24 Jul 2014 17:06:30 +0000</pubDate>
+    <lastBuildDate>Thu, 24 Jul 2014 17:06:30 +0000</lastBuildDate>
 
+    <item>
+      <title>Errors in the ZUGFeRD Specification Part 2</title>
+      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</link>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Last week I posted about &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 1&quot;&gt;Errors in the ZUGFeRD Specification&lt;/a&gt;.
+A reply to my questions came very quick from FeRD(Forum elektronische Rechnung Deutschland) telling that
+the documentation and the resulting XSD Schema are correct.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The explanation for the differences is based on the fact the
+ZUGFeRD XSD schema is designed following the &lt;a href=&quot;http://www.xfront.com/GlobalVersusLocal.html&quot;&gt;Venetian blind&lt;/a&gt;
+XML Schema design pattern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;quoteblock&quot;&gt;
+&lt;blockquote&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Die CCL ist nach dem Desingprinzip Venetian Blind aufgebaut (Kapitel 6.1, sowie technische Dokumentation Kapitel 4.3),
+wodurch sich XSD und Spezifikation formal unterscheiden.
+Die Lösung dafür bietet die ebenfalls veröffentlichte Schematron-Datei (Kapitel 10.6), die genau diese Designlücke schließt.
+Eine Validierung erfolgt bei ZUGFeRD also immer in der Kombination aus XSD-Validierung und Schematron-Validierung.
+Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also volle Richtigkeit.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;After reading about XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There is no explanation why the resulting cardinalities need to be &lt;code&gt;1..N&lt;/code&gt; instead of &lt;code&gt;1..1&lt;/code&gt; in the XSD Schema file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.xfront.com/backward-forward-compatibility/&quot;&gt;Designing forward and backward compatible XML Schemas&lt;/a&gt; is very difficult.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The XSD Schema alone is pretty useless for ZUGFeRD invoice validation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Finally we have to take into account all the four different documentations provided.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD Model (Chapter &quot;3 Das semantische ZUGFeRD-Datenmodell&quot; in &quot;Das ZUGFeRD-Format_1p0_technische_Dokumentation.pdf&quot;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD Schema (Chapter &quot;4 Das ZUGFeRD-Schema&quot; in &quot;Das ZUGFeRD-Format_1p0_technische_Dokumentation.pdf&quot;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD XSD File (ZUGFeRD_1p0.xsd)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ZUGFeRD Schematron (ZUGFeRD_1p0.scmt)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Only all four together provide us with a valid ZUGFeRD compliant invoice.
+Validating your XML Invoice file only against the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
+Also a successful validation of an XML file against Schematron is not a guarantee.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Now even CEFEG shutdown their validation service, because it is based on XSD
+Schema validation and Schematron which can not guarantee a correct invoice
+at the current state of development at least.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;img/blog/july/din-zugferd-validation.org_error_message.png&quot; alt=&quot;Error Message on din-zugferd-validation.org telling that they can&apos;t validate correctly ZUGFeRD Invoices&quot;&gt;
+&lt;/div&gt;
+&lt;div class=&quot;title&quot;&gt;Figure 1. Error Message on the eInvoice Validation Portal din-zugferd-validation.org.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;incorrect_xml_examples&quot;&gt;Incorrect XML Examples&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This week I am going to publish &lt;a href=&quot;files/blog/Beispielrechnung_1p0_COMFORT_corrected.xml&quot;&gt;corrected XML Invoice Example File&lt;/a&gt;.
+While working on the next release of the Konik library and adding
+validation features to the library if noticed that some of the existent ZUGFeRD
+examples were marked as incorrect.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Lets take a look at file &lt;code&gt;Beispielrechnung_1p0_COMFORT.xml&lt;/code&gt; which is part of the
+ZUGFeRD specification package as an example to explain what is incorrect
+regarding the ZUGFeRD model.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;ram:SpecifiedTradeAllowanceCharge&amp;gt;
+   &amp;lt;ram:ChargeIndicator&amp;gt;
+      &amp;lt;udt:Indicator&amp;gt;false&amp;lt;/udt:Indicator&amp;gt;
+   &amp;lt;/ram:ChargeIndicator&amp;gt;
+   &amp;lt;ram:BasisAmount currencyID=&quot;EUR&quot;&amp;gt;10.00&amp;lt;/ram:BasisAmount&amp;gt;
+   &amp;lt;ram:ActualAmount&amp;gt;1.00&amp;lt;/ram:ActualAmount&amp;gt; &lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
+   &amp;lt;!-- ... --&amp;gt;
+&amp;lt;/ram:SpecifiedTradeAllowanceCharge&amp;gt;
+&amp;lt;!-- ... --&amp;gt;
+&amp;lt;ram:SpecifiedLogisticsServiceCharge&amp;gt;
+   &amp;lt;ram:Description&amp;gt;Versandkosten&amp;lt;/ram:Description&amp;gt;
+   &amp;lt;ram:AppliedAmount&amp;gt;5.80&amp;lt;/ram:AppliedAmount&amp;gt; &lt;i class=&quot;conum&quot; data-value=&quot;2&quot;&gt;&lt;/i&gt;&lt;b&gt;(2)&lt;/b&gt;
+    &amp;lt;!-- ... --&amp;gt;
+&amp;lt;/ram:SpecifiedLogisticsServiceCharge&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;The &lt;code&gt;ActualAmount&lt;/code&gt; contains only the value and no attribute with the currency like in &lt;code&gt;BasisAmount&lt;/code&gt; one line above.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;2&quot;&gt;&lt;/i&gt;&lt;b&gt;2&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;AppliedAmount&lt;/code&gt; is also defined as &lt;code&gt;udt:AmountType&lt;/code&gt; and hence should also required to contain a currency attribute.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The ZUGFeRD model stated that all &lt;code&gt;udt:AmountType&lt;/code&gt; require an Currency Code.
+.&lt;code&gt;udt:AmountType&lt;/code&gt; requiring a currency code in &lt;code&gt;ApplicableTradeTax&lt;/code&gt;
+image::img/blog/july/AmountType_Example.png[&quot;udt:AmountType requiring a currency code&quot;]&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Model and the Schema declare &lt;code&gt;udt:AmountType&lt;/code&gt; as required but not the XSD File.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The first solution and probably the best is to use a library such as Konik which will
+assist you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the
+XSD Schema Validation and Schematron optional.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Second solution would be to modify the XSD Schema file according the the model
+and ZUGFeRD schema definition to get at least an error when validation the
+xml against the XSD Schema.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:schema xmlns:udt=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; elementFormDefault=&quot;qualified&quot; version=&quot;15.0&quot;&amp;gt;
+	&amp;lt;xs:complexType name=&quot;AmountType&quot;&amp;gt;
+		&amp;lt;xs:simpleContent&amp;gt;
+			&amp;lt;xs:extension base=&quot;xs:decimal&quot;&amp;gt;
+				&amp;lt;xs:attribute name=&quot;currencyID&quot; type=&quot;udt:AmountTypeCurrencyIDContentType&quot; use=&quot;required&quot;/&amp;gt; &lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
+			&amp;lt;/xs:extension&amp;gt;
+		&amp;lt;/xs:simpleContent&amp;gt;
+	&amp;lt;/xs:complexType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;colist arabic&quot;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;Add &lt;code&gt;use=&quot;required&quot;&lt;/code&gt; to mark the attribute as required so validation XML Files
+against the XSD Schema will fail.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Maybe due to Venetian blind schema design requirements or the automatic generation
+of the XSD Schema File from the ZUGFeRD Schema definition this was not done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>ZUGFeRD Weekly News #29</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #29</link>
