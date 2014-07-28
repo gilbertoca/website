@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Thu, 24 Jul 2014 17:06:30 +0000</pubDate>
-    <lastBuildDate>Thu, 24 Jul 2014 17:06:30 +0000</lastBuildDate>
+    <pubDate>Mon, 28 Jul 2014 07:33:47 +0000</pubDate>
+    <lastBuildDate>Mon, 28 Jul 2014 07:33:47 +0000</lastBuildDate>
 
     <item>
       <title>Errors in the ZUGFeRD Specification Part 2</title>
@@ -19,12 +19,12 @@
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Last week I posted about &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 1&quot;&gt;Errors in the ZUGFeRD Specification&lt;/a&gt;.
-A reply to my questions came very quick from FeRD(Forum elektronische Rechnung Deutschland) telling that
-the documentation and the resulting XSD Schema are correct.&lt;/p&gt;
+A reply to my questions came very quickly from FeRD(Forum elektronische Rechnung Deutschland) stating
+that the documentation and the resulting XSD Schema are correct.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The explanation for the differences is based on the fact the
-ZUGFeRD XSD schema is designed following the &lt;a href=&quot;http://www.xfront.com/GlobalVersusLocal.html&quot;&gt;Venetian blind&lt;/a&gt;
+&lt;p&gt;The explanation for the differences is based on the fact the ZUGFeRD XSD schema is designed following the
+&lt;a href=&quot;http://www.xfront.com/GlobalVersusLocal.html&quot;&gt;Venetian blind&lt;/a&gt;
 XML Schema design pattern.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;quoteblock&quot;&gt;
@@ -39,12 +39,12 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;After reading about XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:&lt;/p&gt;
+&lt;p&gt;After reading about the XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;There is no explanation why the resulting cardinalities need to be &lt;code&gt;1..N&lt;/code&gt; instead of &lt;code&gt;1..1&lt;/code&gt; in the XSD Schema file.&lt;/p&gt;
+&lt;p&gt;There is no explanation why the resulting cardinalities need to be  &lt;code&gt;1..N&lt;/code&gt; instead of &lt;code&gt;1..1&lt;/code&gt; in the XSD Schema file.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.xfront.com/backward-forward-compatibility/&quot;&gt;Designing forward and backward compatible XML Schemas&lt;/a&gt; is very difficult.&lt;/p&gt;
@@ -55,7 +55,7 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Finally we have to take into account all the four different documentations provided.&lt;/p&gt;
+&lt;p&gt;Finally we have to take into account the four different documents provided.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
@@ -75,12 +75,12 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Only all four together provide us with a valid ZUGFeRD compliant invoice.
-Validating your XML Invoice file only against the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
+Validating your XML Invoice file  against only the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
 Also a successful validation of an XML file against Schematron is not a guarantee.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Now even CEFEG shutdown their validation service, because it is based on XSD
-Schema validation and Schematron which can not guarantee a correct invoice
+&lt;p&gt;CEFEG shutdown their validation service, because it is based on XSD
+Schema validation and Schematron which cannot guarantee a correct invoice
 at the current state of development at least.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
@@ -97,12 +97,12 @@ at the current state of development at least.&lt;/p&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;This week I am going to publish &lt;a href=&quot;files/blog/Beispielrechnung_1p0_COMFORT_corrected.xml&quot;&gt;corrected XML Invoice Example File&lt;/a&gt;.
 While working on the next release of the Konik library and adding
-validation features to the library if noticed that some of the existent ZUGFeRD
+validation features to the library, it was noticed that some of the existent ZUGFeRD
 examples were marked as incorrect.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Lets take a look at file &lt;code&gt;Beispielrechnung_1p0_COMFORT.xml&lt;/code&gt; which is part of the
-ZUGFeRD specification package as an example to explain what is incorrect
+&lt;p&gt;Let&amp;#8217;s take a look at file &lt;code&gt;Beispielrechnung_1p0_COMFORT.xml&lt;/code&gt; which is part of
+the ZUGFeRD specification package as an example to explain what is incorrect
 regarding the ZUGFeRD model.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
@@ -131,7 +131,7 @@ regarding the ZUGFeRD model.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;2&quot;&gt;&lt;/i&gt;&lt;b&gt;2&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;AppliedAmount&lt;/code&gt; is also defined as &lt;code&gt;udt:AmountType&lt;/code&gt; and hence should also required to contain a currency attribute.&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;AppliedAmount&lt;/code&gt; is also defined as &lt;code&gt;udt:AmountType&lt;/code&gt; and hence should also contain a currency attribute.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -146,14 +146,12 @@ image::img/blog/july/AmountType_Example.png[&quot;udt:AmountType requiring a cur
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The first solution and probably the best is to use a library such as Konik which will
-assist you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the
-XSD Schema Validation and Schematron optional.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Second solution would be to modify the XSD Schema file according the the model
-and ZUGFeRD schema definition to get at least an error when validation the
-xml against the XSD Schema.&lt;/p&gt;
+&lt;p&gt;The first and probably best solution is to use a library such as Konik which will assist
+you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the XSD
+Schema Validation and Schematron optional.
+The second solution would be to modify the XSD Schema file
+according to the model and ZUGFeRD schema definition to get at least an
+error when validating the xml against the XSD Schema.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
@@ -171,14 +169,14 @@ xml against the XSD Schema.&lt;/p&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Add &lt;code&gt;use=&quot;required&quot;&lt;/code&gt; to mark the attribute as required so validation XML Files
+&lt;td&gt;Add &lt;code&gt;use=&quot;required&quot;&lt;/code&gt; to mark the attribute as required so the validation of the XML Files
 against the XSD Schema will fail.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Maybe due to Venetian blind schema design requirements or the automatic generation
-of the XSD Schema File from the ZUGFeRD Schema definition this was not done.&lt;/p&gt;
+&lt;p&gt;Maybe because of the Venetian blind schema design requirements or the automatic
+generation of the XSD Schema File from the ZUGFeRD Schema definition, this was not done.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;

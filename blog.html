@@ -215,12 +215,12 @@
 <div class="sectionbody">
 <div class="paragraph">
 <p>Last week I posted about <a href="#Errors in the ZUGFeRD Specification Part 1">Errors in the ZUGFeRD Specification</a>.
-A reply to my questions came very quick from FeRD(Forum elektronische Rechnung Deutschland) telling that
-the documentation and the resulting XSD Schema are correct.</p>
+A reply to my questions came very quickly from FeRD(Forum elektronische Rechnung Deutschland) stating
+that the documentation and the resulting XSD Schema are correct.</p>
 </div>
 <div class="paragraph">
-<p>The explanation for the differences is based on the fact the
-ZUGFeRD XSD schema is designed following the <a href="http://www.xfront.com/GlobalVersusLocal.html">Venetian blind</a>
+<p>The explanation for the differences is based on the fact the ZUGFeRD XSD schema is designed following the
+<a href="http://www.xfront.com/GlobalVersusLocal.html">Venetian blind</a>
 XML Schema design pattern.</p>
 </div>
 <div class="quoteblock">
@@ -235,12 +235,12 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 </blockquote>
 </div>
 <div class="paragraph">
-<p>After reading about XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:</p>
+<p>After reading about the XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>There is no explanation why the resulting cardinalities need to be <code>1..N</code> instead of <code>1..1</code> in the XSD Schema file.</p>
+<p>There is no explanation why the resulting cardinalities need to be  <code>1..N</code> instead of <code>1..1</code> in the XSD Schema file.</p>
 </li>
 <li>
 <p><a href="http://www.xfront.com/backward-forward-compatibility/">Designing forward and backward compatible XML Schemas</a> is very difficult.</p>
@@ -251,7 +251,7 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 </ul>
 </div>
 <div class="paragraph">
-<p>Finally we have to take into account all the four different documentations provided.</p>
+<p>Finally we have to take into account the four different documents provided.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -271,12 +271,12 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 </div>
 <div class="paragraph">
 <p>Only all four together provide us with a valid ZUGFeRD compliant invoice.
-Validating your XML Invoice file only against the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
+Validating your XML Invoice file  against only the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
 Also a successful validation of an XML file against Schematron is not a guarantee.</p>
 </div>
 <div class="paragraph">
-<p>Now even CEFEG shutdown their validation service, because it is based on XSD
-Schema validation and Schematron which can not guarantee a correct invoice
+<p>CEFEG shutdown their validation service, because it is based on XSD
+Schema validation and Schematron which cannot guarantee a correct invoice
 at the current state of development at least.</p>
 </div>
 <div class="imageblock">
@@ -293,12 +293,12 @@ at the current state of development at least.</p>
 <div class="paragraph">
 <p>This week I am going to publish <a href="files/blog/Beispielrechnung_1p0_COMFORT_corrected.xml">corrected XML Invoice Example File</a>.
 While working on the next release of the Konik library and adding
-validation features to the library if noticed that some of the existent ZUGFeRD
+validation features to the library, it was noticed that some of the existent ZUGFeRD
 examples were marked as incorrect.</p>
 </div>
 <div class="paragraph">
-<p>Lets take a look at file <code>Beispielrechnung_1p0_COMFORT.xml</code> which is part of the
-ZUGFeRD specification package as an example to explain what is incorrect
+<p>Let&#8217;s take a look at file <code>Beispielrechnung_1p0_COMFORT.xml</code> which is part of
+the ZUGFeRD specification package as an example to explain what is incorrect
 regarding the ZUGFeRD model.</p>
 </div>
 <div class="listingblock">
@@ -327,7 +327,7 @@ regarding the ZUGFeRD model.</p>
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td><code>AppliedAmount</code> is also defined as <code>udt:AmountType</code> and hence should also required to contain a currency attribute.</td>
+<td><code>AppliedAmount</code> is also defined as <code>udt:AmountType</code> and hence should also contain a currency attribute.</td>
 </tr>
 </table>
 </div>
@@ -342,14 +342,12 @@ image::img/blog/july/AmountType_Example.png["udt:AmountType requiring a currency
 <div class="sect2">
 <h3 id="solution">Solution</h3>
 <div class="paragraph">
-<p>The first solution and probably the best is to use a library such as Konik which will
-assist you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the
-XSD Schema Validation and Schematron optional.</p>
-</div>
-<div class="paragraph">
-<p>Second solution would be to modify the XSD Schema file according the the model
-and ZUGFeRD schema definition to get at least an error when validation the
-xml against the XSD Schema.</p>
+<p>The first and probably best solution is to use a library such as Konik which will assist
+you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the XSD
+Schema Validation and Schematron optional.
+The second solution would be to modify the XSD Schema file
+according to the model and ZUGFeRD schema definition to get at least an
+error when validating the xml against the XSD Schema.</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -367,14 +365,14 @@ xml against the XSD Schema.</p>
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>Add <code>use="required"</code> to mark the attribute as required so validation XML Files
+<td>Add <code>use="required"</code> to mark the attribute as required so the validation of the XML Files
 against the XSD Schema will fail.</td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>Maybe due to Venetian blind schema design requirements or the automatic generation
-of the XSD Schema File from the ZUGFeRD Schema definition this was not done.</p>
+<p>Maybe because of the Venetian blind schema design requirements or the automatic
+generation of the XSD Schema File from the ZUGFeRD Schema definition, this was not done.</p>
 </div>
 </div>
 </div>
