@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Thu, 31 Jul 2014 08:45:04 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Jul 2014 08:45:04 +0000</lastBuildDate>
+    <pubDate>Fri, 1 Aug 2014 19:29:25 +0000</pubDate>
+    <lastBuildDate>Fri, 1 Aug 2014 19:29:25 +0000</lastBuildDate>
 
     <item>
       <title>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</title>
@@ -26,7 +26,7 @@ Ich hoffe, dadurch das Thema ZUGFeRD Entwicklern und IT-Profis näherzubringen.&
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;http://www.heise.de/ix/inhalt/thumbnails/2014/08/98.jpg&quot; alt=&quot;Seite 98 iX Magazin mit ZUGFeRD Artikel&quot;&gt;
+&lt;img src=&quot;img/blog/july/Artikel_iX_MagazinTitel.jpg&quot; alt=&quot;Seite 98 iX Magazin mit ZUGFeRD Artikel&quot;&gt;
 &lt;/div&gt;
 &lt;div class=&quot;title&quot;&gt;Figure 1. ZUGFeRD Artikel auf Seite 98.&lt;/div&gt;
 &lt;/div&gt;
