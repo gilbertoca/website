@@ -170,6 +170,7 @@
    }
    
    function displayValidationResult(data){
+	  if(data.validationResult.length<1){return;}
       var rows =""; 
       for (var i=0 in data.validationResult) {
            rows += 
