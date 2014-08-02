@@ -86,6 +86,18 @@
 			    <h4>Post Tags</h4>
 					
 					  <div class="btn-group">
+						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    	  <li><a href="#Konik project Start">Konik project Start</a></li>
+						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
+						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
+						    	  <li><a href="#Konik upcoming release preview">Konik upcoming release preview</a></li>
+						    	  <li><a href="#New Version ZUGFeRD Validation Service">New Version ZUGFeRD Validation Service</a></li>
+						    	  <li><a href="#Konik library 0.5.0 release">Konik library 0.5.0 release</a></li>
+						    	  <li><a href="#Neuer Release vom ZUGFeRD Validation Serive">Neuer Release vom ZUGFeRD Validation Serive</a></li>
+						  </ul>
+					  </div><!--btn-group -->
+					  <div class="btn-group">
 						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Testimonial <span class="caret"></span></button>
 						  <ul class="dropdown-menu">
 						    	  <li><a href="#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014">Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</a></li>
@@ -118,17 +130,6 @@
 						    	  <li><a href="#ZUGFeRD Weekly News #27">ZUGFeRD Weekly News #27</a></li>
 						    	  <li><a href="#ZUGFeRD Weekly News #28">ZUGFeRD Weekly News #28</a></li>
 						    	  <li><a href="#ZUGFeRD Weekly News #29">ZUGFeRD Weekly News #29</a></li>
-						  </ul>
-					  </div><!--btn-group -->
-					  <div class="btn-group">
-						  <button class="btn btn-default btn-sm dropdown-toggle margin" type="button" data-toggle="dropdown">Release <span class="caret"></span></button>
-						  <ul class="dropdown-menu">
-						    	  <li><a href="#Konik project Start">Konik project Start</a></li>
-						    	  <li><a href="#Konik library and iText-Carriage version 0.1.0 released">Konik library and iText-Carriage version 0.1.0 released</a></li>
-						    	  <li><a href="#Konik library and iText-Carriage version 0.2.0 released">Konik library and iText-Carriage version 0.2.0 released</a></li>
-						    	  <li><a href="#Konik upcoming release preview">Konik upcoming release preview</a></li>
-						    	  <li><a href="#New Version ZUGFeRD Validation Service">New Version ZUGFeRD Validation Service</a></li>
-						    	  <li><a href="#Konik library 0.5.0 release">Konik library 0.5.0 release</a></li>
 						  </ul>
 					  </div><!--btn-group -->
 					  <div class="btn-group">
@@ -214,6 +215,75 @@
 	
 	
 		      
+				<div id="Neuer Release vom ZUGFeRD Validation Serive" class="col-lg-12 col-md-12 col-sm-12">
+			          	<h2>Neuer Release vom ZUGFeRD Validation Serive</h2>
+			          	<p><i class="fa fa-clock-o"></i> Posted on 01 August 2014</p>
+			          		<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Nach längerer Zeit gibt es wieder ein Update für den ZUGFeRD Validation Service:
+Nachdem es keinen ZUGFeRD Validation Service mit Konik 0.5.0 gab, soll Konik 0.6.0 der erste Release
+sein, welcher ZUGFeRD 1.0 unterstützt.</p>
+</div>
+<div class="paragraph">
+<p>Die aktuelle Konik Version ist zwar noch nicht ganz reif,
+gibt aber bereits einen Vorgeschmack auf das zu erwartende Ergebnis.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="neuerungen">Neuerungen</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Wie ich schon in <a href="#Errors in the ZUGFeRD Specification Part 1">Errata 1</a> und <a href="#Errors in the ZUGFeRD Specification Part 2">2</a> geschrieben habe, ist die Validierung der Rechnung gegen das XSD
+ziemlich sinnlos und kann auch teilweise falsch sein.
+Deshalb wurden zwei weitere Arten von Validierungen hinzugefügt: Roundtrip Vergleich und Bean Validation.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Roundtrip Vergleich</dt>
+<dd>
+<p>Hierbei wird das XML in das Konik Model und dann wieder zurück ins XML transformiert.
+Danach werden die beiden XML Dateien miteinander verglichen und der Vergleich wird dargestellt.<br>
+Mit diesem Verfahren lässt sich erkennen, ob:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>beim Einlesen Elemente weggelassen wurden, weil diese nicht spezifiziert oder im Model nicht vorgesehen sind,</p>
+</li>
+<li>
+<p>Werte korrekt vorliegen und formatiert sind,</p>
+</li>
+<li>
+<p>die Reihenfolge der Elemente korrekt ist.</p>
+</li>
+</ul>
+</div>
+</dd>
+<dt class="hdlist1">Bean Validation</dt>
+<dd>
+<p>Konik verwendet nun Bean Validation, auch bekannt als JSR-303 bzw. JSR-349.
+Damit lässt sich schon beim Erzeugen der Rechnung einfach feststellen, ob diese
+konform mit der Spezifikation ist.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="fazit">Fazit</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Der akuelle Snapshot gibt einen guten Vorgeschmack auf die finale Version 0.6.0.
+Es wird daher empfohlen, Rechnungen noch einmal zu validieren.<br>
+Noch hat die aktuelle Version einige offene Punkte:<br>
+So ist die Entwicklung der Bean Validierung noch nicht ganz abgeschlossen. Ausserdem
+gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren.</p>
+</div>
+</div>
+</div> 
+			          		<hr>
+			    </div><!-- col-lg-8 -->
 				<div id="Artikel über ZUGFeRD und Konik im iX Magazin 8/2014" class="col-lg-12 col-md-12 col-sm-12">
 			          	<h2>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</h2>
 			          	<p><i class="fa fa-clock-o"></i> Posted on 30 July 2014</p>

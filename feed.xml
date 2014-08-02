@@ -6,9 +6,81 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Fri, 1 Aug 2014 19:40:45 +0000</pubDate>
-    <lastBuildDate>Fri, 1 Aug 2014 19:40:45 +0000</lastBuildDate>
+    <pubDate>Sat, 2 Aug 2014 20:42:05 +0000</pubDate>
+    <lastBuildDate>Sat, 2 Aug 2014 20:42:05 +0000</lastBuildDate>
 
+    <item>
+      <title>Neuer Release vom ZUGFeRD Validation Serive</title>
+      <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Serive</link>
+      <pubDate>Fri, 1 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Serive</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Nach längerer Zeit gibt es wieder ein Update für den ZUGFeRD Validation Service:
+Nachdem es keinen ZUGFeRD Validation Service mit Konik 0.5.0 gab, soll Konik 0.6.0 der erste Release
+sein, welcher ZUGFeRD 1.0 unterstützt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Die aktuelle Konik Version ist zwar noch nicht ganz reif,
+gibt aber bereits einen Vorgeschmack auf das zu erwartende Ergebnis.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;neuerungen&quot;&gt;Neuerungen&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Wie ich schon in &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 1&quot;&gt;Errata 1&lt;/a&gt; und &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 2&quot;&gt;2&lt;/a&gt; geschrieben habe, ist die Validierung der Rechnung gegen das XSD
+ziemlich sinnlos und kann auch teilweise falsch sein.
+Deshalb wurden zwei weitere Arten von Validierungen hinzugefügt: Roundtrip Vergleich und Bean Validation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;dlist&quot;&gt;
+&lt;dl&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Roundtrip Vergleich&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Hierbei wird das XML in das Konik Model und dann wieder zurück ins XML transformiert.
+Danach werden die beiden XML Dateien miteinander verglichen und der Vergleich wird dargestellt.&lt;br&gt;
+Mit diesem Verfahren lässt sich erkennen, ob:&lt;/p&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;beim Einlesen Elemente weggelassen wurden, weil diese nicht spezifiziert oder im Model nicht vorgesehen sind,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Werte korrekt vorliegen und formatiert sind,&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;die Reihenfolge der Elemente korrekt ist.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/dd&gt;
+&lt;dt class=&quot;hdlist1&quot;&gt;Bean Validation&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Konik verwendet nun Bean Validation, auch bekannt als JSR-303 bzw. JSR-349.
+Damit lässt sich schon beim Erzeugen der Rechnung einfach feststellen, ob diese
+konform mit der Spezifikation ist.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Der akuelle Snapshot gibt einen guten Vorgeschmack auf die finale Version 0.6.0.
+Es wird daher empfohlen, Rechnungen noch einmal zu validieren.&lt;br&gt;
+Noch hat die aktuelle Version einige offene Punkte:&lt;br&gt;
+So ist die Entwicklung der Bean Validierung noch nicht ganz abgeschlossen. Ausserdem
+gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</title>
       <link>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</link>
