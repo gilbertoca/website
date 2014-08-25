@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Fri, 22 Aug 2014 15:37:48 +0000</pubDate>
-    <lastBuildDate>Fri, 22 Aug 2014 15:37:48 +0000</lastBuildDate>
+    <pubDate>Mon, 25 Aug 2014 18:55:04 +0000</pubDate>
+    <lastBuildDate>Mon, 25 Aug 2014 18:55:04 +0000</lastBuildDate>
 
     <item>
       <title>Neuer Release vom ZUGFeRD Validation Serive</title>
@@ -92,7 +92,7 @@ gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Es gibt einen guten Grund für einen Gang zum Kiosk: für die gerade
 erschienene Ausgabe des iX Magazin 8/2014 habe ich einen
-&lt;a href=&quot;http://www.ix.de/ix1408098&quot;&gt;Artikel über ZUGFeRD&lt;/a&gt; und die Konik Bibliothek geschrieben.
+&lt;a href=&quot;http://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html&quot;&gt;Artikel über ZUGFeRD&lt;/a&gt; und die Konik Bibliothek geschrieben.
 Es geht um das ZUGFeRD-Konzept und die Implementierung mit der Konik Bibliothek.
 Ich hoffe, dadurch das Thema ZUGFeRD Entwicklern und IT-Profis näherzubringen.&lt;/p&gt;
 &lt;/div&gt;
