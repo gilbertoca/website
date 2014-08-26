@@ -101,7 +101,7 @@
 <h2 id="quick_start">Quick Start</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following code from the test case <a href="https://github.com/konik-io/barn/blob/master/konik/src/test/java/io/konik/examples/MinimalInvoice.java"><code>MinimalInvoice.java</code></a> represents a valid invoice data according to the ZUGFeRD data model.</p>
+<p>The following code from the test case <a href="https://github.com/konik-io/barn/blob/parent-0.7.1/konik/src/test/java/io/konik/examples/MinimalInvoice.java#L72"><code>MinimalInvoice.java</code></a> represents a valid invoice data according to the ZUGFeRD data model.</p>
 </div>
 <div class="paragraph">
 <p>Let us step through the code and take a look at the interesting parts.</p>
@@ -112,27 +112,25 @@
 <div class="content">
 <pre class="highlight"><code class="java language-java">private Invoice createMinimalInvoiceModel() {
 
-   Invoice invoice = new Invoice(new BasicProfile());//  <i class="conum" data-value="1"></i><b>(1)</b>
+   Invoice invoice = new Invoice(BASIC);    <i class="conum" data-value="1"></i><b>(1)</b>
    invoice.setHeader(new Header()
       .setInvoiceNumber("20131122-42")
       .setCode(_380)
-      .setIssued(now)
-      .addName("Rechnung"));
+      .setIssued(today)
+      .setName("Rechnung"));<i class="conum" data-value="2"></i><b>(2)</b>
 
    Trade trade = new Trade();
-   trade.setAgreement(new Agreement() // <i class="conum" data-value="2"></i><b>(2)</b>
-         .setSellerTradeParty(new TradeParty()
+   trade.setAgreement(new Agreement()
+         .setSeller(new TradeParty()
                .setName("Seller Inc.")
-               .setAddress(new Address("80331", "Marienplatz 1", "München", "DE"))
-               .addTaxRegistration(new TaxRegistration("DE122...", FC)))
-         .setBuyerTradeParty(new TradeParty()
+               .setAddress(new Address("80331", "Marienplatz 1", "München", DE))
+               .addTaxRegistrations(new TaxRegistration("DE122...", FC)))
+         .setBuyer(new TradeParty()
                .setName("Buyer Inc.")
-               .setAddress(new Address("50667", "Domkloster 4", "Köln", "DE"))
-               .addTaxRegistration(new TaxRegistration("DE123...", FC))));
+               .setAddress(new Address("50667", "Domkloster 4", "Köln", DE))
+               .addTaxRegistrations(new TaxRegistration("DE123...", FC))));
 
-   trade.setDelivery(new Delivery()
-         .setEvent(new Event(tomorrow))
-         .setBilledQuantity(new Quantity(1,UNIT)));
+   trade.setDelivery(new Delivery(nextMonth));
 
    trade.setSettlement(new Settlement()
          .setPaymentReference("20131122-42")
@@ -141,12 +139,13 @@
             .setPayerAccount(new FinancialAccount("DE01234.."))
                .setPayerInstitution(new FinancialInstitution("GENO...")))
          .setMonetarySummation(new MonetarySummation()
-            .setNetTotal(new Amount(100, EUR))
+            .setLineTotal(new Amount(100, EUR))
             .setTaxTotal(new Amount(19, EUR))
             .setGrandTotal(new Amount(119, EUR))));
 
-   trade.addItem(new Item().setProduct(new Product().setName("Saddle")));
-
+   trade.addItem(new Item()
+      .setProduct(new Product().setName("Saddle"))
+      .setDelivery(new SpecifiedDelivery(new Quantity(1, UNIT))));
    invoice.setTrade(trade);
 
    return invoice;
@@ -170,15 +169,10 @@
 <h3 id="transforming_the_model_to_xml">Transforming the model to XML.</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">@Test
-public void creatMinimalInvoice() throws IOException {
-   //setup
-   Invoice invoice = createMinimalInvoiceModel();
-   InvoiceTransformer transformer = new InvoiceTransformer(); //  <i class="conum" data-value="1"></i><b>(1)</b>
-   FileOutputStream fileOutputStream = new FileOutputStream("target/minimal-invoice.xml");
-
-   //execute
-   transformer.from(invoice, fileOutputStream); //  <i class="conum" data-value="2"></i><b>(2)</b>
+<pre class="highlight"><code class="java language-java">public void createXmlFromModel(Invoice invoice) throws IOException {
+   InvoiceTransformer transformer = new InvoiceTransformer();     <i class="conum" data-value="1"></i><b>(1)</b>
+   FileOutputStream outputStream = new FileOutputStream("target/minimal-invoice.xml");
+   transformer.fromModel(invoice, outputStream);      <i class="conum" data-value="2"></i><b>(2)</b>
 }</code></pre>
 </div>
 </div>
@@ -217,15 +211,15 @@ public void creatMinimalInvoice() throws IOException {
 </ul>
 </div>
 <div class="paragraph">
-<p>API Documentation for latest snapshot <code>0.7.1</code>.</p>
+<p>API Documentation for latest snapshot <code>0.8.0-SNAPSHOT</code>.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="api/itext-carriage-0.7.1/overview-summary.html">iText-Carriage</a></p>
+<p><a href="api/itext-carriage-0.8.0-SNAPSHOT/overview-summary.html">iText-Carriage</a></p>
 </li>
 <li>
-<p><a href="api/konik-0.7.1/overview-summary.html">Konik</a></p>
+<p><a href="api/konik-0.8.0-SNAPSHOT/overview-summary.html">Konik</a></p>
 </li>
 </ul>
 </div>

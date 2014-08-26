@@ -6,14 +6,100 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Tue, 26 Aug 2014 20:57:55 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Aug 2014 20:57:55 +0000</lastBuildDate>
+    <pubDate>Tue, 26 Aug 2014 22:50:56 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Aug 2014 22:50:56 +0000</lastBuildDate>
 
     <item>
-      <title>Neuer Release vom ZUGFeRD Validation Serive</title>
-      <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Serive</link>
+      <title>Release Konik 0.7.1 und Validation Service 0.4.1</title>
+      <link>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</link>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Es gibt einen weiteren Release der Konik Bibliothek. Mit der jetzt
+veröffentlichen Version 0.7.1 hat Konik einen Stand erreicht, der sich
+Produktiv vollständig nutzen lässt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Mit der Veröffentlichung von Konik 0.7.1 wurde auch der ZUGFeRD
+Validierungs-Service auf die neueste Version gebracht und steht ebenfalls
+zu Verfügung.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;konik&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;listingblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;dependency&amp;gt;
+    &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
+    &amp;lt;artifactId&amp;gt;itext-carriage&amp;lt;/artifactId&amp;gt;
+    &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;neuerungen&quot;&gt;Neuerungen&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Es sind weitere Validierungen dazugekommen, so das man die in der Vergangenheit
+erstellen Rechnungen noch mal überprüfen sollte.
+- Zahlen werden nun korrekt gerundet auf 2 bzw. 4 Nachkommastellen
+- Profile werden bei der Validierung des Datenmodells mit einbezogen.
+- Alle ZUGFeRD Felder sind vorhanden
+- Nicht gültige Felder wurden so weit es geht entfernt.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;offene_punke&quot;&gt;Offene Punke&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Es gibt zwar schon viele Validierungen aber es könnte noch die eine oder
+andere Lücke geben.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JavaDoc ist zwar schon Vollständig aber es fehlt oft die Fachliche Beschreibung
+so das man noch oft in der Dokumentation nachschlagen muss.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;ausblick&quot;&gt;Ausblick&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Im nächsten Schritt werden die Interfaces zu den PDF Carriages überarbeitet und
+ausgelagert, so dass neben iText noch weitere Anbieter an Konik andocken können.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Das Konik Model soll weiter verbessert werden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
+    <item>
+      <title>Neuer Release vom ZUGFeRD Validation Service</title>
+      <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</link>
       <pubDate>Fri, 1 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Serive</guid>
+      <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
