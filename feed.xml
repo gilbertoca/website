@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Tue, 26 Aug 2014 22:50:56 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Aug 2014 22:50:56 +0000</lastBuildDate>
+    <pubDate>Wed, 27 Aug 2014 10:05:35 +0000</pubDate>
+    <lastBuildDate>Wed, 27 Aug 2014 10:05:35 +0000</lastBuildDate>
 
     <item>
       <title>Release Konik 0.7.1 und Validation Service 0.4.1</title>
@@ -18,9 +18,9 @@
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Es gibt einen weiteren Release der Konik Bibliothek. Mit der jetzt
-veröffentlichen Version 0.7.1 hat Konik einen Stand erreicht, der sich
-Produktiv vollständig nutzen lässt.&lt;/p&gt;
+&lt;p&gt;Es gibt einen weiteren Release der Konik Bibliothek: Mit der jetzt
+veröffentlichten Version 0.7.1 hat Konik einen Stand erreicht, der sich
+vollständig produktiv nutzen lässt.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Mit der Veröffentlichung von Konik 0.7.1 wurde auch der ZUGFeRD
@@ -51,11 +51,11 @@ zu Verfügung.&lt;/p&gt;
 &lt;h2 id=&quot;neuerungen&quot;&gt;Neuerungen&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Es sind weitere Validierungen dazugekommen, so das man die in der Vergangenheit
-erstellen Rechnungen noch mal überprüfen sollte.
-- Zahlen werden nun korrekt gerundet auf 2 bzw. 4 Nachkommastellen
+&lt;p&gt;Es sind weitere Validierungen dazugekommen, so dass man die in der Vergangenheit
+erstellten Rechnungen noch einmal überprüfen sollte.
+- Zahlen werden nun korrekt gerundet auf zwei bzw. vier Nachkommastellen.
 - Profile werden bei der Validierung des Datenmodells mit einbezogen.
-- Alle ZUGFeRD Felder sind vorhanden
+- Alle ZUGFeRD Felder sind vorhanden.
 - Nicht gültige Felder wurden so weit es geht entfernt.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -66,12 +66,10 @@ erstellen Rechnungen noch mal überprüfen sollte.
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Es gibt zwar schon viele Validierungen aber es könnte noch die eine oder
-andere Lücke geben.&lt;/p&gt;
+&lt;p&gt;Es gibt zwar schon viele Validierungen, aber es könnte noch die eine oder andere Lücke geben.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;JavaDoc ist zwar schon Vollständig aber es fehlt oft die Fachliche Beschreibung
-so das man noch oft in der Dokumentation nachschlagen muss.&lt;/p&gt;
+&lt;p&gt;JavaDoc ist zwar schon vollständig, aber es fehlt oft die fachliche Beschreibung, so dass man noch oft in der Dokumentation nachschlagen muss.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -83,8 +81,7 @@ so das man noch oft in der Dokumentation nachschlagen muss.&lt;/p&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Im nächsten Schritt werden die Interfaces zu den PDF Carriages überarbeitet und
-ausgelagert, so dass neben iText noch weitere Anbieter an Konik andocken können.&lt;/p&gt;
+&lt;p&gt;Im nächsten Schritt werden die Interfaces zu den PDF Carriages überarbeitet und ausgelagert, so dass neben iText noch 	weitere Anbieter an Konik andocken können.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Das Konik Model soll weiter verbessert werden.&lt;/p&gt;
