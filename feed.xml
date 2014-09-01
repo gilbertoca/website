@@ -6,13 +6,102 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Wed, 27 Aug 2014 10:05:35 +0000</pubDate>
-    <lastBuildDate>Wed, 27 Aug 2014 10:05:35 +0000</lastBuildDate>
+    <pubDate>Mo, 1 Sep 2014 22:00:28 +0200</pubDate>
+    <lastBuildDate>Mo, 1 Sep 2014 22:00:28 +0200</lastBuildDate>
 
+    <item>
+      <title>ZUGFeRD Weekly News #35</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #35</link>
+      <pubDate>So, 31 Aug 2014 00:00:00 +0200</pubDate>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #35</guid>
+      	<description>
+				&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Nachrichten und Neuigkeiten und rund um ZUGFeRD und elektronische Rechnungen im Zeitraum vom 20 Juli bis 31 August.
+Die ZUGFeRD Weekly News haben eine kleine Pause eingelegt wegen der Sommerflaute und Urlaub.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;artikel&quot;&gt;Artikel&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Walter Steigauf von Unitek beschreibt in &lt;a href=&quot;http://www.unitek.de/zugferd/&quot;&gt;Rechnung 2.0&lt;/a&gt; die Grundlagen, den Nutzen
+und die organisatorische Umsetzung von elektonischen Rechnungen im Hinblick auf ZUGFeRD.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SEEBURGER präsentiert &lt;a href=&quot;http://www.seeburger.de/e-invoicingpapierwende/zugferd.html&quot;&gt;ZUGFeRD Cloud Services&lt;/a&gt; für den elektronischen Rechnungsversand
+und -empfang von ZUGFeRD. Die Funktionalität umfasst das Einbetten von XML-Rechnungsdateien
+in PDF/A-3-Dateien und das Extrahieren der XML-Rechnungsdaten aus einer ZUGFeRD-konformen PDF/A-3-Datei.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Broadgun zeigt mit &lt;a href=&quot;http://www.pdfmachine.com/genp/zugferd_en.html&quot;&gt;pdfMachine ZUGFeRD&lt;/a&gt; einen virtuellen Drucker mit Besonderheit.
+Das ZUGFeRD Model und die visuelle Darstellung werden gemeinsam zum virtuellen Drucker gesendet.
+Der virtuelle Drucker konvertiert die strukturierten Daten und fügt diese als Anhang zum finalen Dokument hinzu.
+Hier ein Beispiel mit einem &lt;a href=&quot;http://www.pdfmachine.com/zugferd_example_invoice_en.html&quot;&gt;HTML-Eingangsdokument&lt;/a&gt;: mit ZUGFeRD Daten und visuellem Inhalt.
+Das Ergebnis, nachdem es zum virtuellen Drucker gesendet wurde, ist eine &lt;a href=&quot;http://www.pdfmachine.com/zugferd_example_invoice_en.pdf&quot;&gt;ZUGFeRD konforme PDF Datei&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Ecosio präsentiert mit &lt;a href=&quot;http://ecosio.com/en/zugferd-smartclient/&quot;&gt;ZUGFeRD Smart Client&lt;/a&gt; eine webbasierte Lösung für ZUGFeRD, welche wahrscheinlich ähnlich der &lt;a href=&quot;http://z-rechnung.de&quot;&gt;z-Rechnung&lt;/a&gt; ist.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Firma d.velop AG, ist aus der &lt;a href=&quot;http://www.ferd-net.de/upload/ZUGFeRD-Unterstuetzerliste-8.pdf&quot;&gt;ZUGFeRD-Unterstützerliste&lt;/a&gt; entfernt worden.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Datev e.V integriert sukzessive den ZUGFeRD-Standard in die &lt;a href=&quot;http://www.datev.de/portal/ShowPage.do?pid=dpi&amp;amp;nid=165451&quot;&gt;DATEV Produktpalette&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lobster GmbH kündigt an das &lt;a href=&quot;http://lobster.de/lobster_data-ab-september-mit-zugferd/&quot;&gt;Lobster_data&lt;/a&gt; ab September ZUGFeRD unterstützen wird.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.gnuaccounting.org/index.php?id=12&amp;amp;tx_ttnews%5Btt_news%5D=81&amp;amp;cHash=20f409ebe6a5bee7a857431d0ff204ba&quot;&gt;Gnuaccounting 0.8.6&lt;/a&gt; erschienen mit überarbeiteter Unterstützung für ZUGFeRD 1.0&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Die Webseite &lt;a href=&quot;http://zugferd-kostenlos.de/&quot;&gt;ZUGFeRD-Kostenlos&lt;/a&gt; bietet eine Webapplikation an, welche ähnlich wie &lt;a href=&quot;http://z-rechnung.de&quot;&gt;z-Rechnung&lt;/a&gt; ist.
+Der Dienst steht aber derzeit noch nicht zur Verfügung.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect1&quot;&gt;
+&lt;h2 id=&quot;veranstaltungen&quot;&gt;Veranstaltungen&lt;/h2&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Am 10 und 11 September findet in Berlin die erste &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=931&quot;&gt;FeRD-Konferenz&lt;/a&gt; statt und Konik wird dabei sein.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock&quot;&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;img src=&quot;img/blog/ZugpferdTage.jpg&quot; alt=&quot;ZUGFeRD oder Zugpferd, der Unterschied ist leicht zu erkennen.&quot;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;ZUGFeRD oder Zugpferd, der Unterschied ist leicht zu erkennen.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+		</description>
+    </item>
     <item>
       <title>Release Konik 0.7.1 und Validation Service 0.4.1</title>
       <link>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</link>
-      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <pubDate>Di, 26 Aug 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -95,7 +184,7 @@ erstellten Rechnungen noch einmal überprüfen sollte.
     <item>
       <title>Neuer Release vom ZUGFeRD Validation Service</title>
       <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</link>
-      <pubDate>Fri, 1 Aug 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fr, 1 Aug 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -167,7 +256,7 @@ gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren
     <item>
       <title>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</title>
       <link>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</link>
-      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mi, 30 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -192,7 +281,7 @@ Ich hoffe, dadurch das Thema ZUGFeRD Entwicklern und IT-Profis näherzubringen.&
     <item>
       <title>Errors in the ZUGFeRD Specification Part 2</title>
       <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</link>
-      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>Do, 24 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -366,7 +455,7 @@ generation of the XSD Schema File from the ZUGFeRD Schema definition, this was n
     <item>
       <title>ZUGFeRD Weekly News #29</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #29</link>
-      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 20 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #29</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -394,7 +483,7 @@ regarding ZUGFeRD and electronic invoicing.&lt;/p&gt;
     <item>
       <title>Errors in the ZUGFeRD Specification Part 1</title>
       <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</link>
-      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>Do, 17 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -524,7 +613,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #28</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #28</link>
-      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 13 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #28</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -591,7 +680,7 @@ Page 133 is showing a figure of a PDF to ZUGFeRD converter from &lt;a href=&quot
     <item>
       <title>ZUGFeRD Weekly News #27</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #27</link>
-      <pubDate>Sun, 6 Jul 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 6 Jul 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #27</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -635,7 +724,7 @@ to validate PDF content against the structured XML data.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #26</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #26</link>
-      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 29 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #26</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -673,7 +762,7 @@ which now supports ZUGFeRD 1.0&lt;/p&gt;
     <item>
       <title>Konik library 0.5.0 release</title>
       <link>http://konik.io/blog.html#Konik library 0.5.0 release</link>
-      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mi, 25 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Konik library 0.5.0 release</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -703,7 +792,7 @@ is also available for users without a Build System.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #25</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #25</link>
-      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 22 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #25</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -722,7 +811,7 @@ On the other hand I can&amp;#8217;t report any interesting announcements or arti
     <item>
       <title>Join Konik Discussion Forum</title>
       <link>http://konik.io/blog.html#Join Konik Discussion Forum</link>
-      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sa, 21 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Join Konik Discussion Forum</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -737,7 +826,7 @@ On the other hand I can&amp;#8217;t report any interesting announcements or arti
     <item>
       <title>Looking back on the GS1 electronic invoice practice day</title>
       <link>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</link>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sa, 14 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -774,7 +863,7 @@ that it is a low risk and minimal effort to implement ZUGFeRD-compliant invoicin
     <item>
       <title>ZUGFeRD Weekly News #24</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #24</link>
-      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sa, 14 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #24</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -810,7 +899,7 @@ You are welcome to vote for the &lt;a href=&quot;http://www.egovernment-wettbewe
     <item>
       <title>ZUGFeRD Weekly News #23</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #23</link>
-      <pubDate>Sun, 8 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 8 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #23</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -858,7 +947,7 @@ Interested developers are welcome to sign up&lt;/p&gt;
     <item>
       <title>New Version ZUGFeRD Validation Service</title>
       <link>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</link>
-      <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mo, 2 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -879,7 +968,7 @@ Interested developers are welcome to sign up&lt;/p&gt;
     <item>
       <title>Konik Blog as RSS Feed</title>
       <link>http://konik.io/blog.html#Konik Blog as RSS Feed</link>
-      <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mo, 2 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Konik Blog as RSS Feed</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -894,7 +983,7 @@ Interested developers are welcome to sign up&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #22</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #22</link>
-      <pubDate>Sun, 1 Jun 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 1 Jun 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #22</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -948,7 +1037,7 @@ I mentioned this directive a few times before in ZUGFeRD weekly but never had a 
     <item>
       <title>ZUGFeRD Weekly News #21</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #21</link>
-      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 25 Mai 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #21</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -988,7 +1077,7 @@ Current focus is on attaching and reading XML content to PDFs with the help of P
     <item>
       <title>Konik upcoming release preview</title>
       <link>http://konik.io/blog.html#Konik upcoming release preview</link>
-      <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
+      <pubDate>Fr, 23 Mai 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Konik upcoming release preview</guid>
       	<description>
 				&lt;div class=&quot;sect1&quot;&gt;
@@ -1044,7 +1133,7 @@ You have a higher chance that another party can process your document not only r
     <item>
       <title>ZUGFeRD Weekly News #20</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #20</link>
-      <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 18 Mai 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #20</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1096,7 +1185,7 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
     <item>
       <title>ZUGFeRD Weekly News #19</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #19</link>
-      <pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mo, 12 Mai 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #19</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1124,7 +1213,7 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
     <item>
       <title>ZUGFeRD Weekly News #18</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #18</link>
-      <pubDate>Sun, 4 May 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 4 Mai 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #18</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1162,7 +1251,7 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
     <item>
       <title>ZUGFeRD Weekly News #17</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #17</link>
-      <pubDate>Sun, 27 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 27 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #17</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1196,7 +1285,7 @@ This ISO announcement is one of the reasons for a new ZUGFeRD release candidate.
     <item>
       <title>Konik performance measurements</title>
       <link>http://konik.io/blog.html#Konik performance measurements</link>
-      <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mi, 23 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Konik performance measurements</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1301,7 +1390,7 @@ performing nightly benchmark tests of the library.&lt;/p&gt;
     <item>
       <title>Konik library and iText-Carriage version 0.2.0 released</title>
       <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</link>
-      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Di, 22 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1342,7 +1431,7 @@ is also available for users without a Build System.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #16</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #16</link>
-      <pubDate>Mon, 21 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Mo, 21 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #16</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1384,7 +1473,7 @@ invoicing standards across Europe.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #15</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #15</link>
-      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 13 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #15</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1426,7 +1515,7 @@ to the paper invoice.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #14</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #14</link>
-      <pubDate>Sun, 6 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 6 Apr 2014 00:00:00 +0200</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #14</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1501,7 +1590,7 @@ electronic invoice ROI.&lt;/p&gt;
     <item>
       <title>ZUGFeRD Weekly News #13</title>
       <link>http://konik.io/blog.html#ZUGFeRD Weekly News #13</link>
-      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 30 Mär 2014 00:00:00 +0100</pubDate>
       <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #13</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1553,7 +1642,7 @@ also an announcement that the final release of ZUGFeRD is expected this summer.&
     <item>
       <title>Dependency Injection with the Konik library</title>
       <link>http://konik.io/blog.html#Dependency Injection with the Konik library</link>
-      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      <pubDate>Do, 20 Mär 2014 00:00:00 +0100</pubDate>
       <guid>http://konik.io/blog.html#Dependency Injection with the Konik library</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1644,7 +1733,7 @@ class Application {
     <item>
       <title>Konik library and iText-Carriage version 0.1.0 released</title>
       <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</link>
-      <pubDate>Sun, 2 Mar 2014 00:00:00 +0000</pubDate>
+      <pubDate>So, 2 Mär 2014 00:00:00 +0100</pubDate>
       <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
@@ -1693,7 +1782,7 @@ The package contains the Konik libraries and all dependent libraries.&lt;/p&gt;
     <item>
       <title>Konik project Start</title>
       <link>http://konik.io/blog.html#Konik project Start</link>
-      <pubDate>Sun, 1 Dec 2013 00:00:00 +0000</pubDate>
+      <pubDate>So, 1 Dez 2013 00:00:00 +0100</pubDate>
       <guid>http://konik.io/blog.html#Konik project Start</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
