@@ -6,14 +6,14 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Mo, 1 Sep 2014 22:00:28 +0200</pubDate>
-    <lastBuildDate>Mo, 1 Sep 2014 22:00:28 +0200</lastBuildDate>
+    <pubDate>Fri, 19 Sep 2014 14:45:38 +0000</pubDate>
+    <lastBuildDate>Fri, 19 Sep 2014 14:45:38 +0000</lastBuildDate>
 
     <item>
-      <title>ZUGFeRD Weekly News #35</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #35</link>
-      <pubDate>So, 31 Aug 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #35</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@7600353e</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7600353e</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7600353e</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -99,10 +99,10 @@ Der Dienst steht aber derzeit noch nicht zur Verfügung.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>Release Konik 0.7.1 und Validation Service 0.4.1</title>
-      <link>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</link>
-      <pubDate>Di, 26 Aug 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@65ff558e</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@65ff558e</link>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@65ff558e</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -118,7 +118,7 @@ zu Verfügung.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
     &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
     &amp;lt;artifactId&amp;gt;konik&amp;lt;/artifactId&amp;gt;
     &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
@@ -127,7 +127,7 @@ zu Verfügung.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
     &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
     &amp;lt;artifactId&amp;gt;itext-carriage&amp;lt;/artifactId&amp;gt;
     &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
@@ -182,10 +182,10 @@ erstellten Rechnungen noch einmal überprüfen sollte.
 		</description>
     </item>
     <item>
-      <title>Neuer Release vom ZUGFeRD Validation Service</title>
-      <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</link>
-      <pubDate>Fr, 1 Aug 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@779757b1</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@779757b1</link>
+      <pubDate>Fri, 1 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@779757b1</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -254,14 +254,12 @@ gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren
 		</description>
     </item>
     <item>
-      <title>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</title>
-      <link>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</link>
-      <pubDate>Mi, 30 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@69ba3c74</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@69ba3c74</link>
+      <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@69ba3c74</guid>
       	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
+				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Es gibt einen guten Grund für einen Gang zum Kiosk: für die gerade
 erschienene Ausgabe des iX Magazin 8/2014 habe ich einen
 &lt;a href=&quot;http://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html&quot;&gt;Artikel über ZUGFeRD&lt;/a&gt; und die Konik Bibliothek geschrieben.
@@ -274,15 +272,13 @@ Ich hoffe, dadurch das Thema ZUGFeRD Entwicklern und IT-Profis näherzubringen.&
 &lt;/div&gt;
 &lt;div class=&quot;title&quot;&gt;Figure 1. ZUGFeRD Artikel auf Seite 98.&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 		</description>
     </item>
     <item>
-      <title>Errors in the ZUGFeRD Specification Part 2</title>
-      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</link>
-      <pubDate>Do, 24 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@68c1bcaf</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c1bcaf</link>
+      <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c1bcaf</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -313,7 +309,7 @@ Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also v
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;There is no explanation why the resulting cardinalities need to be  &lt;code&gt;1..N&lt;/code&gt; instead of &lt;code&gt;1..1&lt;/code&gt; in the XSD Schema file.&lt;/p&gt;
+&lt;p&gt;There is no explanation why the resulting cardinalities need to be  1..N instead of 1..1 in the XSD Schema file.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.xfront.com/backward-forward-compatibility/&quot;&gt;Designing forward and backward compatible XML Schemas&lt;/a&gt; is very difficult.&lt;/p&gt;
@@ -370,13 +366,13 @@ validation features to the library, it was noticed that some of the existent ZUG
 examples were marked as incorrect.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Let&amp;#8217;s take a look at file &lt;code&gt;Beispielrechnung_1p0_COMFORT.xml&lt;/code&gt; which is part of
+&lt;p&gt;Let&amp;#8217;s take a look at file Beispielrechnung_1p0_COMFORT.xml which is part of
 the ZUGFeRD specification package as an example to explain what is incorrect
 regarding the ZUGFeRD model.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;ram:SpecifiedTradeAllowanceCharge&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;ram:SpecifiedTradeAllowanceCharge&amp;gt;
    &amp;lt;ram:ChargeIndicator&amp;gt;
       &amp;lt;udt:Indicator&amp;gt;false&amp;lt;/udt:Indicator&amp;gt;
    &amp;lt;/ram:ChargeIndicator&amp;gt;
@@ -396,21 +392,21 @@ regarding the ZUGFeRD model.&lt;/p&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;The &lt;code&gt;ActualAmount&lt;/code&gt; contains only the value and no attribute with the currency like in &lt;code&gt;BasisAmount&lt;/code&gt; one line above.&lt;/td&gt;
+&lt;td&gt;The ActualAmount contains only the value and no attribute with the currency like in BasisAmount one line above.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;2&quot;&gt;&lt;/i&gt;&lt;b&gt;2&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;AppliedAmount&lt;/code&gt; is also defined as &lt;code&gt;udt:AmountType&lt;/code&gt; and hence should also contain a currency attribute.&lt;/td&gt;
+&lt;td&gt;AppliedAmount is also defined as udt:AmountType and hence should also contain a currency attribute.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The ZUGFeRD model stated that all &lt;code&gt;udt:AmountType&lt;/code&gt; require an Currency Code.
-.&lt;code&gt;udt:AmountType&lt;/code&gt; requiring a currency code in &lt;code&gt;ApplicableTradeTax&lt;/code&gt;
+&lt;p&gt;The ZUGFeRD model stated that all udt:AmountType require an Currency Code.
+.udt:AmountType requiring a currency code in ApplicableTradeTax
 image::img/blog/july/AmountType_Example.png[&quot;udt:AmountType requiring a currency code&quot;]&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Model and the Schema declare &lt;code&gt;udt:AmountType&lt;/code&gt; as required but not the XSD File.&lt;/p&gt;
+&lt;p&gt;The Model and the Schema declare udt:AmountType as required but not the XSD File.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
@@ -424,7 +420,7 @@ error when validating the xml against the XSD Schema.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:schema xmlns:udt=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; elementFormDefault=&quot;qualified&quot; version=&quot;15.0&quot;&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:schema xmlns:udt=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; elementFormDefault=&quot;qualified&quot; version=&quot;15.0&quot;&amp;gt;
 	&amp;lt;xs:complexType name=&quot;AmountType&quot;&amp;gt;
 		&amp;lt;xs:simpleContent&amp;gt;
 			&amp;lt;xs:extension base=&quot;xs:decimal&quot;&amp;gt;
@@ -438,7 +434,7 @@ error when validating the xml against the XSD Schema.&lt;/p&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Add &lt;code&gt;use=&quot;required&quot;&lt;/code&gt; to mark the attribute as required so the validation of the XML Files
+&lt;td&gt;Add use=&quot;required&quot; to mark the attribute as required so the validation of the XML Files
 against the XSD Schema will fail.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
@@ -453,10 +449,10 @@ generation of the XSD Schema File from the ZUGFeRD Schema definition, this was n
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #29</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #29</link>
-      <pubDate>So, 20 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #29</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@1a8b69fd</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a8b69fd</link>
+      <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a8b69fd</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -481,10 +477,10 @@ regarding ZUGFeRD and electronic invoicing.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>Errors in the ZUGFeRD Specification Part 1</title>
-      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</link>
-      <pubDate>Do, 17 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@288485e9</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@288485e9</link>
+      <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@288485e9</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -509,15 +505,15 @@ The last one did not exist in the RC Specification.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred2379.htm&quot; target=&quot;_blank&quot;&gt;UN/EDIFACT 2379 - Date or time or period format code&lt;/a&gt; specifies around 80 different date formats.
-Should all formats be allowed in ZUGFeRD or only the named &lt;code&gt;102&lt;/code&gt;, &lt;code&gt;610&lt;/code&gt; and &lt;code&gt;616&lt;/code&gt;?
+Should all formats be allowed in ZUGFeRD or only the named 102, 610 and 616?
 Furthermore &lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred2379.htm&quot;&gt;UN/EDIFACT 2379&lt;/a&gt; also defines periods.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;IssueDateTime&lt;/code&gt; is defined in the specification as &lt;code&gt;yyyy-MM-ddTHH:mm:ss&lt;/code&gt; (Example: 2013-08-05T00:00:00).
+&lt;p&gt;IssueDateTime is defined in the specification as yyyy-MM-ddTHH:mm:ss (Example: 2013-08-05T00:00:00).
 The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:simpleType name=&quot;DateMandatoryDateTimeType&quot;&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:simpleType name=&quot;DateMandatoryDateTimeType&quot;&amp;gt;
 	&amp;lt;xs:union memberTypes=&quot;xs:dateTime xs:date&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
 &amp;lt;/xs:simpleType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -526,7 +522,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;This means that &lt;code&gt;yyyy-MM-ddTHH:mm:ss&lt;/code&gt; and &lt;code&gt;yyyy-MM-dd&lt;/code&gt; are both valid types which is not clear from the specification.&lt;/td&gt;
+&lt;td&gt;This means that yyyy-MM-ddTHH:mm:ss and yyyy-MM-dd are both valid types which is not clear from the specification.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -544,11 +540,11 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;definedtradecontact&quot;&gt;DefinedTradeContact&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The &lt;code&gt;DefinedTradeContact&lt;/code&gt; within a &lt;code&gt;TradePartyType&lt;/code&gt; is defined with an unbound occurrence. According to the specification it should occur maximum one time.&lt;/p&gt;
+&lt;p&gt;The DefinedTradeContact within a TradePartyType is defined with an unbound occurrence. According to the specification it should occur maximum one time.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:complexType name=&quot;TradePartyType&quot;&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;TradePartyType&quot;&amp;gt;
 	&amp;lt;xs:sequence&amp;gt;
 		&amp;lt;xs:element name=&quot;ID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
 		&amp;lt;xs:element name=&quot;GlobalID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
@@ -564,7 +560,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Correct should be &lt;code&gt;maxOccurs=&quot;1&quot;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Correct should be maxOccurs=&quot;1&quot;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -572,7 +568,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;notetype&quot;&gt;NoteType&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Model and Schema definition declare &lt;code&gt;ContentCode&lt;/code&gt; as optional and with a max occurrence of one.&lt;/p&gt;
+&lt;p&gt;Model and Schema definition declare ContentCode as optional and with a max occurrence of one.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;imageblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
@@ -588,7 +584,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;xs:complexType name=&quot;NoteType&quot;&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;NoteType&quot;&amp;gt;
 	&amp;lt;xs:sequence&amp;gt;
 		&amp;lt;xs:element name=&quot;ContentCode&quot; type=&quot;udt:CodeType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
 		&amp;lt;xs:element name=&quot;Content&quot; type=&quot;udt:TextType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
@@ -601,7 +597,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Within the XSD &lt;code&gt;ContentCode&lt;/code&gt; is defined as &lt;code&gt;0..N&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Within the XSD ContentCode is defined as 0..N&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -611,10 +607,10 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #28</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #28</link>
-      <pubDate>So, 13 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #28</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@4b41d9eb</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4b41d9eb</link>
+      <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4b41d9eb</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -678,10 +674,10 @@ Page 133 is showing a figure of a PDF to ZUGFeRD converter from &lt;a href=&quot
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #27</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #27</link>
-      <pubDate>So, 6 Jul 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #27</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@68fcba11</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68fcba11</link>
+      <pubDate>Sun, 6 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68fcba11</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -722,10 +718,10 @@ to validate PDF content against the structured XML data.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #26</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #26</link>
-      <pubDate>So, 29 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #26</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@7eb7c3ac</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7eb7c3ac</link>
+      <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7eb7c3ac</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -760,10 +756,10 @@ which now supports ZUGFeRD 1.0&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>Konik library 0.5.0 release</title>
-      <link>http://konik.io/blog.html#Konik library 0.5.0 release</link>
-      <pubDate>Mi, 25 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Konik library 0.5.0 release</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@64e23d5a</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@64e23d5a</link>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@64e23d5a</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -780,7 +776,7 @@ This is the &quot;in-between&quot; release and it does not support all of the fe
 existing API.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A &lt;code&gt;zip&lt;/code&gt; &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.5.0/distribution-0.5.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
+&lt;p&gt;A zip &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.5.0/distribution-0.5.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
 is also available for users without a Build System.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
@@ -790,44 +786,36 @@ is also available for users without a Build System.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #25</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #25</link>
-      <pubDate>So, 22 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #25</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@6306c37c</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6306c37c</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6306c37c</guid>
       	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
+				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ZUGFeRD related news and articles from 14&lt;sup&gt;th&lt;/sup&gt; June until 22&lt;sup&gt;nd&lt;/sup&gt; June.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;There was quite some buzz around ZUGFeRD this week, as next Wednesday ZUGFeRD 1.0 will be officially released.
 On the other hand I can&amp;#8217;t report any interesting announcements or articles around ZUGFeRD. I expect more news for the next week.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 		</description>
     </item>
     <item>
-      <title>Join Konik Discussion Forum</title>
-      <link>http://konik.io/blog.html#Join Konik Discussion Forum</link>
-      <pubDate>Sa, 21 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Join Konik Discussion Forum</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@3358b4e7</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3358b4e7</link>
+      <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3358b4e7</guid>
       	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
+				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;A new &lt;a href=&quot;https://groups.google.com/forum/#!forum/konik-io&quot;&gt;Discussion Forum&lt;/a&gt; is now availibe for the Konik Community. It is going to be a new place for discussions that don&amp;#8217;t fit into GitHub or on Stack Overflow.&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 		</description>
     </item>
     <item>
-      <title>Looking back on the GS1 electronic invoice practice day</title>
-      <link>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</link>
-      <pubDate>Sa, 14 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@7e9f96dd</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7e9f96dd</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7e9f96dd</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -861,10 +849,10 @@ that it is a low risk and minimal effort to implement ZUGFeRD-compliant invoicin
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #24</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #24</link>
-      <pubDate>Sa, 14 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #24</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@4323b3d5</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4323b3d5</link>
+      <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4323b3d5</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -897,10 +885,10 @@ You are welcome to vote for the &lt;a href=&quot;http://www.egovernment-wettbewe
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #23</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #23</link>
-      <pubDate>So, 8 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #23</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@282cf2ae</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@282cf2ae</link>
+      <pubDate>Sun, 8 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@282cf2ae</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -945,10 +933,10 @@ Interested developers are welcome to sign up&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>New Version ZUGFeRD Validation Service</title>
-      <link>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</link>
-      <pubDate>Mo, 2 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@1ca13466</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1ca13466</link>
+      <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1ca13466</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -966,25 +954,21 @@ Interested developers are welcome to sign up&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>Konik Blog as RSS Feed</title>
-      <link>http://konik.io/blog.html#Konik Blog as RSS Feed</link>
-      <pubDate>Mo, 2 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Konik Blog as RSS Feed</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@615368c</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@615368c</link>
+      <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@615368c</guid>
       	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
+				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;The Konik Blog is now also available as a RSS feed. Subscribe to the RSS feed by clicking on the RSS Feed icon &lt;a target=&quot;_blank&quot; class=&quot;fa fa-rss fa-2x&quot; href=&quot;feed.xml&quot;&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #22</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #22</link>
-      <pubDate>So, 1 Jun 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #22</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@612e4813</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@612e4813</link>
+      <pubDate>Sun, 1 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@612e4813</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1004,7 +988,7 @@ Interested developers are welcome to sign up&lt;/p&gt;
 &lt;p&gt;Austrian Federal Ministry of Finance takes positive stock regarding the &lt;a href=&quot;http://www.ots.at/presseaussendung/OTS_20140306_OTS0078/umstellung-auf-e-rechnung-bmf-zieht-positive-zwischenbilanz&quot;&gt;transition to e-invoice&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Austrian Economic Chambers published &lt;a href=&quot;https://www.wko.at/Content.Node/branchen/w/sparte_iuc/Immobilien&amp;#8212;und-Vermoegenstreuhaender/Abo_TELEFIT_Podcast__23_E-Rechnung_an_den_Bund.html&quot;&gt;videos on Electronic invoice to the federal government&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Austrian Economic Chambers published &lt;a href=&quot;https://www.wko.at/Content.Node/branchen/w/sparte_iuc/Immobilien&amp;#8212;&amp;#8203;und-Vermoegenstreuhaender/Abo_TELEFIT_Podcast__23_E-Rechnung_an_den_Bund.html&quot;&gt;videos on Electronic invoice to the federal government&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.gnuaccounting.org/&quot;&gt;GNU Accounting&lt;/a&gt; Version 0.8.5 is currently the only Open Source Accounting software that can write ZUGFeRD compliant invoices.&lt;/p&gt;
@@ -1035,10 +1019,10 @@ I mentioned this directive a few times before in ZUGFeRD weekly but never had a 
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #21</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #21</link>
-      <pubDate>So, 25 Mai 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #21</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@59f73b2f</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@59f73b2f</link>
+      <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@59f73b2f</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1075,10 +1059,10 @@ Current focus is on attaching and reading XML content to PDFs with the help of P
 		</description>
     </item>
     <item>
-      <title>Konik upcoming release preview</title>
-      <link>http://konik.io/blog.html#Konik upcoming release preview</link>
-      <pubDate>Fr, 23 Mai 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Konik upcoming release preview</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@774d2419</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@774d2419</link>
+      <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@774d2419</guid>
       	<description>
 				&lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;next_konik_release_0_3_0&quot;&gt;Next Konik release 0.3.0&lt;/h2&gt;
@@ -1131,10 +1115,10 @@ You have a higher chance that another party can process your document not only r
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #20</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #20</link>
-      <pubDate>So, 18 Mai 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #20</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@68c66b27</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c66b27</link>
+      <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c66b27</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1183,10 +1167,10 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #19</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #19</link>
-      <pubDate>Mo, 12 Mai 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #19</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@3422de25</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3422de25</link>
+      <pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3422de25</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1211,10 +1195,10 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #18</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #18</link>
-      <pubDate>So, 4 Mai 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #18</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@1815706c</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1815706c</link>
+      <pubDate>Sun, 4 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1815706c</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1249,10 +1233,10 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #17</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #17</link>
-      <pubDate>So, 27 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #17</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@5d7bc668</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@5d7bc668</link>
+      <pubDate>Sun, 27 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@5d7bc668</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1283,20 +1267,20 @@ This ISO announcement is one of the reasons for a new ZUGFeRD release candidate.
 		</description>
     </item>
     <item>
-      <title>Konik performance measurements</title>
-      <link>http://konik.io/blog.html#Konik performance measurements</link>
-      <pubDate>Mi, 23 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Konik performance measurements</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@404f700f</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@404f700f</link>
+      <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@404f700f</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Starting with the latest release we are going to publish benchmark results of the Konik library.
 Our objective is to create and maintain a library that is scalable enough to process many hundreds of PDFs per second.
-Initially we start small by &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java&quot;&gt;benchmarking&lt;/a&gt; &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/main/java/io/konik/itext/appender/ITextPdfInvoiceAppender.java&quot;&gt;&lt;code&gt;ITextPdfInvoiceAppender&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+Initially we start small by &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java&quot;&gt;benchmarking&lt;/a&gt; &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/main/java/io/konik/itext/appender/ITextPdfInvoiceAppender.java&quot;&gt;ITextPdfInvoiceAppender&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;For an brief overview the &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java&quot;&gt;&lt;code&gt;ITextAppenderBenchmark&lt;/code&gt;&lt;/a&gt; is performing the following steps.&lt;/p&gt;
+&lt;p&gt;For an brief overview the &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java&quot;&gt;ITextAppenderBenchmark&lt;/a&gt; is performing the following steps.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
@@ -1341,7 +1325,7 @@ Initially we start small by &lt;a href=&quot;https://github.com/konik-io/barn/bl
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;plain language-plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,16     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4        20      38,25     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1        20      26,88     ops/s&lt;/code&gt;&lt;/pre&gt;
@@ -1353,7 +1337,7 @@ content to the PDF. Results of this benchmark represent the state of the iText-C
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;plain language-plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,97     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4	     20      39,32     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1	     20      29,30     ops/s&lt;/code&gt;&lt;/pre&gt;
@@ -1364,7 +1348,7 @@ i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt     
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;plain language-plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
 i.k.b.XmpAppenderBenchmark.append_reuseAppender                       thrpt         1        20     656,90     ops/s
 i.k.b.XmpAppenderBenchmark.append_reuseAppenderWithThreads            thrpt         4        20    1203,26     ops/s
 i.k.b.XmpAppenderBenchmark.append_withNewAppender                     thrpt         1        20     439,76     ops/s&lt;/code&gt;&lt;/pre&gt;
@@ -1388,10 +1372,10 @@ performing nightly benchmark tests of the library.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>Konik library and iText-Carriage version 0.2.0 released</title>
-      <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</link>
-      <pubDate>Di, 22 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@72a7341f</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@72a7341f</link>
+      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@72a7341f</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1419,7 +1403,7 @@ performing nightly benchmark tests of the library.&lt;/p&gt;
 &lt;p&gt;Also some minor changes made it into the release.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A &lt;code&gt;zip&lt;/code&gt; &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.2.0/distribution-0.2.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
+&lt;p&gt;A zip &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.2.0/distribution-0.2.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
 is also available for users without a Build System.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
@@ -1429,10 +1413,10 @@ is also available for users without a Build System.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #16</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #16</link>
-      <pubDate>Mo, 21 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #16</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@1a93c966</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a93c966</link>
+      <pubDate>Mon, 21 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a93c966</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1471,10 +1455,10 @@ invoicing standards across Europe.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #15</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #15</link>
-      <pubDate>So, 13 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #15</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@46b1461e</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46b1461e</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46b1461e</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1513,10 +1497,10 @@ to the paper invoice.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #14</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #14</link>
-      <pubDate>So, 6 Apr 2014 00:00:00 +0200</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #14</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@6fdb99c7</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6fdb99c7</link>
+      <pubDate>Sun, 6 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6fdb99c7</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1530,20 +1514,20 @@ to the paper invoice.&lt;/p&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;The German Insurance Association is hosting a &lt;a href=&quot;http://www.versicherungsakademie.de/fileadmin/user_upload/DVA/Dokumente/V804-pro01-ftzahlungsverkehr-052014.pdf&quot;&gt;Payment transaction symposium&lt;sup&gt;&lt;/a&gt;
-on the 21&lt;/sup&gt;&lt;sup&gt;st&lt;/sup&gt; and 22&lt;sup&gt;nd&lt;/sup&gt; of May.&lt;/p&gt;
+&lt;p&gt;The German Insurance Association is hosting a &lt;a href=&quot;http://www.versicherungsakademie.de/fileadmin/user_upload/DVA/Dokumente/V804-pro01-ftzahlungsverkehr-052014.pdf&quot; target=&quot;_blank&quot;&gt;Payment transaction symposium&lt;/a&gt;
+on the 21&lt;sup&gt;^st&lt;/sup&gt; and 22&lt;sup&gt;nd&lt;/sup&gt; of May.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;At the &lt;a href=&quot;http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility&quot;&gt;iText Summit 2014&lt;sup&gt;&lt;/a&gt; in Köln, the &lt;a href=&quot;http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility&quot;&gt;archiving
-and accessibility&lt;/sup&gt;&lt;/a&gt; talk will contain a ZUGFeRD use case.&lt;/p&gt;
+&lt;p&gt;At the &lt;a href=&quot;http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility&quot; target=&quot;_blank&quot;&gt;iText Summit 2014&lt;/a&gt; in Köln, the &lt;a href=&quot;http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility&quot; target=&quot;_blank&quot;&gt;archiving
+and accessibility&lt;/a&gt; talk will contain a ZUGFeRD use case.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;The Congress &lt;a href=&quot;http://www.neue-verwaltung.de/fachforen/&quot; target=&quot;_blank&quot;&gt;Neue Verwaltung&lt;/a&gt; will have an expert forum that deals
 with ZUGFeRD in terms of public administration.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The Tanges Academy is hosting a seminar &lt;a href=&quot;http://www.tangens-akademie.de/seminardatenbank_die_elektronische_rechnung_2014_04_06_2014_nuernberg.html&quot;&gt;Die elektronische Rechnung 2014&lt;sup&gt;&lt;/a&gt;
-on the 4&lt;/sup&gt;&lt;sup&gt;th&lt;/sup&gt; of June in Nürenberg. The focus of the seminar will be legal
+&lt;p&gt;The Tanges Academy is hosting a seminar &lt;a href=&quot;http://www.tangens-akademie.de/seminardatenbank_die_elektronische_rechnung_2014_04_06_2014_nuernberg.html&quot; target=&quot;_blank&quot;&gt;Die elektronische Rechnung 2014&lt;/a&gt;
+on the 4&lt;sup&gt;^th&lt;/sup&gt; of June in Nürenberg. The focus of the seminar will be legal
 and fiscal aspects  of ZUGFeRD and electronic invoices.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -1588,10 +1572,10 @@ electronic invoice ROI.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>ZUGFeRD Weekly News #13</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #13</link>
-      <pubDate>So, 30 Mär 2014 00:00:00 +0100</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #13</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@66f8a120</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@66f8a120</link>
+      <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@66f8a120</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1619,8 +1603,8 @@ for processing inbound invoices. This software is also capable of processing
 ZUGFeRD invoices.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;GS1 Germany is hosting an &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/?etcc_med=Advertising&amp;amp;etcc_cmp=Veranstaltungen&amp;amp;etgs1_prod=Praxistag+Elektronische+Rechnung&amp;amp;etcc_#Beschreibung&quot;&gt;all-day electronic invoicing workshop&lt;sup&gt;&lt;/a&gt;
-on the 12&lt;/sup&gt;&lt;sup&gt;th&lt;/sup&gt; of July. The main focus of the event will be ZUGFeRD.&lt;/p&gt;
+&lt;p&gt;GS1 Germany is hosting an &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/?etcc_med=Advertising&amp;amp;etcc_cmp=Veranstaltungen&amp;amp;etgs1_prod=Praxistag+Elektronische+Rechnung&amp;amp;etcc_#Beschreibung&quot; target=&quot;_blank&quot;&gt;all-day electronic invoicing workshop&lt;/a&gt;
+on the 12&lt;sup&gt;^th&lt;/sup&gt; of July. The main focus of the event will be ZUGFeRD.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1640,10 +1624,10 @@ also an announcement that the final release of ZUGFeRD is expected this summer.&
 		</description>
     </item>
     <item>
-      <title>Dependency Injection with the Konik library</title>
-      <link>http://konik.io/blog.html#Dependency Injection with the Konik library</link>
-      <pubDate>Do, 20 Mär 2014 00:00:00 +0100</pubDate>
-      <guid>http://konik.io/blog.html#Dependency Injection with the Konik library</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@46ab05ae</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46ab05ae</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46ab05ae</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1656,23 +1640,23 @@ also an announcement that the final release of ZUGFeRD is expected this summer.&
 &lt;h2 id=&quot;injectable_konik_classes&quot;&gt;Injectable Konik Classes&lt;/h2&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Singleton classes &lt;code&gt;InvoiceTransformer&lt;/code&gt; in the Konik library &lt;code&gt;ITextPdfInvoiceExtractor&lt;/code&gt; and &lt;code&gt;ITextPdfInvoiceAppender&lt;/code&gt; in the iText-Carriage module can now be injected into your application. The only requirement is that your Dependency Injection Framework supports JSR-330. Even though DI frameworks are widely used, the Konik library and its modules do not force you to use a DI framework at all. You can still instantiate the above classes with the &lt;code&gt;new&lt;/code&gt; Operator.&lt;/p&gt;
+&lt;p&gt;The Singleton classes InvoiceTransformer in the Konik library ITextPdfInvoiceExtractor and ITextPdfInvoiceAppender in the iText-Carriage module can now be injected into your application. The only requirement is that your Dependency Injection Framework supports JSR-330. Even though DI frameworks are widely used, the Konik library and its modules do not force you to use a DI framework at all. You can still instantiate the above classes with the new Operator.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;which_dependency_injection_frameworks_are_supported&quot;&gt;Which Dependency Injection Frameworks are supported?&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;All common Dependency Injection Frameworks and JEE6 compatible Application Servers support JSR-330 Dependency Injection. This means that if your application is based on Spring, Guice, JEE6, Apache OpenWebBeans, or JBoss Weld, then you are able to inject the Konik classes mentioned above into your application. The only requirement is that the JSR-330 API &lt;code&gt;javax.inject.*&lt;/code&gt; is on your classpath, which is not always true, as the following examples explain.&lt;/p&gt;
+&lt;p&gt;All common Dependency Injection Frameworks and JEE6 compatible Application Servers support JSR-330 Dependency Injection. This means that if your application is based on Spring, Guice, JEE6, Apache OpenWebBeans, or JBoss Weld, then you are able to inject the Konik classes mentioned above into your application. The only requirement is that the JSR-330 API javax.inject.* is on your classpath, which is not always true, as the following examples explain.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;spring_and_konik_example&quot;&gt;Spring and Konik example&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Make sure that you use Spring above Version 3, which supports JSR-330. The dependency on the JSR-330 API are declared as optional in Spring, which means that you need to add the JSR-330 library to your application.
-In your project &lt;code&gt;pom.xml&lt;/code&gt; file, add the following dependency.&lt;/p&gt;
+In your project pom.xml file, add the following dependency.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
    &amp;lt;groupId&amp;gt;javax.inject&amp;lt;/groupId&amp;gt;
    &amp;lt;artifactId&amp;gt;javax.inject&amp;lt;/artifactId&amp;gt;
    &amp;lt;version&amp;gt;1&amp;lt;/version&amp;gt;
@@ -1683,16 +1667,16 @@ In your project &lt;code&gt;pom.xml&lt;/code&gt; file, add the following depende
 &lt;p&gt;The next step is to configure Spring to search additional dependencies. This step is only necessary if you restricted Spring component scanning to certain packages beforehand. Otherwise, you are ready to go.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;For Spring with an XML configuration, append the Konik library package name &lt;code&gt;io.konik&lt;/code&gt; to the existing component scanning directive.&lt;/p&gt;
+&lt;p&gt;For Spring with an XML configuration, append the Konik library package name io.konik to the existing component scanning directive.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;context:component-scan base-package=&quot;com.myCompany, io.konik&quot; /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;context:component-scan base-package=&quot;com.myCompany, io.konik&quot; /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;java language-java&quot;&gt;@Configuration
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;@Configuration
 @ComponentScan(&quot;com.myCompany, io.konik&quot;)&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
 @EnableAutoConfiguration
 class Application {
@@ -1703,7 +1687,7 @@ class Application {
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;For Java-based Spring configuration, append the &lt;code&gt;io.konik&lt;/code&gt; package in the &lt;code&gt;@ComponentScan&lt;/code&gt; annotation.&lt;/td&gt;
+&lt;td&gt;For Java-based Spring configuration, append the io.konik package in the @ComponentScan annotation.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/table&gt;
 &lt;/div&gt;
@@ -1715,7 +1699,7 @@ class Application {
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlight&quot;&gt;&lt;code class=&quot;xml language-xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
    &amp;lt;groupId&amp;gt;org.apache.geronimo.specs&amp;lt;/groupId&amp;gt;
    &amp;lt;artifactId&amp;gt;geronimo-atinject_1.0_spec&amp;lt;/artifactId&amp;gt;
    &amp;lt;version&amp;gt;1.0&amp;lt;/version&amp;gt;
@@ -1731,10 +1715,10 @@ class Application {
 		</description>
     </item>
     <item>
-      <title>Konik library and iText-Carriage version 0.1.0 released</title>
-      <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</link>
-      <pubDate>So, 2 Mär 2014 00:00:00 +0100</pubDate>
-      <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@4e5155e7</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4e5155e7</link>
+      <pubDate>Sun, 2 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4e5155e7</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1760,7 +1744,7 @@ according to the ZUGFeRD specification is working.&lt;/p&gt;
 been implemented.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;code&gt;iText-Carriage&lt;/code&gt; allows users to attach and extract ZUGFeRD Model Data from a PDF.
+&lt;p&gt;iText-Carriage allows users to attach and extract ZUGFeRD Model Data from a PDF.
 The functionality is still limited because currently, iText-Carriage strictly
 expects the incoming PDFs to be &lt;strong&gt;PDF/3-B&lt;/strong&gt; compliant.
 However, this will change with a feature release. The second issue is that
@@ -1768,7 +1752,7 @@ in the current state, no &lt;a href=&quot;http://de.wikipedia.org/wiki/Extensibl
 Metadata is written to the PDF when the XML content is attached.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A &lt;code&gt;zip&lt;/code&gt; &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.1.0/distribution-0.1.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
+&lt;p&gt;A zip &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.1.0/distribution-0.1.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
 in the Maven Central Repository is intended for users who are not using a Build System.
 The package contains the Konik libraries and all dependent libraries.&lt;/p&gt;
 &lt;/div&gt;
@@ -1780,14 +1764,12 @@ The package contains the Konik libraries and all dependent libraries.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>Konik project Start</title>
-      <link>http://konik.io/blog.html#Konik project Start</link>
-      <pubDate>So, 1 Dez 2013 00:00:00 +0100</pubDate>
-      <guid>http://konik.io/blog.html#Konik project Start</guid>
+      <title>org.jruby.gen.InterfaceImpl1147789306@6736e63e</title>
+      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6736e63e</link>
+      <pubDate>Sun, 1 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6736e63e</guid>
       	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
+				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;The beginning of the Konik library project.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
@@ -1808,8 +1790,6 @@ Further development of this highly useful library will be influenced by increase
 &lt;/div&gt;
 &lt;div class=&quot;paragraph text-center&quot;&gt;
 &lt;p&gt;Uma (Horse). Ink drawing on paper by unnamed artist. Year ca. 1890.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 		</description>
     </item>

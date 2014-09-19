@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  	
+
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="/css/obsidian.css" type="text/css">
     <link rel="stylesheet" href="/css/mb.css"  type="text/css">
 	<link rel="stylesheet" href="/css/konik.css" type="text/css">
-    
+
     <!-- JQuery at the top to use it in our code -->
     <script src="//cdn.jsdelivr.net/jquery/2.1.0/jquery.min.js"></script>
-    
+
     <!-- icon -->
     <link href="/favicon.ico"  rel="konik.io icon"  type="image/x-icon" >
-    
+
     <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -36,7 +36,7 @@
 	  ga('require', 'displayfeatures');
 	  ga('send', 'pageview');
 	</script>
-	    
+
   </head>
 
   <body>
@@ -65,43 +65,24 @@
     </div><!-- /.navbar-collapse -->
     
   </div><!-- /.container -->
-</nav>	
+</nav>
 	<div class="section">
 	    <div class="container">
 			<div class="page-header">
 		  		<h1>Konik Documentation</h1>
 		  		<small>Revision 1.0, December 2013, Author: Vadim Bauer </small>
 			</div>
-			
+
 		    <div id="preamble">
 <div class="sectionbody">
-<div id="toc" class="col-lg-12">
-<div id="toctitle" class="title">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#quick_start">Quick Start</a></li>
-<li>
-<ul class="sectlevel2">
-<li><a href="#creating_the_invoice_model">Creating the invoice model</a></li>
-<li><a href="#transforming_the_model_to_xml">Transforming the model to XML.</a></li>
-</ul>
-</li>
-<li><a href="#javadoc_api_documentation">JavaDoc API Documentation</a></li>
-<li><a href="#data_model">Data Model</a></li>
-<li>
-<ul class="sectlevel2">
-<li><a href="#konik_data_model">Konik Data Model</a></li>
-</ul>
-</li>
-</ul>
-</div>
-
+<!-- toc disabled -->
 </div>
 </div>
 <div class="sect1 col-lg-12">
 <h2 id="quick_start">Quick Start</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The following code from the test case <a href="https://github.com/konik-io/barn/blob/parent-0.7.1/konik/src/test/java/io/konik/examples/MinimalInvoice.java#L72"><code>MinimalInvoice.java</code></a> represents a valid invoice data according to the ZUGFeRD data model.</p>
+<p>The following code from the test case <a href="https://github.com/konik-io/barn/blob/parent-0.7.1/konik/src/test/java/io/konik/examples/MinimalInvoice.java#L72">MinimalInvoice.java</a> represents a valid invoice data according to the ZUGFeRD data model.</p>
 </div>
 <div class="paragraph">
 <p>Let us step through the code and take a look at the interesting parts.</p>
@@ -110,7 +91,7 @@
 <h3 id="creating_the_invoice_model">Creating the invoice model</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">private Invoice createMinimalInvoiceModel() {
+<pre class="prettyprint highlight"><code class="language-java" data-lang="java">private Invoice createMinimalInvoiceModel() {
 
    Invoice invoice = new Invoice(BASIC);    <i class="conum" data-value="1"></i><b>(1)</b>
    invoice.setHeader(new Header()
@@ -169,7 +150,7 @@
 <h3 id="transforming_the_model_to_xml">Transforming the model to XML.</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">public void createXmlFromModel(Invoice invoice) throws IOException {
+<pre class="prettyprint highlight"><code class="language-java" data-lang="java">public void createXmlFromModel(Invoice invoice) throws IOException {
    InvoiceTransformer transformer = new InvoiceTransformer();     <i class="conum" data-value="1"></i><b>(1)</b>
    FileOutputStream outputStream = new FileOutputStream("target/minimal-invoice.xml");
    transformer.fromModel(invoice, outputStream);      <i class="conum" data-value="2"></i><b>(2)</b>
@@ -180,11 +161,11 @@
 <table>
 <tr>
 <td><i class="conum" data-value="1"></i><b>1</b></td>
-<td>The <code>InvoiceTransformer</code> is responsible for transforming XML to Model and vice versa.</td>
+<td>The InvoiceTransformer is responsible for transforming XML to Model and vice versa.</td>
 </tr>
 <tr>
 <td><i class="conum" data-value="2"></i><b>2</b></td>
-<td>Transform from invoice to an <code>OutputStream</code>.</td>
+<td>Transform from invoice to an OutputStream.</td>
 </tr>
 </table>
 </div>
@@ -198,28 +179,28 @@
 <p>We host online the API Documentation for the last stable release and the latest snapshot release.</p>
 </div>
 <div class="paragraph">
-<p>API Documentation for latest release <code>0.7.1</code>.</p>
+<p>API Documentation for latest release {javadocs-latest-version}.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="api/itext-carriage-0.7.1/overview-summary.html">iText-Carriage</a></p>
+<p><a href="api/itext-carriage-{javadocs-latest-version}/overview-summary.html">iText-Carriage</a></p>
 </li>
 <li>
-<p><a href="api/konik-0.7.1/overview-summary.html">Konik</a></p>
+<p><a href="api/konik-{javadocs-latest-version}/overview-summary.html">Konik</a></p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>API Documentation for latest snapshot <code>0.8.0-SNAPSHOT</code>.</p>
+<p>API Documentation for latest snapshot {javadocs-snapshot-version}.</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="api/itext-carriage-0.8.0-SNAPSHOT/overview-summary.html">iText-Carriage</a></p>
+<p><a href="api/itext-carriage-{javadocs-snapshot-version}/overview-summary.html">iText-Carriage</a></p>
 </li>
 <li>
-<p><a href="api/konik-0.8.0-SNAPSHOT/overview-summary.html">Konik</a></p>
+<p><a href="api/konik-{javadocs-snapshot-version}/overview-summary.html">Konik</a></p>
 </li>
 </ul>
 </div>
@@ -236,14 +217,14 @@
 <div class="paragraph">
 <p>The following tree can be considered as complete although it does not contain all leaf nodes. For example leaf nodes with only a
 value property are not displayed. Also some nodes with two properties are omitted where the type is clear by the node name itself
-like <code>UniversalCommunication.java</code>.</p>
+like UniversalCommunication.java.</p>
 </div>
 <div class="paragraph">
 <p>Nodes with plural names are considered to be collections.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="no-highlight language-no-highlight">invoice
+<pre class="prettyprint highlight"><code class="language-no-highlight" data-lang="no-highlight">invoice
 |  context
 |  |  test
 |  |  profile
@@ -605,10 +586,10 @@ like <code>UniversalCommunication.java</code>.</p>
 </div>
 </div>
 </div>
-		    
+
     	</div><!-- container -->
     </div><!-- section -->
-    
+
     <div class="container">
       <footer>
         <div class="row">
