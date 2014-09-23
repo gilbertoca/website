@@ -6,14 +6,14 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Fri, 19 Sep 2014 14:45:38 +0000</pubDate>
-    <lastBuildDate>Fri, 19 Sep 2014 14:45:38 +0000</lastBuildDate>
+    <pubDate>Tue, 23 Sep 2014 22:37:11 +0000</pubDate>
+    <lastBuildDate>Tue, 23 Sep 2014 22:37:11 +0000</lastBuildDate>
 
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@7600353e</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7600353e</link>
+      <title>ZUGFeRD Weekly News #35</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #35</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7600353e</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #35</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -99,10 +99,10 @@ Der Dienst steht aber derzeit noch nicht zur Verfügung.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@65ff558e</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@65ff558e</link>
+      <title>Release Konik 0.7.1 und Validation Service 0.4.1</title>
+      <link>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</link>
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@65ff558e</guid>
+      <guid>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -182,10 +182,10 @@ erstellten Rechnungen noch einmal überprüfen sollte.
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@779757b1</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@779757b1</link>
+      <title>Neuer Release vom ZUGFeRD Validation Service</title>
+      <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</link>
       <pubDate>Fri, 1 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@779757b1</guid>
+      <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -254,10 +254,10 @@ gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@69ba3c74</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@69ba3c74</link>
+      <title>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</title>
+      <link>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</link>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@69ba3c74</guid>
+      <guid>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</guid>
       	<description>
 				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Es gibt einen guten Grund für einen Gang zum Kiosk: für die gerade
@@ -275,10 +275,10 @@ Ich hoffe, dadurch das Thema ZUGFeRD Entwicklern und IT-Profis näherzubringen.&
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@68c1bcaf</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c1bcaf</link>
+      <title>Errors in the ZUGFeRD Specification Part 2</title>
+      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</link>
       <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c1bcaf</guid>
+      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -449,10 +449,10 @@ generation of the XSD Schema File from the ZUGFeRD Schema definition, this was n
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@1a8b69fd</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a8b69fd</link>
+      <title>ZUGFeRD Weekly News #29</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #29</link>
       <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a8b69fd</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #29</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -477,10 +477,10 @@ regarding ZUGFeRD and electronic invoicing.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@288485e9</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@288485e9</link>
+      <title>Errors in the ZUGFeRD Specification Part 1</title>
+      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</link>
       <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@288485e9</guid>
+      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -607,10 +607,10 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@4b41d9eb</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4b41d9eb</link>
+      <title>ZUGFeRD Weekly News #28</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #28</link>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4b41d9eb</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #28</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -674,10 +674,10 @@ Page 133 is showing a figure of a PDF to ZUGFeRD converter from &lt;a href=&quot
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@68fcba11</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68fcba11</link>
+      <title>ZUGFeRD Weekly News #27</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #27</link>
       <pubDate>Sun, 6 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68fcba11</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #27</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -718,10 +718,10 @@ to validate PDF content against the structured XML data.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@7eb7c3ac</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7eb7c3ac</link>
+      <title>ZUGFeRD Weekly News #26</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #26</link>
       <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7eb7c3ac</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #26</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -756,10 +756,10 @@ which now supports ZUGFeRD 1.0&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@64e23d5a</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@64e23d5a</link>
+      <title>Konik library 0.5.0 release</title>
+      <link>http://konik.io/blog.html#Konik library 0.5.0 release</link>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@64e23d5a</guid>
+      <guid>http://konik.io/blog.html#Konik library 0.5.0 release</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -786,10 +786,10 @@ is also available for users without a Build System.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@6306c37c</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6306c37c</link>
+      <title>ZUGFeRD Weekly News #25</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #25</link>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6306c37c</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #25</guid>
       	<description>
 				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;ZUGFeRD related news and articles from 14&lt;sup&gt;th&lt;/sup&gt; June until 22&lt;sup&gt;nd&lt;/sup&gt; June.&lt;/p&gt;
@@ -801,10 +801,10 @@ On the other hand I can&amp;#8217;t report any interesting announcements or arti
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@3358b4e7</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3358b4e7</link>
+      <title>Join Konik Discussion Forum</title>
+      <link>http://konik.io/blog.html#Join Konik Discussion Forum</link>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3358b4e7</guid>
+      <guid>http://konik.io/blog.html#Join Konik Discussion Forum</guid>
       	<description>
 				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;A new &lt;a href=&quot;https://groups.google.com/forum/#!forum/konik-io&quot;&gt;Discussion Forum&lt;/a&gt; is now availibe for the Konik Community. It is going to be a new place for discussions that don&amp;#8217;t fit into GitHub or on Stack Overflow.&lt;/p&gt;
@@ -812,10 +812,10 @@ On the other hand I can&amp;#8217;t report any interesting announcements or arti
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@7e9f96dd</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7e9f96dd</link>
+      <title>Looking back on the GS1 electronic invoice practice day</title>
+      <link>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</link>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@7e9f96dd</guid>
+      <guid>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -849,10 +849,10 @@ that it is a low risk and minimal effort to implement ZUGFeRD-compliant invoicin
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@4323b3d5</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4323b3d5</link>
+      <title>ZUGFeRD Weekly News #24</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #24</link>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4323b3d5</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #24</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -885,10 +885,10 @@ You are welcome to vote for the &lt;a href=&quot;http://www.egovernment-wettbewe
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@282cf2ae</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@282cf2ae</link>
+      <title>ZUGFeRD Weekly News #23</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #23</link>
       <pubDate>Sun, 8 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@282cf2ae</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #23</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -933,10 +933,10 @@ Interested developers are welcome to sign up&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@1ca13466</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1ca13466</link>
+      <title>New Version ZUGFeRD Validation Service</title>
+      <link>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</link>
       <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1ca13466</guid>
+      <guid>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -954,10 +954,10 @@ Interested developers are welcome to sign up&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@615368c</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@615368c</link>
+      <title>Konik Blog as RSS Feed</title>
+      <link>http://konik.io/blog.html#Konik Blog as RSS Feed</link>
       <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@615368c</guid>
+      <guid>http://konik.io/blog.html#Konik Blog as RSS Feed</guid>
       	<description>
 				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;The Konik Blog is now also available as a RSS feed. Subscribe to the RSS feed by clicking on the RSS Feed icon &lt;a target=&quot;_blank&quot; class=&quot;fa fa-rss fa-2x&quot; href=&quot;feed.xml&quot;&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -965,10 +965,10 @@ Interested developers are welcome to sign up&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@612e4813</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@612e4813</link>
+      <title>ZUGFeRD Weekly News #22</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #22</link>
       <pubDate>Sun, 1 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@612e4813</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #22</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1019,10 +1019,10 @@ I mentioned this directive a few times before in ZUGFeRD weekly but never had a 
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@59f73b2f</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@59f73b2f</link>
+      <title>ZUGFeRD Weekly News #21</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #21</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@59f73b2f</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #21</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1059,10 +1059,10 @@ Current focus is on attaching and reading XML content to PDFs with the help of P
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@774d2419</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@774d2419</link>
+      <title>Konik upcoming release preview</title>
+      <link>http://konik.io/blog.html#Konik upcoming release preview</link>
       <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@774d2419</guid>
+      <guid>http://konik.io/blog.html#Konik upcoming release preview</guid>
       	<description>
 				&lt;div class=&quot;sect1&quot;&gt;
 &lt;h2 id=&quot;next_konik_release_0_3_0&quot;&gt;Next Konik release 0.3.0&lt;/h2&gt;
@@ -1115,10 +1115,10 @@ You have a higher chance that another party can process your document not only r
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@68c66b27</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c66b27</link>
+      <title>ZUGFeRD Weekly News #20</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #20</link>
       <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@68c66b27</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #20</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1167,10 +1167,10 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@3422de25</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3422de25</link>
+      <title>ZUGFeRD Weekly News #19</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #19</link>
       <pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@3422de25</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #19</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1195,10 +1195,10 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@1815706c</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1815706c</link>
+      <title>ZUGFeRD Weekly News #18</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #18</link>
       <pubDate>Sun, 4 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1815706c</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #18</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1233,10 +1233,10 @@ event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@5d7bc668</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@5d7bc668</link>
+      <title>ZUGFeRD Weekly News #17</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #17</link>
       <pubDate>Sun, 27 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@5d7bc668</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #17</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1267,10 +1267,10 @@ This ISO announcement is one of the reasons for a new ZUGFeRD release candidate.
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@404f700f</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@404f700f</link>
+      <title>Konik performance measurements</title>
+      <link>http://konik.io/blog.html#Konik performance measurements</link>
       <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@404f700f</guid>
+      <guid>http://konik.io/blog.html#Konik performance measurements</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1372,10 +1372,10 @@ performing nightly benchmark tests of the library.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@72a7341f</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@72a7341f</link>
+      <title>Konik library and iText-Carriage version 0.2.0 released</title>
+      <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</link>
       <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@72a7341f</guid>
+      <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1413,10 +1413,10 @@ is also available for users without a Build System.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@1a93c966</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a93c966</link>
+      <title>ZUGFeRD Weekly News #16</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #16</link>
       <pubDate>Mon, 21 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@1a93c966</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #16</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1455,10 +1455,10 @@ invoicing standards across Europe.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@46b1461e</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46b1461e</link>
+      <title>ZUGFeRD Weekly News #15</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #15</link>
       <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46b1461e</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #15</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1497,10 +1497,10 @@ to the paper invoice.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@6fdb99c7</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6fdb99c7</link>
+      <title>ZUGFeRD Weekly News #14</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #14</link>
       <pubDate>Sun, 6 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6fdb99c7</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #14</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1572,10 +1572,10 @@ electronic invoice ROI.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@66f8a120</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@66f8a120</link>
+      <title>ZUGFeRD Weekly News #13</title>
+      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #13</link>
       <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@66f8a120</guid>
+      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #13</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1624,10 +1624,10 @@ also an announcement that the final release of ZUGFeRD is expected this summer.&
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@46ab05ae</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46ab05ae</link>
+      <title>Dependency Injection with the Konik library</title>
+      <link>http://konik.io/blog.html#Dependency Injection with the Konik library</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@46ab05ae</guid>
+      <guid>http://konik.io/blog.html#Dependency Injection with the Konik library</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1715,10 +1715,10 @@ class Application {
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@4e5155e7</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4e5155e7</link>
+      <title>Konik library and iText-Carriage version 0.1.0 released</title>
+      <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</link>
       <pubDate>Sun, 2 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@4e5155e7</guid>
+      <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</guid>
       	<description>
 				&lt;div id=&quot;preamble&quot;&gt;
 &lt;div class=&quot;sectionbody&quot;&gt;
@@ -1764,10 +1764,10 @@ The package contains the Konik libraries and all dependent libraries.&lt;/p&gt;
 		</description>
     </item>
     <item>
-      <title>org.jruby.gen.InterfaceImpl1147789306@6736e63e</title>
-      <link>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6736e63e</link>
+      <title>Konik project Start</title>
+      <link>http://konik.io/blog.html#Konik project Start</link>
       <pubDate>Sun, 1 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#org.jruby.gen.InterfaceImpl1147789306@6736e63e</guid>
+      <guid>http://konik.io/blog.html#Konik project Start</guid>
       	<description>
 				&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;The beginning of the Konik library project.&lt;/p&gt;
