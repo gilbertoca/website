@@ -6,8 +6,8 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>en-gb</language>
-    <pubDate>Tue, 23 Sep 2014 22:43:43 +0000</pubDate>
-    <lastBuildDate>Tue, 23 Sep 2014 22:43:43 +0000</lastBuildDate>
+    <pubDate>Mon, 29 Sep 2014 15:59:12 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Sep 2014 15:59:12 +0000</lastBuildDate>
 
     <item>
       <title>ZUGFeRD Weekly News #35</title>
@@ -118,7 +118,7 @@ zu Verfügung.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
     &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
     &amp;lt;artifactId&amp;gt;konik&amp;lt;/artifactId&amp;gt;
     &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
@@ -127,7 +127,7 @@ zu Verfügung.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
     &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
     &amp;lt;artifactId&amp;gt;itext-carriage&amp;lt;/artifactId&amp;gt;
     &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
@@ -372,7 +372,7 @@ regarding the ZUGFeRD model.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;ram:SpecifiedTradeAllowanceCharge&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;ram:SpecifiedTradeAllowanceCharge&amp;gt;
    &amp;lt;ram:ChargeIndicator&amp;gt;
       &amp;lt;udt:Indicator&amp;gt;false&amp;lt;/udt:Indicator&amp;gt;
    &amp;lt;/ram:ChargeIndicator&amp;gt;
@@ -420,7 +420,7 @@ error when validating the xml against the XSD Schema.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:schema xmlns:udt=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; elementFormDefault=&quot;qualified&quot; version=&quot;15.0&quot;&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:schema xmlns:udt=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; elementFormDefault=&quot;qualified&quot; version=&quot;15.0&quot;&amp;gt;
 	&amp;lt;xs:complexType name=&quot;AmountType&quot;&amp;gt;
 		&amp;lt;xs:simpleContent&amp;gt;
 			&amp;lt;xs:extension base=&quot;xs:decimal&quot;&amp;gt;
@@ -513,7 +513,7 @@ Furthermore &lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred237
 The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:simpleType name=&quot;DateMandatoryDateTimeType&quot;&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:simpleType name=&quot;DateMandatoryDateTimeType&quot;&amp;gt;
 	&amp;lt;xs:union memberTypes=&quot;xs:dateTime xs:date&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
 &amp;lt;/xs:simpleType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -544,7 +544,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;TradePartyType&quot;&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;TradePartyType&quot;&amp;gt;
 	&amp;lt;xs:sequence&amp;gt;
 		&amp;lt;xs:element name=&quot;ID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
 		&amp;lt;xs:element name=&quot;GlobalID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
@@ -584,7 +584,7 @@ The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;NoteType&quot;&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;NoteType&quot;&amp;gt;
 	&amp;lt;xs:sequence&amp;gt;
 		&amp;lt;xs:element name=&quot;ContentCode&quot; type=&quot;udt:CodeType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
 		&amp;lt;xs:element name=&quot;Content&quot; type=&quot;udt:TextType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
@@ -1325,7 +1325,7 @@ Initially we start small by &lt;a href=&quot;https://github.com/konik-io/barn/bl
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,16     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4        20      38,25     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1        20      26,88     ops/s&lt;/code&gt;&lt;/pre&gt;
@@ -1337,7 +1337,7 @@ content to the PDF. Results of this benchmark represent the state of the iText-C
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,97     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4	     20      39,32     ops/s
 i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1	     20      29,30     ops/s&lt;/code&gt;&lt;/pre&gt;
@@ -1348,7 +1348,7 @@ i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt     
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
 i.k.b.XmpAppenderBenchmark.append_reuseAppender                       thrpt         1        20     656,90     ops/s
 i.k.b.XmpAppenderBenchmark.append_reuseAppenderWithThreads            thrpt         4        20    1203,26     ops/s
 i.k.b.XmpAppenderBenchmark.append_withNewAppender                     thrpt         1        20     439,76     ops/s&lt;/code&gt;&lt;/pre&gt;
@@ -1656,7 +1656,7 @@ In your project pom.xml file, add the following dependency.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
    &amp;lt;groupId&amp;gt;javax.inject&amp;lt;/groupId&amp;gt;
    &amp;lt;artifactId&amp;gt;javax.inject&amp;lt;/artifactId&amp;gt;
    &amp;lt;version&amp;gt;1&amp;lt;/version&amp;gt;
@@ -1671,12 +1671,12 @@ In your project pom.xml file, add the following dependency.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;context:component-scan base-package=&quot;com.myCompany, io.konik&quot; /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;context:component-scan base-package=&quot;com.myCompany, io.konik&quot; /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;@Configuration
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;@Configuration
 @ComponentScan(&quot;com.myCompany, io.konik&quot;)&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
 @EnableAutoConfiguration
 class Application {
@@ -1699,7 +1699,7 @@ class Application {
 &lt;/div&gt;
 &lt;div class=&quot;listingblock&quot;&gt;
 &lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
+&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
    &amp;lt;groupId&amp;gt;org.apache.geronimo.specs&amp;lt;/groupId&amp;gt;
    &amp;lt;artifactId&amp;gt;geronimo-atinject_1.0_spec&amp;lt;/artifactId&amp;gt;
    &amp;lt;version&amp;gt;1.0&amp;lt;/version&amp;gt;
