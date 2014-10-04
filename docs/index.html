@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Konik User Documentation describing how to integrate the Konik Library into a sofware project."/>
+    <meta name="description" content="Konik User Documentation describing how to integrate the Konik Library into a software project."/>
     <meta name="author" content="Vadim Bauer"/>
     <meta content="/img/logo.png" property="og:image"/>
     <meta name="keywords" content="Konik User Guide, Konik manual, Konik HowTo, Konik API, Konik JavaDocs, Konik JavaDoc"/>
@@ -75,14 +75,35 @@
 			
 			<div id="preamble">
 <div class="sectionbody">
-<!-- toc disabled -->
+<div id="toc" class="col-lg-12">
+<div id="toctitle" class="title">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#_quick_start">Quick Start</a>
+<ul class="sectlevel2">
+<li><a href="#_creating_the_invoice_model">Creating the invoice model</a></li>
+<li><a href="#_transforming_invoice_model_to_xml">Transforming invoice model to XML</a></li>
+<li><a href="#_attaching_invoice_model_to_pdf">Attaching invoice model to PDF</a></li>
+</ul>
+</li>
+<li><a href="#_setup">Setup</a>
+<ul class="sectlevel2">
+<li><a href="#_java_projects">Java Projects</a></li>
+<li><a href="#_invoice_validator_option">Invoice Validator Option</a></li>
+<li><a href="#__net_projects">.NET projects</a></li>
+</ul>
+</li>
+<li><a href="#_javadoc_api_documentation">JavaDoc API Documentation</a></li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect1 col-lg-12">
 <h2 id="_quick_start">Quick Start</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The example code from <a href="https://github.com/konik-io/konik/blob/konik-{konik-latest-release}/src/test/java/io/konik/examples/MinimalInvoice.java#L72">MinimalInvoice.java</a> represents a valid basic invoice and the steps on how to convert and attach an invoice to a PDF.</p>
+<p>The example code from
+<a href="https://github.com/konik-io/konik/blob/konik-0.8.0/src/test/java/io/konik/examples/MinimalInvoice.java#L72">MinimalInvoice.java</a>
+represents a valid basic invoice and the steps on how to convert and attach an invoice to a PDF.</p>
 </div>
 <div class="paragraph">
 <p>Let us step through the code and take a look at the interesting parts.</p>
@@ -250,7 +271,7 @@ The default option for Konik is to use Java
 <pre class="highlightjs highlight"><code class="language-xml" data-lang="xml">&lt;dependency&gt;
     &lt;groupId&gt;io.konik&lt;/groupId&gt;
     &lt;artifactId&gt;pdfbox-carriage&lt;/artifactId&gt; <i class="conum" data-value="1"></i><b>(1)</b>
-    &lt;version&gt;0.8.2-SNAPSHOT&lt;/version&gt;
+    &lt;version&gt;0.8.1&lt;/version&gt;
 &lt;/dependency&gt;</code></pre>
 </div>
 </div>
@@ -331,7 +352,7 @@ which is not JEE6+ or JSR330 compatible.</p>
 &lt;dependency&gt;
     &lt;groupId&gt;io.konik&lt;/groupId&gt;
     &lt;artifactId&gt;pdfbox-carriage&lt;/artifactId&gt; <i class="conum" data-value="1"></i><b>(1)</b>
-    &lt;version&gt;0.8.2-SNAPSHOT&lt;/version&gt;
+    &lt;version&gt;0.8.1&lt;/version&gt;
 &lt;/dependency&gt;</code></pre>
 </div>
 </div>
@@ -462,7 +483,7 @@ Everything bundled together in one package available via NuGet.</p>
 <p><a href="api/konik/">Konik 0.8.0</a></p>
 </li>
 <li>
-<p><a href="api/pdfbox-carriage/">PDFBox-Carriage 0.8.2-SNAPSHOT</a></p>
+<p><a href="api/pdfbox-carriage/">PDFBox-Carriage 0.8.1</a></p>
 </li>
 <li>
 <p><a href="api/itext-carriage/">iText-Carriage 0.8.0</a></p>
