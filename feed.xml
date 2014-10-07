@@ -5,1793 +5,247 @@
     <link>http://konik.io</link>
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
-    <language>en-gb</language>
-    <pubDate>Sun, 5 Oct 2014 15:11:02 +0000</pubDate>
-    <lastBuildDate>Sun, 5 Oct 2014 15:11:02 +0000</lastBuildDate>
+    <language>de-de</language>
+    <pubDate>Tue, 7 Oct 2014 10:15:43 +0000</pubDate>
+    <lastBuildDate>Tue, 7 Oct 2014 10:15:43 +0000</lastBuildDate>
 
     <item>
       <title>ZUGFeRD Weekly News #35</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #35</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2335</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #35</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Nachrichten und Neuigkeiten und rund um ZUGFeRD und elektronische Rechnungen im Zeitraum vom 20 Juli bis 31 August.
-Die ZUGFeRD Weekly News haben eine kleine Pause eingelegt wegen der Sommerflaute und Urlaub.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;artikel&quot;&gt;Artikel&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Walter Steigauf von Unitek beschreibt in &lt;a href=&quot;http://www.unitek.de/zugferd/&quot;&gt;Rechnung 2.0&lt;/a&gt; die Grundlagen, den Nutzen
-und die organisatorische Umsetzung von elektonischen Rechnungen im Hinblick auf ZUGFeRD.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;SEEBURGER präsentiert &lt;a href=&quot;http://www.seeburger.de/e-invoicingpapierwende/zugferd.html&quot;&gt;ZUGFeRD Cloud Services&lt;/a&gt; für den elektronischen Rechnungsversand
-und -empfang von ZUGFeRD. Die Funktionalität umfasst das Einbetten von XML-Rechnungsdateien
-in PDF/A-3-Dateien und das Extrahieren der XML-Rechnungsdaten aus einer ZUGFeRD-konformen PDF/A-3-Datei.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Broadgun zeigt mit &lt;a href=&quot;http://www.pdfmachine.com/genp/zugferd_en.html&quot;&gt;pdfMachine ZUGFeRD&lt;/a&gt; einen virtuellen Drucker mit Besonderheit.
-Das ZUGFeRD Model und die visuelle Darstellung werden gemeinsam zum virtuellen Drucker gesendet.
-Der virtuelle Drucker konvertiert die strukturierten Daten und fügt diese als Anhang zum finalen Dokument hinzu.
-Hier ein Beispiel mit einem &lt;a href=&quot;http://www.pdfmachine.com/zugferd_example_invoice_en.html&quot;&gt;HTML-Eingangsdokument&lt;/a&gt;: mit ZUGFeRD Daten und visuellem Inhalt.
-Das Ergebnis, nachdem es zum virtuellen Drucker gesendet wurde, ist eine &lt;a href=&quot;http://www.pdfmachine.com/zugferd_example_invoice_en.pdf&quot;&gt;ZUGFeRD konforme PDF Datei&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ecosio präsentiert mit &lt;a href=&quot;http://ecosio.com/en/zugferd-smartclient/&quot;&gt;ZUGFeRD Smart Client&lt;/a&gt; eine webbasierte Lösung für ZUGFeRD, welche wahrscheinlich ähnlich der &lt;a href=&quot;http://z-rechnung.de&quot;&gt;z-Rechnung&lt;/a&gt; ist.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Firma d.velop AG, ist aus der &lt;a href=&quot;http://www.ferd-net.de/upload/ZUGFeRD-Unterstuetzerliste-8.pdf&quot;&gt;ZUGFeRD-Unterstützerliste&lt;/a&gt; entfernt worden.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Datev e.V integriert sukzessive den ZUGFeRD-Standard in die &lt;a href=&quot;http://www.datev.de/portal/ShowPage.do?pid=dpi&amp;amp;nid=165451&quot;&gt;DATEV Produktpalette&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Lobster GmbH kündigt an das &lt;a href=&quot;http://lobster.de/lobster_data-ab-september-mit-zugferd/&quot;&gt;Lobster_data&lt;/a&gt; ab September ZUGFeRD unterstützen wird.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.gnuaccounting.org/index.php?id=12&amp;amp;tx_ttnews%5Btt_news%5D=81&amp;amp;cHash=20f409ebe6a5bee7a857431d0ff204ba&quot;&gt;Gnuaccounting 0.8.6&lt;/a&gt; erschienen mit überarbeiteter Unterstützung für ZUGFeRD 1.0&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Die Webseite &lt;a href=&quot;http://zugferd-kostenlos.de/&quot;&gt;ZUGFeRD-Kostenlos&lt;/a&gt; bietet eine Webapplikation an, welche ähnlich wie &lt;a href=&quot;http://z-rechnung.de&quot;&gt;z-Rechnung&lt;/a&gt; ist.
-Der Dienst steht aber derzeit noch nicht zur Verfügung.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;veranstaltungen&quot;&gt;Veranstaltungen&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Am 10 und 11 September findet in Berlin die erste &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=931&quot;&gt;FeRD-Konferenz&lt;/a&gt; statt und Konik wird dabei sein.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;imageblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;img/blog/ZugpferdTage.jpg&quot; alt=&quot;ZUGFeRD oder Zugpferd, der Unterschied ist leicht zu erkennen.&quot;&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD oder Zugpferd, der Unterschied ist leicht zu erkennen.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2335</guid>
+      	<description>ZUGFeRD Weekly News #35</description>
     </item>
     <item>
       <title>Release Konik 0.7.1 und Validation Service 0.4.1</title>
-      <link>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</link>
+      <link>http://konik.io/blog.html#Release-Konik-0.7.1-und-Validation-Service-0.4.1</link>
       <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Release Konik 0.7.1 und Validation Service 0.4.1</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Es gibt einen weiteren Release der Konik Bibliothek: Mit der jetzt
-veröffentlichten Version 0.7.1 hat Konik einen Stand erreicht, der sich
-vollständig produktiv nutzen lässt.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Mit der Veröffentlichung von Konik 0.7.1 wurde auch der ZUGFeRD
-Validierungs-Service auf die neueste Version gebracht und steht ebenfalls
-zu Verfügung.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
-    &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
-    &amp;lt;artifactId&amp;gt;konik&amp;lt;/artifactId&amp;gt;
-    &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
-    &amp;lt;groupId&amp;gt;io.konik&amp;lt;/groupId&amp;gt;
-    &amp;lt;artifactId&amp;gt;itext-carriage&amp;lt;/artifactId&amp;gt;
-    &amp;lt;version&amp;gt;0.7.1&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;neuerungen&quot;&gt;Neuerungen&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Es sind weitere Validierungen dazugekommen, so dass man die in der Vergangenheit
-erstellten Rechnungen noch einmal überprüfen sollte.
-- Zahlen werden nun korrekt gerundet auf zwei bzw. vier Nachkommastellen.
-- Profile werden bei der Validierung des Datenmodells mit einbezogen.
-- Alle ZUGFeRD Felder sind vorhanden.
-- Nicht gültige Felder wurden so weit es geht entfernt.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;offene_punke&quot;&gt;Offene Punke&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Es gibt zwar schon viele Validierungen, aber es könnte noch die eine oder andere Lücke geben.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JavaDoc ist zwar schon vollständig, aber es fehlt oft die fachliche Beschreibung, so dass man noch oft in der Dokumentation nachschlagen muss.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;ausblick&quot;&gt;Ausblick&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Im nächsten Schritt werden die Interfaces zu den PDF Carriages überarbeitet und ausgelagert, so dass neben iText noch 	weitere Anbieter an Konik andocken können.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Das Konik Model soll weiter verbessert werden.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Release-Konik-0.7.1-und-Validation-Service-0.4.1</guid>
+      	<description>Release Konik 0.7.1 und Validation Service 0.4.1</description>
     </item>
     <item>
       <title>Neuer Release vom ZUGFeRD Validation Service</title>
-      <link>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</link>
+      <link>http://konik.io/blog.html#Neuer-Release-vom-ZUGFeRD-Validation-Service</link>
       <pubDate>Fri, 1 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Neuer Release vom ZUGFeRD Validation Service</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Nach längerer Zeit gibt es wieder ein Update für den ZUGFeRD Validation Service:
-Nachdem es keinen ZUGFeRD Validation Service mit Konik 0.5.0 gab, soll Konik 0.6.0 der erste Release
-sein, welcher ZUGFeRD 1.0 unterstützt.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Die aktuelle Konik Version ist zwar noch nicht ganz reif,
-gibt aber bereits einen Vorgeschmack auf das zu erwartende Ergebnis.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;neuerungen&quot;&gt;Neuerungen&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Wie ich schon in &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 1&quot;&gt;Errata 1&lt;/a&gt; und &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 2&quot;&gt;2&lt;/a&gt; geschrieben habe, ist die Validierung der Rechnung gegen das XSD
-ziemlich sinnlos und kann auch teilweise falsch sein.
-Deshalb wurden zwei weitere Arten von Validierungen hinzugefügt: Roundtrip Vergleich und Bean Validation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Roundtrip Vergleich&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Hierbei wird das XML in das Konik Model und dann wieder zurück ins XML transformiert.
-Danach werden die beiden XML Dateien miteinander verglichen und der Vergleich wird dargestellt.&lt;br&gt;
-Mit diesem Verfahren lässt sich erkennen, ob:&lt;/p&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;beim Einlesen Elemente weggelassen wurden, weil diese nicht spezifiziert oder im Model nicht vorgesehen sind,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Werte korrekt vorliegen und formatiert sind,&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;die Reihenfolge der Elemente korrekt ist.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Bean Validation&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;Konik verwendet nun Bean Validation, auch bekannt als JSR-303 bzw. JSR-349.
-Damit lässt sich schon beim Erzeugen der Rechnung einfach feststellen, ob diese
-konform mit der Spezifikation ist.&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;fazit&quot;&gt;Fazit&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Der akuelle Snapshot gibt einen guten Vorgeschmack auf die finale Version 0.6.0.
-Es wird daher empfohlen, Rechnungen noch einmal zu validieren.&lt;br&gt;
-Noch hat die aktuelle Version einige offene Punkte:&lt;br&gt;
-So ist die Entwicklung der Bean Validierung noch nicht ganz abgeschlossen. Ausserdem
-gibt es noch einige wenige Elemente, die im Rechnungsmodel noch nicht existieren.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Neuer-Release-vom-ZUGFeRD-Validation-Service</guid>
+      	<description>Neuer Release vom ZUGFeRD Validation Service</description>
     </item>
     <item>
       <title>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</title>
-      <link>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</link>
+      <link>http://konik.io/blog.html#Artikel-%C3%BCber-ZUGFeRD-und-Konik-im-iX-Magazin-8%2F2014</link>
       <pubDate>Wed, 30 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</guid>
-      	<description>
-				&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Es gibt einen guten Grund für einen Gang zum Kiosk: für die gerade
-erschienene Ausgabe des iX Magazin 8/2014 habe ich einen
-&lt;a href=&quot;http://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html&quot;&gt;Artikel über ZUGFeRD&lt;/a&gt; und die Konik Bibliothek geschrieben.
-Es geht um das ZUGFeRD-Konzept und die Implementierung mit der Konik Bibliothek.
-Ich hoffe, dadurch das Thema ZUGFeRD Entwicklern und IT-Profis näherzubringen.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;imageblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;img/blog/july/Artikel_iX_MagazinTitel.jpg&quot; alt=&quot;Seite 98 iX Magazin mit ZUGFeRD Artikel&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;title&quot;&gt;Figure 1. ZUGFeRD Artikel auf Seite 98.&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Artikel-%C3%BCber-ZUGFeRD-und-Konik-im-iX-Magazin-8%2F2014</guid>
+      	<description>Artikel über ZUGFeRD und Konik im iX Magazin 8/2014</description>
     </item>
     <item>
       <title>Errors in the ZUGFeRD Specification Part 2</title>
-      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</link>
+      <link>http://konik.io/blog.html#Errors-in-the-ZUGFeRD-Specification-Part-2</link>
       <pubDate>Thu, 24 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 2</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Last week I posted about &lt;a href=&quot;#Errors in the ZUGFeRD Specification Part 1&quot;&gt;Errors in the ZUGFeRD Specification&lt;/a&gt;.
-A reply to my questions came very quickly from FeRD(Forum elektronische Rechnung Deutschland) stating
-that the documentation and the resulting XSD Schema are correct.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The explanation for the differences is based on the fact the ZUGFeRD XSD schema is designed following the
-&lt;a href=&quot;http://www.xfront.com/GlobalVersusLocal.html&quot;&gt;Venetian blind&lt;/a&gt;
-XML Schema design pattern.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;quoteblock&quot;&gt;
-&lt;blockquote&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Die CCL ist nach dem Desingprinzip Venetian Blind aufgebaut (Kapitel 6.1, sowie technische Dokumentation Kapitel 4.3),
-wodurch sich XSD und Spezifikation formal unterscheiden.
-Die Lösung dafür bietet die ebenfalls veröffentlichte Schematron-Datei (Kapitel 10.6), die genau diese Designlücke schließt.
-Eine Validierung erfolgt bei ZUGFeRD also immer in der Kombination aus XSD-Validierung und Schematron-Validierung.
-Die in der gedruckten Spezifikation enthaltenen Informationen haben somit also volle Richtigkeit.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;After reading about the XML Schema design and the ZUGFeRD specification and the XSD file I came to the conclusion that:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;There is no explanation why the resulting cardinalities need to be  1..N instead of 1..1 in the XSD Schema file.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.xfront.com/backward-forward-compatibility/&quot;&gt;Designing forward and backward compatible XML Schemas&lt;/a&gt; is very difficult.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The XSD Schema alone is pretty useless for ZUGFeRD invoice validation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Finally we have to take into account the four different documents provided.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD Model (Chapter &quot;3 Das semantische ZUGFeRD-Datenmodell&quot; in &quot;Das ZUGFeRD-Format_1p0_technische_Dokumentation.pdf&quot;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD Schema (Chapter &quot;4 Das ZUGFeRD-Schema&quot; in &quot;Das ZUGFeRD-Format_1p0_technische_Dokumentation.pdf&quot;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD XSD File (ZUGFeRD_1p0.xsd)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD Schematron (ZUGFeRD_1p0.scmt)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Only all four together provide us with a valid ZUGFeRD compliant invoice.
-Validating your XML Invoice file  against only the XSD Schema does not guarantee a ZUGFeRD compliant Invoice.
-Also a successful validation of an XML file against Schematron is not a guarantee.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;CEFEG shutdown their validation service, because it is based on XSD
-Schema validation and Schematron which cannot guarantee a correct invoice
-at the current state of development at least.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;imageblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;img/blog/july/din-zugferd-validation.org_error_message.png&quot; alt=&quot;Error Message on din-zugferd-validation.org telling that they can&apos;t validate correctly ZUGFeRD Invoices&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;title&quot;&gt;Figure 1. Error Message on the eInvoice Validation Portal din-zugferd-validation.org.&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;incorrect_xml_examples&quot;&gt;Incorrect XML Examples&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This week I am going to publish &lt;a href=&quot;files/blog/Beispielrechnung_1p0_COMFORT_corrected.xml&quot;&gt;corrected XML Invoice Example File&lt;/a&gt;.
-While working on the next release of the Konik library and adding
-validation features to the library, it was noticed that some of the existent ZUGFeRD
-examples were marked as incorrect.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Let&amp;#8217;s take a look at file Beispielrechnung_1p0_COMFORT.xml which is part of
-the ZUGFeRD specification package as an example to explain what is incorrect
-regarding the ZUGFeRD model.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;ram:SpecifiedTradeAllowanceCharge&amp;gt;
-   &amp;lt;ram:ChargeIndicator&amp;gt;
-      &amp;lt;udt:Indicator&amp;gt;false&amp;lt;/udt:Indicator&amp;gt;
-   &amp;lt;/ram:ChargeIndicator&amp;gt;
-   &amp;lt;ram:BasisAmount currencyID=&quot;EUR&quot;&amp;gt;10.00&amp;lt;/ram:BasisAmount&amp;gt;
-   &amp;lt;ram:ActualAmount&amp;gt;1.00&amp;lt;/ram:ActualAmount&amp;gt; &lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-   &amp;lt;!-- ... --&amp;gt;
-&amp;lt;/ram:SpecifiedTradeAllowanceCharge&amp;gt;
-&amp;lt;!-- ... --&amp;gt;
-&amp;lt;ram:SpecifiedLogisticsServiceCharge&amp;gt;
-   &amp;lt;ram:Description&amp;gt;Versandkosten&amp;lt;/ram:Description&amp;gt;
-   &amp;lt;ram:AppliedAmount&amp;gt;5.80&amp;lt;/ram:AppliedAmount&amp;gt; &lt;i class=&quot;conum&quot; data-value=&quot;2&quot;&gt;&lt;/i&gt;&lt;b&gt;(2)&lt;/b&gt;
-    &amp;lt;!-- ... --&amp;gt;
-&amp;lt;/ram:SpecifiedLogisticsServiceCharge&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;The ActualAmount contains only the value and no attribute with the currency like in BasisAmount one line above.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;2&quot;&gt;&lt;/i&gt;&lt;b&gt;2&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;AppliedAmount is also defined as udt:AmountType and hence should also contain a currency attribute.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The ZUGFeRD model stated that all udt:AmountType require an Currency Code.
-.udt:AmountType requiring a currency code in ApplicableTradeTax
-image::img/blog/july/AmountType_Example.png[&quot;udt:AmountType requiring a currency code&quot;]&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Model and the Schema declare udt:AmountType as required but not the XSD File.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;solution&quot;&gt;Solution&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The first and probably best solution is to use a library such as Konik which will assist
-you in creating a valid and ZUGFeRD compliant invoice. Konik will also make the XSD
-Schema Validation and Schematron optional.
-The second solution would be to modify the XSD Schema file
-according to the model and ZUGFeRD schema definition to get at least an
-error when validating the xml against the XSD Schema.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:schema xmlns:udt=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; targetNamespace=&quot;urn:un:unece:uncefact:data:standard:UnqualifiedDataType:15&quot; elementFormDefault=&quot;qualified&quot; version=&quot;15.0&quot;&amp;gt;
-	&amp;lt;xs:complexType name=&quot;AmountType&quot;&amp;gt;
-		&amp;lt;xs:simpleContent&amp;gt;
-			&amp;lt;xs:extension base=&quot;xs:decimal&quot;&amp;gt;
-				&amp;lt;xs:attribute name=&quot;currencyID&quot; type=&quot;udt:AmountTypeCurrencyIDContentType&quot; use=&quot;required&quot;/&amp;gt; &lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-			&amp;lt;/xs:extension&amp;gt;
-		&amp;lt;/xs:simpleContent&amp;gt;
-	&amp;lt;/xs:complexType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Add use=&quot;required&quot; to mark the attribute as required so the validation of the XML Files
-against the XSD Schema will fail.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Maybe because of the Venetian blind schema design requirements or the automatic
-generation of the XSD Schema File from the ZUGFeRD Schema definition, this was not done.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Errors-in-the-ZUGFeRD-Specification-Part-2</guid>
+      	<description>Errors in the ZUGFeRD Specification Part 2</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #29</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #29</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2329</link>
       <pubDate>Sun, 20 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #29</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 13&lt;sup&gt;th&lt;/sup&gt; July until 20&lt;sup&gt;th&lt;/sup&gt; July.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;article&quot;&gt;Article&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;DsiN published a &lt;a href=&quot;https://www.dsin-blog.de/elektronische-rechnungen-im-unternehmen&quot;&gt;blog post&lt;/a&gt; with tips and background information for invoice sender and receiver
-regarding ZUGFeRD and electronic invoicing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2329</guid>
+      	<description>ZUGFeRD Weekly News #29</description>
     </item>
     <item>
       <title>Errors in the ZUGFeRD Specification Part 1</title>
-      <link>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</link>
+      <link>http://konik.io/blog.html#Errors-in-the-ZUGFeRD-Specification-Part-1</link>
       <pubDate>Thu, 17 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Errors in the ZUGFeRD Specification Part 1</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This is a summary of my finding regarding the ZUGFeRD specification while working on Konik 1.0.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;incoherent_date_formats&quot;&gt;Incoherent date formats&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Lets take a look at chapter 6.5.3 of the ZUGFeRD format specification. The chapter defines the two date formats in ZUGFeRD.
-One where the date string is accompanied by a format code and another one described only as a string.
-The last one did not exist in the RC Specification.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Following questions arise&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred2379.htm&quot; target=&quot;_blank&quot;&gt;UN/EDIFACT 2379 - Date or time or period format code&lt;/a&gt; specifies around 80 different date formats.
-Should all formats be allowed in ZUGFeRD or only the named 102, 610 and 616?
-Furthermore &lt;a href=&quot;http://www.unece.org/trade/untdid/d13b/tred/tred2379.htm&quot;&gt;UN/EDIFACT 2379&lt;/a&gt; also defines periods.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;IssueDateTime is defined in the specification as yyyy-MM-ddTHH:mm:ss (Example: 2013-08-05T00:00:00).
-The XSD on the other hand is a union of dateTime or date.&lt;/p&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:simpleType name=&quot;DateMandatoryDateTimeType&quot;&amp;gt;
-	&amp;lt;xs:union memberTypes=&quot;xs:dateTime xs:date&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-&amp;lt;/xs:simpleType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;This means that yyyy-MM-ddTHH:mm:ss and yyyy-MM-dd are both valid types which is not clear from the specification.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;incorrect_xsd&quot;&gt;Incorrect XSD&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;definedtradecontact&quot;&gt;DefinedTradeContact&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The DefinedTradeContact within a TradePartyType is defined with an unbound occurrence. According to the specification it should occur maximum one time.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;TradePartyType&quot;&amp;gt;
-	&amp;lt;xs:sequence&amp;gt;
-		&amp;lt;xs:element name=&quot;ID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
-		&amp;lt;xs:element name=&quot;GlobalID&quot; type=&quot;udt:IDType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
-		&amp;lt;xs:element name=&quot;Name&quot; type=&quot;udt:TextType&quot; minOccurs=&quot;0&quot;/&amp;gt;
-		&amp;lt;xs:element name=&quot;DefinedTradeContact&quot; type=&quot;ram:TradeContactType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-		&amp;lt;xs:element name=&quot;PostalTradeAddress&quot; type=&quot;ram:TradeAddressType&quot; minOccurs=&quot;0&quot;/&amp;gt;
-		&amp;lt;xs:element name=&quot;SpecifiedTaxRegistration&quot; type=&quot;ram:TaxRegistrationType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
-	&amp;lt;/xs:sequence&amp;gt;
-&amp;lt;/xs:complexType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Correct should be maxOccurs=&quot;1&quot;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;notetype&quot;&gt;NoteType&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Model and Schema definition declare ContentCode as optional and with a max occurrence of one.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;imageblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;img/blog/july/IncludedNote_Model.png&quot; alt=&quot;ZUGFeRD Model Included Note&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;title&quot;&gt;Figure 1. Model definition page 7.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;imageblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;img/blog/july/IncludedNote_Schema.png&quot; alt=&quot;ZUGFeRD Schema Included Note&quot;&gt;
-&lt;/div&gt;
-&lt;div class=&quot;title&quot;&gt;Figure 2. Schema description page 50.&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;xs:complexType name=&quot;NoteType&quot;&amp;gt;
-	&amp;lt;xs:sequence&amp;gt;
-		&amp;lt;xs:element name=&quot;ContentCode&quot; type=&quot;udt:CodeType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;	&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-		&amp;lt;xs:element name=&quot;Content&quot; type=&quot;udt:TextType&quot; minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;/&amp;gt;
-		&amp;lt;xs:element name=&quot;SubjectCode&quot; type=&quot;udt:CodeType&quot; minOccurs=&quot;0&quot;/&amp;gt;
-	&amp;lt;/xs:sequence&amp;gt;
-&amp;lt;/xs:complexType&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;Within the XSD ContentCode is defined as 0..N&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Errors-in-the-ZUGFeRD-Specification-Part-1</guid>
+      	<description>Errors in the ZUGFeRD Specification Part 1</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #28</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #28</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2328</link>
       <pubDate>Sun, 13 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #28</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 6&lt;sup&gt;th&lt;/sup&gt; July until 13&lt;sup&gt;th&lt;/sup&gt; July.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;An updated version of the ZUGFeRD 1.0 package is available for &lt;a href=&quot;http://www.awv-net.de/updates/zugferd/zugferd10.zip&quot;&gt;download&lt;/a&gt;. The version of 11&lt;sup&gt;th&lt;/sup&gt; July contains corrected sample files.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jochen released &lt;a href=&quot;https://groups.google.com/d/msg/mustangproject/DgZ5F1nm-bg/TjSccSlkxB4J&quot;&gt;Version 1.1&lt;/a&gt; of Mustang project adding support for ZUGFeRD 1.0.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;TASK eDoc Services have a ZUGFeRD &lt;a href=&quot;http://www.task-edoc.de/edoc.shtml&quot;&gt;Printer Driver&lt;/a&gt; which is able to create automatically a ZUGFeRD compliant invoice.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rechnungsaustausch.org published a list of &lt;a href=&quot;http://rechnungsaustausch.org/zugferd-anbieter-software-developement-kit.htm&quot;&gt;ZUGFeRD SDK providers&lt;/a&gt; and Konik is part of it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;article&quot;&gt;Article&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;E-docs published a &lt;a href=&quot;http://www.e-docs-standards.de/cms/images/Publikationen/Leitfaden/Franken_Loosen_Bernius_-_eRechnung_Fallbeispiel_THW.pdf&quot;&gt;case study&lt;/a&gt; based on the electronic invoice project for the Federal Agency for Technical Relief (THW).
-Page 133 is showing a figure of a PDF to ZUGFeRD converter from &lt;a href=&quot;http://www.task-edoc.de/edoc.shtml&quot;&gt;TASK eDoc Services&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Federal Ministry of the Interior (BMI) published the &lt;a href=&quot;http://www.bmi.bund.de/SharedDocs/Downloads/DE/Broschueren/2014/e-rechnung.html&quot;&gt;Guidelines for Electronic invoicing in public administration&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Here is a &lt;a href=&quot;http://www.project-consult.de/ecm/news/2013/zugferd_standard_f%C3%BCr_die_elektronische_rechnung#comment-2547&quot;&gt;critical comment&lt;/a&gt; regarding the &lt;a href=&quot;http://www.bmi.bund.de/SharedDocs/Downloads/DE/Broschueren/2014/e-rechnung.html&quot;&gt;Guidelines for Electronic invoicing in public administration&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The Forum electronic invoice Germany (FeRD) organizes a free &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=931&quot;&gt;Conference&lt;/a&gt; on the 10 &lt;sup&gt;th&lt;/sup&gt; any 11&lt;sup&gt;th&lt;/sup&gt; of September.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2328</guid>
+      	<description>ZUGFeRD Weekly News #28</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #27</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #27</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2327</link>
       <pubDate>Sun, 6 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #27</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 29&lt;sup&gt;th&lt;/sup&gt; June until 6&lt;sup&gt;th&lt;/sup&gt; July.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD wins the 3rd place in the &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=953&quot;&gt;eGovernment competition&lt;/a&gt; that was mentioned in weekly #24.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;T-Systems Multimedia Solutions offers a &lt;a href=&quot;http://www.t-systems-mms.com/unternehmen/newsroom/detail/t-systems-multimedia-solutions-unterstuetzt-einheitlichen-elektronischen-rechnungsstandard-zugferd.html?tx_ttnews%5BbackPid%5D=17&amp;amp;cHash=56051912df5adaa1cd10de3740eaf4ee&quot;&gt;ZUGFeRD Validator&lt;/a&gt; which according to the announcement should be able
-to validate PDF content against the structured XML data.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;article&quot;&gt;Article&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The Data Processing Organization for Tax Agents and Related Tax Services Providers Germany (DATEV) made a
-&lt;a href=&quot;https://www.datev-blog.de/2014/07/03/zugferd-ein-standard-fuer-die-digitale-rechnung/&quot;&gt;positive statement&lt;/a&gt; about the feature of ZUGFeRD&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2327</guid>
+      	<description>ZUGFeRD Weekly News #27</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #26</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #26</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2326</link>
       <pubDate>Sun, 29 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #26</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 22&lt;sup&gt;nd&lt;/sup&gt; June until 29&lt;sup&gt;th&lt;/sup&gt; June.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This week was dominated by the official ZUGFeRD 1.0 announcement. Hundreds of news sources picked up this recentness.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;news&quot;&gt;News&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;An excerpt of ZUGFeRD 1.0 news from various sources.
-&lt;a href=&quot;http://www.ferd-net.de/front_content.php?idart=946&quot;&gt;Ferd&lt;/a&gt;, &lt;a href=&quot;http://www.handelsblatt.com/unternehmen/management/strategie/zugferd-rechnungsstandard-koennte-firmen-millionen-ersparen/10104678.html&quot;&gt;Handelsblatt&lt;/a&gt;, &lt;a href=&quot;http://www.golem.de/news/pdf-und-xml-zugferd-fuer-elektronische-rechnung-vorgestellt-1406-107463.html&quot;&gt;Golem&lt;/a&gt;, &lt;a href=&quot;http://www.tecchannel.de/software/news/2062896/zugferd_10_soll_elektronische_rechnung_auf_den_weg_bringen/&quot;&gt;TechChannel&lt;/a&gt;, &lt;a href=&quot;http://www.cio.de/news/wirtschaftsnachrichten/2961791/&quot;&gt;CIO&lt;/a&gt;, &lt;a href=&quot;http://www.focus.de/finanzen/news/unternehmen/abschied-vom-papier-so-kann-der-mittelstand-112-milliarden-euro-sparen_id_3945147.html&quot;&gt;Focus&lt;/a&gt;, &lt;a href=&quot;http://www.heise.de/open/meldung/ZUGFeRD-Version-1-0-des-Standards-fuer-elektronische-Rechnungen-veroeffentlicht-2237978.html&quot;&gt;Heise&lt;/a&gt; and &lt;a href=&quot;http://www.din.de/cmd?level=tpl-artikel&amp;amp;cmstextid=227429&amp;amp;bcrumblevel=1&amp;amp;languageid=de&quot;&gt;DIN&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;German Institute for Standardization (DIN) officially launched a &lt;a href=&quot;https://www.din-zugferd-validation.org&quot;&gt;ZUGFeRD validation service&lt;/a&gt;
-which now supports ZUGFeRD 1.0&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD Info package is available for &lt;a href=&quot;http://www.awv-net.de/updates/zugferd/zugferd10.zip&quot;&gt;download&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2326</guid>
+      	<description>ZUGFeRD Weekly News #26</description>
     </item>
     <item>
       <title>Konik library 0.5.0 release</title>
-      <link>http://konik.io/blog.html#Konik library 0.5.0 release</link>
+      <link>http://konik.io/blog.html#Konik-library-0.5.0-release</link>
       <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik library 0.5.0 release</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Konik library 1.0 is being scheduled to be released in big steps. Just in time with the official ZUGFeRD announcement we completed our 0.5.0 release.
-This is the &quot;in-between&quot; release and it does not support all of the features of ZUGFeRD 1.0.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;release_notes&quot;&gt;Release Notes&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Konik domain model can now be considered stable. For the final 1.0 release, we are planning to extend the model without breaking the
-existing API.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A zip &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.5.0/distribution-0.5.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
-is also available for users without a Build System.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Artifacts are available on the Central Repository by the &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22&quot; target=&quot;_blank&quot;&gt;io.konik&lt;/a&gt; Group ID.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-library-0.5.0-release</guid>
+      	<description>Konik library 0.5.0 release</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #25</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #25</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2325</link>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #25</guid>
-      	<description>
-				&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 14&lt;sup&gt;th&lt;/sup&gt; June until 22&lt;sup&gt;nd&lt;/sup&gt; June.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;There was quite some buzz around ZUGFeRD this week, as next Wednesday ZUGFeRD 1.0 will be officially released.
-On the other hand I can&amp;#8217;t report any interesting announcements or articles around ZUGFeRD. I expect more news for the next week.&lt;/p&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2325</guid>
+      	<description>ZUGFeRD Weekly News #25</description>
     </item>
     <item>
       <title>Join Konik Discussion Forum</title>
-      <link>http://konik.io/blog.html#Join Konik Discussion Forum</link>
+      <link>http://konik.io/blog.html#Join-Konik-Discussion-Forum</link>
       <pubDate>Sat, 21 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Join Konik Discussion Forum</guid>
-      	<description>
-				&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A new &lt;a href=&quot;https://groups.google.com/forum/#!forum/konik-io&quot;&gt;Discussion Forum&lt;/a&gt; is now availibe for the Konik Community. It is going to be a new place for discussions that don&amp;#8217;t fit into GitHub or on Stack Overflow.&lt;/p&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Join-Konik-Discussion-Forum</guid>
+      	<description>Join Konik Discussion Forum</description>
     </item>
     <item>
       <title>Looking back on the GS1 electronic invoice practice day</title>
-      <link>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</link>
+      <link>http://konik.io/blog.html#Looking-back-on-the-GS1-electronic-invoice-practice-day</link>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Looking back on the GS1 electronic invoice practice day</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This week I participated in the &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoice practice day&lt;/a&gt; with Konik.
-Looking back on the event, it was full of talks related to electronic invoicing,
-many of which placed an emphasis on ZUGFeRD. The only two presented business cases did not include ZUGFeRD.
-During the break I did not have time to ask the two speakers if they had any plans to integrate ZUGFeRD into
-their electronic invoice process. I plan to catch up with them via E-mail and post results of the conversation.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;What pleasantly surprised me was the large number of visitors. Going through the list of around 90 participants,
-I recognized more than half of the participants were end users mainly interested in ZUGFeRD. From the IT side,
-some companies were already working with or investigating ZUGFeRD for their projects.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The atmosphere was mainly dominated by people waiting for the first release with the hope of a general ZUGFeRD success
-before ramping up their projects. Also interesting was the fact that I did not see many ERP companies, but mostly
-backup and CMS vendors. Participants sometimes criticized the lack of PR for ZUGFeRD, especially among tax consultants.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Everyone is waiting for a ZUGFeRD success to minimize risk, while at the same time hoping for success because the demand
-is high. I personally think that with the Konik library the investment costs can be kept at a low level, which also means
-that it is a low risk and minimal effort to implement ZUGFeRD-compliant invoicing for vendors and end users.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Looking-back-on-the-GS1-electronic-invoice-practice-day</guid>
+      	<description>Looking back on the GS1 electronic invoice practice day</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #24</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #24</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2324</link>
       <pubDate>Sat, 14 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #24</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 9&lt;sup&gt;th&lt;/sup&gt; June until 14&lt;sup&gt;th&lt;/sup&gt; June.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;iText published the &lt;a href=&quot;http://itextpdf.com/Zugferd-case&quot;&gt;Konik ZUGFeRD case&lt;/a&gt; for the next weeks PDF days. iText is giving away some tickets.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Based on the Konik Library, &lt;a href=&quot;http://z-rechnung.de/&quot;&gt;z-rechnung.de&lt;/a&gt; is going to be released as a open ZUGFeRD Online Invoice Service,
-where everyone can create ZUGFeRD compliant invoices and send the resulting PDF directly to their clients.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ZUGFeRD is nominated as a successful cooperation project in eGoverment.
-You are welcome to vote for the &lt;a href=&quot;http://www.egovernment-wettbewerb.de/online-voting/online-voting.html&quot;&gt;audience Award&lt;/a&gt; until the 20&lt;sup&gt;th&lt;/sup&gt; of June.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Bonpago &lt;a href=&quot;http://www.financialsupplychain.de/?p=364&quot;&gt;comments&lt;/a&gt; on their view on the &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoicing best practice&lt;/a&gt; day last week.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2324</guid>
+      	<description>ZUGFeRD Weekly News #24</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #23</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #23</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2323</link>
       <pubDate>Sun, 8 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #23</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 2&lt;sup&gt;nd&lt;/sup&gt; June until 8&lt;sup&gt;th&lt;/sup&gt; June.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Konik is now listed as a &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idcat=277&quot;&gt;ZUGfeRD Software vendor&lt;/a&gt; on Forum electronic invoice Germany.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Bonpago is hosting a workshop in various locations across Germany on &lt;a href=&quot;http://www.bonpago.de/images/pdf/2014_05_Bonpago_Workshops.pdf&quot;&gt;electronic invoicing done right&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Mustang project is hosting a [online developer conference] next Tuesday and Konik will be a part of it.
-Interested developers are welcome to sign up&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Konik is also participating in &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/&quot;&gt;GS1 electronic invoicing best practice&lt;/a&gt; workshop, that will take place next Thursday in Cologne.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Luratech made their last Webinar &lt;a href=&quot;http://www.youtube.com/watch?v=DwEoxXLhQ0U&quot;&gt;ZUGFeRD for SAP&lt;/a&gt; available online.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ecosio published an eBook about &lt;a href=&quot;http://ecosio.com/static_files/ebooks/EDI-Outsourcing-eBook.pdf&quot;&gt;EDI-Outsourcing&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2323</guid>
+      	<description>ZUGFeRD Weekly News #23</description>
     </item>
     <item>
       <title>New Version ZUGFeRD Validation Service</title>
-      <link>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</link>
+      <link>http://konik.io/blog.html#New-Version-ZUGFeRD-Validation-Service</link>
       <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#New Version ZUGFeRD Validation Service</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A new Version of the &lt;a href=&quot;/validation.html&quot;&gt;ZUGFeRD Validation Service&lt;/a&gt; is now available.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;changelog&quot;&gt;Changelog&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Validation Service now accepts more PDF Mime types. Especially &lt;a href=&quot;http://www.gnuaccounting.org&quot;&gt;GNUAccounting&lt;/a&gt; invoices will work now.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#New-Version-ZUGFeRD-Validation-Service</guid>
+      	<description>New Version ZUGFeRD Validation Service</description>
     </item>
     <item>
       <title>Konik Blog as RSS Feed</title>
-      <link>http://konik.io/blog.html#Konik Blog as RSS Feed</link>
+      <link>http://konik.io/blog.html#Konik-Blog-as-RSS-Feed</link>
       <pubDate>Mon, 2 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik Blog as RSS Feed</guid>
-      	<description>
-				&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Konik Blog is now also available as a RSS feed. Subscribe to the RSS feed by clicking on the RSS Feed icon &lt;a target=&quot;_blank&quot; class=&quot;fa fa-rss fa-2x&quot; href=&quot;feed.xml&quot;&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-Blog-as-RSS-Feed</guid>
+      	<description>Konik Blog as RSS Feed</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #22</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #22</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2322</link>
       <pubDate>Sun, 1 Jun 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #22</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 26&lt;sup&gt;th&lt;/sup&gt; May until 1&lt;sup&gt;st&lt;/sup&gt; June.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;BITKOM (German ICT industry association) &lt;a href=&quot;http://www.bitkom.org/de/presse/8477_79507.aspx&quot;&gt;recommends&lt;/a&gt; that companies adopt the new ZUGFeRD standard for their accounting.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Austrian Federal Ministry of Finance takes positive stock regarding the &lt;a href=&quot;http://www.ots.at/presseaussendung/OTS_20140306_OTS0078/umstellung-auf-e-rechnung-bmf-zieht-positive-zwischenbilanz&quot;&gt;transition to e-invoice&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Austrian Economic Chambers published &lt;a href=&quot;https://www.wko.at/Content.Node/branchen/w/sparte_iuc/Immobilien&amp;#8212;&amp;#8203;und-Vermoegenstreuhaender/Abo_TELEFIT_Podcast__23_E-Rechnung_an_den_Bund.html&quot;&gt;videos on Electronic invoice to the federal government&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.gnuaccounting.org/&quot;&gt;GNU Accounting&lt;/a&gt; Version 0.8.5 is currently the only Open Source Accounting software that can write ZUGFeRD compliant invoices.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;This Presentation from CeBIT 2014 is now online available &lt;a href=&quot;http://www.youtube.com/watch?v=R8hqaZGUgF4&quot;&gt;Electronic invoice with ZUGFeRD made ​​easy - thousand easy ways&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.deutsche-handwerks-zeitung.de/e-rechnung-bald-pflicht-bei-oeffentlichen-auftraegen/150/3096/237430/&quot;&gt;German craftsman newspaper&lt;/a&gt; informs their readers that electronic invoices will soon be mandatory in public procurement.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;BITKOM published booklet &lt;a href=&quot;http://www.bitkom.org/files/documents/140505_Broschuere_ZUGFeRD_web.pdf&quot;&gt;ZUGFeRD - Standard for electronic invoices Saves money for everyone&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1401623379226&amp;amp;uri=CELEX:32014L0055&quot;&gt;DIRECTIVE 2014/55/EU&lt;/a&gt; on electronic invoicing in public procurement is now mandatory.
-I mentioned this directive a few times before in ZUGFeRD weekly but never had a link at hand.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2322</guid>
+      	<description>ZUGFeRD Weekly News #22</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #21</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #21</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2321</link>
       <pubDate>Sun, 25 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #21</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 19&lt;sup&gt;th&lt;/sup&gt; May until 25&lt;sup&gt;th&lt;/sup&gt; May.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://mustangproject.org/&quot;&gt;Mustang project&lt;/a&gt; comes into being. Mustang is a ZUGFeRD open source project similar to Konik.
-Current focus is on attaching and reading XML content to PDFs with the help of PDFBox.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;ferd management &amp;amp; consulting GmbH led by Stefan Engel-Flechsig who is also head of FeRD is lunching a new &lt;a href=&quot;http://www.ferdmc.com/en/anmelden/&quot;&gt;invoice portal&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The German Electronic Invoicing Association is elaborating on a new regulation draft of
-&lt;a href=&quot;http://www.verband-e-rechnung.org/de/aktuelles/neueste-beitraege/295-neuerungen-zu-gobd-und-e-invoicing&quot;&gt;Principles to ensure the proper maintenance and preservation of books, records and documents in electronic form, as well as for data access&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2321</guid>
+      	<description>ZUGFeRD Weekly News #21</description>
     </item>
     <item>
       <title>Konik upcoming release preview</title>
-      <link>http://konik.io/blog.html#Konik upcoming release preview</link>
+      <link>http://konik.io/blog.html#Konik-upcoming-release-preview</link>
       <pubDate>Fri, 23 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik upcoming release preview</guid>
-      	<description>
-				&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;next_konik_release_0_3_0&quot;&gt;Next Konik release 0.3.0&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;I am currently working on the next Konik release, which will have many changes regarding the Konik model.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;One big change is going to be the switch from the free text UNECE codes to Enumerations. This shift has its pros and cons.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Pros&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;A document generated by Konik is semantically correct.&lt;br&gt;
-You have a higher chance that another party can process your document not only read it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The user can choose form code values instead of looking them up in the UNECE Database.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Cons&lt;/dt&gt;
-&lt;dd&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;You need to update to the newest Konik library every time new codes are added be UNECE.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If another party provides a semantically incorrect document Konik will no be able to read it.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Konik user need to map internal system codes to Konik/UNECE Codes.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Another change will be a much simpler data model. The hierarchy of the model will become lower and thus easier to understand and work with.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-upcoming-release-preview</guid>
+      	<description>Konik upcoming release preview</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #20</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #20</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2320</link>
       <pubDate>Sun, 18 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #20</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 12&lt;sup&gt;th&lt;/sup&gt; May until 18&lt;sup&gt;th&lt;/sup&gt; May.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The PDF library &lt;a href=&quot;http://itextpdf.com/release/iText551&quot;&gt;iText 5.5.1&lt;/a&gt; now supports ZUGFeRD.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Combit&amp;#8217;s &lt;a href=&quot;http://www.combit.net/de-de/presse/Pressemitteilung-combit-intarsys.pdf#zoom=100&quot;&gt;List and Label&lt;/a&gt; now supports ZUGFeRD.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;events&quot;&gt;Events&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The German Engineering Federation VDMA is hosting an &lt;a href=&quot;https://sw.vdma.org/article/-/articleview/3920306&quot;&gt;Process improvement in payments&lt;/a&gt;
-event with ZUGFeRD content on 30&lt;sup&gt;th&lt;/sup&gt; June in Frankfurt.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The e-Business navigator Chemnitz is hosting an &lt;a href=&quot;http://www.ebusiness-lotse-chemnitz.de/veranstaltung.cfm?id=307&amp;Menu1=3&amp;Menu2=1&quot;&gt;e-Invoice and e-Archiving&lt;/a&gt; event on the 5&lt;sup&gt;th&lt;/sup&gt; June.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Stefan Engel-Flechsig the head of Forum Electronic Invoicing is talking about the &lt;a href=&quot;http://www.youtube.com/watch?v=QC1xWewnUI0&quot;&gt;advantages of e-invoicing with ZUGFeRD&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2320</guid>
+      	<description>ZUGFeRD Weekly News #20</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #19</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #19</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2319</link>
       <pubDate>Mon, 12 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #19</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 5&lt;sup&gt;th&lt;/sup&gt; May until 11&lt;sup&gt;th&lt;/sup&gt; May.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Bonpago will present a free &lt;a href=&quot;http://www.pressebox.de/inaktiv/bonpago-gmbh/Bonpago-stellt-mit-dem-Forschungsprojekt-E-Docs-kostenloses-ZUGFeRD-Tool-zum-elektronischen-Rechnungsaustausch-auf-den-M-Days-in-Frankfurt-vor/boxid/677033&quot;&gt;ZUGFeRD tool&lt;/a&gt; for electronic invoice exchange on the M-days in Frankfurt.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;iText is currently implementing &lt;a href=&quot;http://sourceforge.net/p/itext/code/6355/&quot;&gt;ZUGFeRD XML invoice attachment and detachment&lt;/a&gt; functionality for the next iText release.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2319</guid>
+      	<description>ZUGFeRD Weekly News #19</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #18</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #18</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2318</link>
       <pubDate>Sun, 4 May 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #18</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 28&lt;sup&gt;th&lt;/sup&gt; April until 5&lt;sup&gt;th&lt;/sup&gt; May.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Last week was dominated by news about the &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idcat=231&amp;amp;lang=3&quot;&gt;ZUGFeRD Release Candidate&lt;/a&gt; like on &lt;a href=&quot;http://www.heise.de/ix/meldung/Standard-fuer-Elektronische-Rechnungen-weiterer-Release-Kandidat-2177616.html&quot;&gt;Heise&lt;/a&gt; and
-&lt;a href=&quot;http://www.project-consult.de/ecm/news/2013/zugferd_standard_f%C3%BCr_die_elektronische_rechnung#comment-2497&quot;&gt;Project Consult&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.pdf-tools.com/pdf/context/zugferd.aspx?l=en-us&quot;&gt;PDF Tools&lt;/a&gt; announced support for attaching and extracting ZUGFeRD XML content for their PDF library products.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GISA published product details about &lt;a href=&quot;http://www.gisa.de/sandbox/3076.html&quot;&gt;ZUGFeRD complete package&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DocuWare announced the availability of their &lt;a href=&quot;http://www.docuware.com/de/produkt/zugferd&quot;&gt;DocuWare ZUGFeRD service&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;FibuNet &lt;a href=&quot;http://www.fibunet.de/pressemitteilungen/artikel/invoice-control-fibunet-webic-geht-mit-zugferd-vorneweg.html&quot;&gt;announced&lt;/a&gt; support ZUGFeRD for incoming invoice processing of their ERP software FibuNet webIC.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2318</guid>
+      	<description>ZUGFeRD Weekly News #18</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #17</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #17</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2317</link>
       <pubDate>Sun, 27 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #17</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 21&lt;sup&gt;st&lt;/sup&gt; April until 27&lt;sup&gt;th&lt;/sup&gt; April.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Yet another &lt;a href=&quot;http://www.ferd-net.de/front_content.php?idcat=231&amp;amp;lang=3&quot;&gt;ZUGFeRD Release Candidate&lt;/a&gt; is available for review.
-The final 1.0 release will be published on 25th&lt;sup&gt;th&lt;/sup&gt; of June.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Electronic Business Extensible Markup Language (ebXML) is becoming an &lt;a href=&quot;http://www.project-consult.de/ecm/news/2014/zugferd_datenmodell_ebxml_ist_jetzt_internationaler_iso_standard&quot;&gt;official ISO standard&lt;/a&gt;.
-The data model defined in &lt;a href=&quot;http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=61433&quot;&gt;ISO 15000-5:2014&lt;/a&gt; is also part of ZUGFeRD.
-This ISO announcement is one of the reasons for a new ZUGFeRD release candidate.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Konik will have a new ZUGFeRD compliant release in the next weeks.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2317</guid>
+      	<description>ZUGFeRD Weekly News #17</description>
     </item>
     <item>
       <title>Konik performance measurements</title>
-      <link>http://konik.io/blog.html#Konik performance measurements</link>
+      <link>http://konik.io/blog.html#Konik-performance-measurements</link>
       <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik performance measurements</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Starting with the latest release we are going to publish benchmark results of the Konik library.
-Our objective is to create and maintain a library that is scalable enough to process many hundreds of PDFs per second.
-Initially we start small by &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java&quot;&gt;benchmarking&lt;/a&gt; &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/main/java/io/konik/itext/appender/ITextPdfInvoiceAppender.java&quot;&gt;ITextPdfInvoiceAppender&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;For an brief overview the &lt;a href=&quot;https://github.com/konik-io/barn/blob/master/itext-carriage/src/test/java/io/konik/benchmark/ITextPdfInvoiceAppenderBenchmark.java&quot;&gt;ITextAppenderBenchmark&lt;/a&gt; is performing the following steps.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Reading a sample PDF from disk&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Marshalling the invoice model to XML&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Appending the generated XML to PDF&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Reading existing XMP content from the PDF&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Changing the XMP content to add ZUGFeRD information&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Overwriting the XMP content of the PDF with the modified XMP version&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Writing the final PDF to output stream or byte array&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;dlist&quot;&gt;
-&lt;dl&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Benchmark interpretation&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;The benchmarks mode is set to measure operation throughput per second &lt;em&gt;(ops/s)&lt;/em&gt;&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Benchmark setup&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;20 samples were taken after a JVM warm up phase of 20 iterations.&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt class=&quot;hdlist1&quot;&gt;Hardware information&lt;/dt&gt;
-&lt;dd&gt;
-&lt;p&gt;The benchmarks were performed on a MacBookAir4,2 having a 1.8 GHz Intel Core i7 CPU.&lt;/p&gt;
-&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
-i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,16     ops/s
-i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4        20      38,25     ops/s
-i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1        20      26,88     ops/s&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The following benchmark is equal to the one above, except that the code under test does not read, modify or appends XMP
-content to the PDF. Results of this benchmark represent the state of the iText-Carriage prior version 0.2.0.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
-i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreams              thrpt         1        20      27,97     ops/s
-i.k.b.ITextPdfInvoiceAppenderBenchmark.append_witStreamsAndThreads    thrpt         4	     20      39,32     ops/s
-i.k.b.ITextPdfInvoiceAppenderBenchmark.append_withByteArray           thrpt         1	     20      29,30     ops/s&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Finally we also benchmarked, the throughput of the XMP Appender which parses, modifies builds XMP content.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-plain&quot; data-lang=&quot;plain&quot;&gt;Benchmark                                                              Mode   Threads   Samples       Mean     Units
-i.k.b.XmpAppenderBenchmark.append_reuseAppender                       thrpt         1        20     656,90     ops/s
-i.k.b.XmpAppenderBenchmark.append_reuseAppenderWithThreads            thrpt         4        20    1203,26     ops/s
-i.k.b.XmpAppenderBenchmark.append_withNewAppender                     thrpt         1        20     439,76     ops/s&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Good news is that there was no performance drop when going from release 0.1.0 to 0.2.0. On the other hand Konik and iText
-are able to process almost 40 PDFs per second on a 2011 MacBook Air. This is not a bad number but it
-now needs attention to not become slower when more features are added. Possible performance improvements can be achieved by
-parallelizing the invoice marshalling and XMP creation. This improvements should hopefully get us close to the 50 PDFs per second.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;More benchmark results can be obtained from the {http://ci.konik.io/view/All/job/benchmarks/}[Konik CI Server]
-performing nightly benchmark tests of the library.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-performance-measurements</guid>
+      	<description>Konik performance measurements</description>
     </item>
     <item>
       <title>Konik library and iText-Carriage version 0.2.0 released</title>
-      <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</link>
+      <link>http://konik.io/blog.html#Konik-library-and-iText-Carriage-version-0.2.0-released</link>
       <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.2.0 released</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A new version of the Konik library and the Konik iText Carriage.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;release_notes&quot;&gt;Release Notes&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Two new features were added.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/konik-io/barn/issues/1&quot; target=&quot;_blank&quot;&gt;ZUGFeRD compliant XMP content with itext-carriage&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/konik-io/barn/issues/7&quot; target=&quot;_blank&quot;&gt;Benchmark Library&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Also some minor changes made it into the release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A zip &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.2.0/distribution-0.2.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
-is also available for users without a Build System.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Artifacts are available on the Central Repository by the &lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22&quot; target=&quot;_blank&quot;&gt;io.konik&lt;/a&gt; Group ID.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-library-and-iText-Carriage-version-0.2.0-released</guid>
+      	<description>Konik library and iText-Carriage version 0.2.0 released</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #16</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #16</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2316</link>
       <pubDate>Mon, 21 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #16</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 13&lt;sup&gt;th&lt;/sup&gt; April until 20&lt;sup&gt;th&lt;/sup&gt; April.
-The last ZUGFeRD week was really quiet, mostly because of the Easter holidays in Germany.
-Nevertheless a few announcements and articles made it into ZUGFeRD weekly news.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.luratech.com/en/products/luratech-zugferd-extraction-sdk/&quot; target=&quot;_blank&quot;&gt;Luratech released&lt;/a&gt; a ZUGFeRD invoice extraction SDK for .NET and native C.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The company &lt;a href=&quot;http://www.d-velop.de/zugferd-rechnungen-verarbeiten/&quot; target=&quot;_blank&quot;&gt;D.velop&lt;/a&gt; announced ZUGFeRD support for their ECM product.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Ecosio published an &lt;a href=&quot;http://ecosio.com/blog/2014/04/16/EU-Richtlinie-zur-elektronischen-Rechnung-verabschiedet/&quot; target=&quot;_blank&quot;&gt;interesting article&lt;/a&gt; elaborating
-the European Parliament directive in respect to the different
-invoicing standards across Europe.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2316</guid>
+      	<description>ZUGFeRD Weekly News #16</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #15</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #15</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2315</link>
       <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #15</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 7&lt;sup&gt;th&lt;/sup&gt; April until 13&lt;sup&gt;th&lt;/sup&gt; April.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;AustriaPro the e-Invoice standardization organization
-responsible for the &lt;a href=&quot;http://ebInterface.at&quot;&gt;ebInterface&lt;/a&gt; specification, published the
-&lt;a href=&quot;https://www.wko.at/Content.Node/AUSTRIAPRO/ebInvoice_4p1_englisch.pdf&quot;&gt;English version&lt;/a&gt; of the ebInterface documentation.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AustriaPro &lt;a href=&quot;https://www.wko.at/Content.Node/AUSTRIAPRO/Aktuelles/News_aus_dem_AK_E-Billing.html&quot;&gt;announced&lt;/a&gt; to create a free ZUGFeRD to ebInterface converter and
-vice versa by the end of this year.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ecosio &lt;a href=&quot;http://ecosio.com/blog/2014/04/04/Vorteile-der-e-Rechnung-nutzen/&quot;&gt;elaborates on the benefits of the e-invoice&lt;/a&gt; in comparison
-to the paper invoice.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2315</guid>
+      	<description>ZUGFeRD Weekly News #15</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #14</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #14</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2314</link>
       <pubDate>Sun, 6 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #14</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;ZUGFeRD related news and articles from 31&lt;sup&gt;st&lt;/sup&gt; March until 6&lt;sup&gt;th&lt;/sup&gt; April.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;The German Insurance Association is hosting a &lt;a href=&quot;http://www.versicherungsakademie.de/fileadmin/user_upload/DVA/Dokumente/V804-pro01-ftzahlungsverkehr-052014.pdf&quot; target=&quot;_blank&quot;&gt;Payment transaction symposium&lt;/a&gt;
-on the 21&lt;sup&gt;^st&lt;/sup&gt; and 22&lt;sup&gt;nd&lt;/sup&gt; of May.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;At the &lt;a href=&quot;http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility&quot; target=&quot;_blank&quot;&gt;iText Summit 2014&lt;/a&gt; in Köln, the &lt;a href=&quot;http://itextpdf.com/events/itext_summit_2014_talk_archiving_accessibility&quot; target=&quot;_blank&quot;&gt;archiving
-and accessibility&lt;/a&gt; talk will contain a ZUGFeRD use case.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Congress &lt;a href=&quot;http://www.neue-verwaltung.de/fachforen/&quot; target=&quot;_blank&quot;&gt;Neue Verwaltung&lt;/a&gt; will have an expert forum that deals
-with ZUGFeRD in terms of public administration.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The Tanges Academy is hosting a seminar &lt;a href=&quot;http://www.tangens-akademie.de/seminardatenbank_die_elektronische_rechnung_2014_04_06_2014_nuernberg.html&quot; target=&quot;_blank&quot;&gt;Die elektronische Rechnung 2014&lt;/a&gt;
-on the 4&lt;sup&gt;^th&lt;/sup&gt; of June in Nürenberg. The focus of the seminar will be legal
-and fiscal aspects  of ZUGFeRD and electronic invoices.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The &lt;a href=&quot;http://www.bva.bund.de/SharedDocs/Kurzmeldungen/DE/BVA/2014/eRechnung_oeffentliche_Verwaltung.html&quot; target=&quot;_blank&quot;&gt;Bundesverwaltungsamt&lt;/a&gt; presents his experiences with eBilling in
-public administration.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Gisa announced a new &lt;a href=&quot;http://www.gisa.de/aktuelles/gisa-bietet-basisloesung-fuer-elektronische-rechnungen-mit-zugferd-3060.html&quot; target=&quot;_blank&quot;&gt;ZUGFeRD converter&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Neopost is discussing &lt;a href=&quot;http://www.verband-e-rechnung.org/de/presse/pressemitteilungen-mitglieder/282-eu-richtlinie-bringt-neuen-rueckenwind-fuer-e-invoicing&quot; target=&quot;_blank&quot;&gt;the consequences of the EU Directive regarding electronic invoices&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;PDF Association published three talks on YouTube from seminars hosted in 2013.&lt;/p&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gsN-O-1NJJk&quot; target=&quot;_blank&quot;&gt;Der neue deutsche Rechnungsdatenstandard ZUGFeRD&lt;/a&gt; presented by Bernd Wild.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=cRTd_hDbCQg&quot; target=&quot;_blank&quot;&gt;PDF/A-3 als Trägerformat für ZUGFeRD-E-Rechnungen&lt;/a&gt; by Thomas Zellmann.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vJyNsZZO5D0&quot; target=&quot;_blank&quot;&gt;PDF/A-3 - Das ZUGFeRD Datenmodell&lt;/a&gt; by Andreas Pelekies&lt;/p&gt;
-&lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Stefan Willuda asks &lt;a href=&quot;http://www.mailconsult.net/blog/zugferd-bringt-der-standard-den-durchbruch-fuer-die-e-rechnung/&quot; target=&quot;_blank&quot;&gt;whether ZUGFeRD has the potential to make a breakthrough in e-billing?&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;The &lt;a href=&quot;http://www.ecmguide.de/input-output/postbearbeitung/aiim-studie-papierberge-in-der-rechnungsverarbeitung-17965.aspx&quot; target=&quot;_blank&quot;&gt;Ecmguide&lt;/a&gt; elaborates on the findings of an AIIM study about
-electronic invoice ROI.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2314</guid>
+      	<description>ZUGFeRD Weekly News #14</description>
     </item>
     <item>
       <title>ZUGFeRD Weekly News #13</title>
-      <link>http://konik.io/blog.html#ZUGFeRD Weekly News #13</link>
+      <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2313</link>
       <pubDate>Sun, 30 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#ZUGFeRD Weekly News #13</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This is a new format for the Konik Blog to summarize this week’s happenings in the ZUGFeRD universe.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://artikelfan.de/pm/recht-und-gesetz/eu-parlament-bringt-e-invoicing-richtlinie-auf-den-weg-20119.htm&quot; target=&quot;_blank&quot;&gt;The European Parliament adopted a new directive on electronic invoicing&lt;/a&gt;.
-This is one of this week&amp;#8217;s news highlights.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Webinar Announcement &lt;a href=&quot;https://www2.gotomeeting.com/register/186086394&quot; target=&quot;_blank&quot;&gt;ZUGFeRD für SAP&lt;/a&gt; on May 9, 11:00 by LuraTech
-and LS GmbH. Both companies will present their SAP ZUGFeRD Module to create
-and process invoices.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Crossinx announced a software module &lt;a href=&quot;http://www.postmaster-magazin.de/index.php/software2/11524-rechnungen-im-mittelstand.html&quot; target=&quot;_blank&quot;&gt;Invoice1 Inbound&lt;/a&gt;
-for processing inbound invoices. This software is also capable of processing
-ZUGFeRD invoices.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GS1 Germany is hosting an &lt;a href=&quot;http://www.gs1-germany.de/no_cache/gs1-academy/veranstaltungen/detail/seminar/GS1-Praxistag-Elektr-1658/seminar-termin/2014-06-12_GS1-Germany-Knowledg_ID_1924/?etcc_med=Advertising&amp;amp;etcc_cmp=Veranstaltungen&amp;amp;etgs1_prod=Praxistag+Elektronische+Rechnung&amp;amp;etcc_#Beschreibung&quot; target=&quot;_blank&quot;&gt;all-day electronic invoicing workshop&lt;/a&gt;
-on the 12&lt;sup&gt;^th&lt;/sup&gt; of July. The main focus of the event will be ZUGFeRD.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;articles&quot;&gt;Articles&lt;/h3&gt;
-&lt;div class=&quot;ulist&quot;&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.cowo.de/a/2556240&quot; target=&quot;_blank&quot;&gt;ZUGFeRD für die E-Rechnung&lt;/a&gt;. An article explaining ZUGFeRD to
-managers and people not familiar with ZUGFeRD. Within the article, there is
-also an announcement that the final release of ZUGFeRD is expected this summer.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2313</guid>
+      	<description>ZUGFeRD Weekly News #13</description>
     </item>
     <item>
       <title>Dependency Injection with the Konik library</title>
-      <link>http://konik.io/blog.html#Dependency Injection with the Konik library</link>
+      <link>http://konik.io/blog.html#Dependency-Injection-with-the-Konik-library</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Dependency Injection with the Konik library</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Starting with version 0.2.0, the Konik library and iText-Carriage are supporting &lt;a href=&quot;https://jcp.org/en/jsr/detail?id=330&quot; target=&quot;_blank&quot;&gt;JSR 330&lt;/a&gt; dependency injection.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;injectable_konik_classes&quot;&gt;Injectable Konik Classes&lt;/h2&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The Singleton classes InvoiceTransformer in the Konik library ITextPdfInvoiceExtractor and ITextPdfInvoiceAppender in the iText-Carriage module can now be injected into your application. The only requirement is that your Dependency Injection Framework supports JSR-330. Even though DI frameworks are widely used, the Konik library and its modules do not force you to use a DI framework at all. You can still instantiate the above classes with the new Operator.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;which_dependency_injection_frameworks_are_supported&quot;&gt;Which Dependency Injection Frameworks are supported?&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;All common Dependency Injection Frameworks and JEE6 compatible Application Servers support JSR-330 Dependency Injection. This means that if your application is based on Spring, Guice, JEE6, Apache OpenWebBeans, or JBoss Weld, then you are able to inject the Konik classes mentioned above into your application. The only requirement is that the JSR-330 API javax.inject.* is on your classpath, which is not always true, as the following examples explain.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;spring_and_konik_example&quot;&gt;Spring and Konik example&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Make sure that you use Spring above Version 3, which supports JSR-330. The dependency on the JSR-330 API are declared as optional in Spring, which means that you need to add the JSR-330 library to your application.
-In your project pom.xml file, add the following dependency.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
-   &amp;lt;groupId&amp;gt;javax.inject&amp;lt;/groupId&amp;gt;
-   &amp;lt;artifactId&amp;gt;javax.inject&amp;lt;/artifactId&amp;gt;
-   &amp;lt;version&amp;gt;1&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The next step is to configure Spring to search additional dependencies. This step is only necessary if you restricted Spring component scanning to certain packages beforehand. Otherwise, you are ready to go.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;For Spring with an XML configuration, append the Konik library package name io.konik to the existing component scanning directive.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;context:component-scan base-package=&quot;com.myCompany, io.konik&quot; /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;@Configuration
-@ComponentScan(&quot;com.myCompany, io.konik&quot;)&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;(1)&lt;/b&gt;
-@EnableAutoConfiguration
-class Application {
-// ...&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;colist arabic&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;i class=&quot;conum&quot; data-value=&quot;1&quot;&gt;&lt;/i&gt;&lt;b&gt;1&lt;/b&gt;&lt;/td&gt;
-&lt;td&gt;For Java-based Spring configuration, append the io.konik package in the @ComponentScan annotation.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;other_dependency_injection_frameworks&quot;&gt;Other Dependency Injection Frameworks&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;OpenWebBeans also has JSR-330 API as an optional dependency, similar to Spring. The only minor difference is that OpenWebBeans recommends the use of a different JSR-330 dependency Jar package.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;listingblock&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;pre class=&quot;highlightjs highlight&quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&amp;lt;dependency&amp;gt;
-   &amp;lt;groupId&amp;gt;org.apache.geronimo.specs&amp;lt;/groupId&amp;gt;
-   &amp;lt;artifactId&amp;gt;geronimo-atinject_1.0_spec&amp;lt;/artifactId&amp;gt;
-   &amp;lt;version&amp;gt;1.0&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Using the Konik library with Google Guice does not need any special setup, as Google Guice is already bundled with JSR-330. This is also true for JEE6 Applications Servers. If in doubt, you should look up the reference manual of your Dependency Injection Framework, which normally goes into greater detail about this topic.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Dependency-Injection-with-the-Konik-library</guid>
+      	<description>Dependency Injection with the Konik library</description>
     </item>
     <item>
       <title>Konik library and iText-Carriage version 0.1.0 released</title>
-      <link>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</link>
+      <link>http://konik.io/blog.html#Konik-library-and-iText-Carriage-version-0.1.0-released</link>
       <pubDate>Sun, 2 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik library and iText-Carriage version 0.1.0 released</guid>
-      	<description>
-				&lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Today, the Konik library and the Konik iText Carriage were released to the Maven Central Repository.
-Both libraries carry the version &lt;strong&gt;0.1.0&lt;/strong&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect2&quot;&gt;
-&lt;h3 id=&quot;release_notes&quot;&gt;Release Notes&lt;/h3&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Since this is the first release, everything has changed in comparison to the previous version.
-These Release Notes are intended to highlight what already works, what does not work,
-and what you can expect for the next release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The ZUGFeRD model is completely supported by Konik. Reading and writing XML content
-according to the ZUGFeRD specification is working.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;On the Konik to-do list, there are various model validations that have still not
-been implemented.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;iText-Carriage allows users to attach and extract ZUGFeRD Model Data from a PDF.
-The functionality is still limited because currently, iText-Carriage strictly
-expects the incoming PDFs to be &lt;strong&gt;PDF/3-B&lt;/strong&gt; compliant.
-However, this will change with a feature release. The second issue is that
-in the current state, no &lt;a href=&quot;http://de.wikipedia.org/wiki/Extensible_Metadata_Platform&quot; target=&quot;_blank&quot;&gt;XMP&lt;/a&gt;
-Metadata is written to the PDF when the XML content is attached.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;A zip &lt;a href=&quot;https://oss.sonatype.org/content/repositories/releases/io/konik/distribution/0.1.0/distribution-0.1.0.zip&quot; class=&quot;download-zip-package&quot; target=&quot;_blank&quot;&gt;distribution package&lt;/a&gt;
-in the Maven Central Repository is intended for users who are not using a Build System.
-The package contains the Konik libraries and all dependent libraries.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;All artifacts can be found on Maven Central by the Group ID:
-&lt;a href=&quot;http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.konik%22&quot; target=&quot;_blank&quot;&gt;io.konik&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-library-and-iText-Carriage-version-0.1.0-released</guid>
+      	<description>Konik library and iText-Carriage version 0.1.0 released</description>
     </item>
     <item>
       <title>Konik project Start</title>
-      <link>http://konik.io/blog.html#Konik project Start</link>
+      <link>http://konik.io/blog.html#Konik-project-Start</link>
       <pubDate>Sun, 1 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>http://konik.io/blog.html#Konik project Start</guid>
-      	<description>
-				&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The beginning of the Konik library project.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The goal of the library is to provide an easy way to create, read, and validate ZUGFeRD invoices.
-Our vision is to provide the #1 library resource for every application that deals with reading and writing ZUGFeRD invoices.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Moreover, I hope that with the Konik library, the ZUGFeRD standard will continue to gain momentum, especially in small and medium-sized enterprises.
-Further development of this highly useful library will be influenced by increased adoption of the ZUGFeRD standard, as well as user input.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://plus.google.com/+VadimBauer?rel=author&quot;&gt;Vadim Bauer&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;imageblock text-center&quot;&gt;
-&lt;div class=&quot;content&quot;&gt;
-&lt;img src=&quot;/img/konik-logo-on-white-bg.png&quot; alt=&quot;Konik library logo&quot; width=&quot;400&quot;&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph text-center&quot;&gt;
-&lt;p&gt;Uma (Horse). Ink drawing on paper by unnamed artist. Year ca. 1890.&lt;/p&gt;
-&lt;/div&gt;
-		</description>
+      <guid>http://konik.io/blog.html#Konik-project-Start</guid>
+      	<description>Konik project Start</description>
     </item>
   </channel> 
 </rss>

@@ -98,7 +98,7 @@
 <span class="sourceLineNo">090</span>      InputStream inputPdf = appendParameter.inputPdf();<a name="line.90"></a>
 <span class="sourceLineNo">091</span>      try {<a name="line.91"></a>
 <span class="sourceLineNo">092</span>         PDDocument doc = PDDocument.load(inputPdf);<a name="line.92"></a>
-<span class="sourceLineNo">093</span>         setXmp(doc, appendParameter);<a name="line.93"></a>
+<span class="sourceLineNo">093</span>         setMetadata(doc, appendParameter);<a name="line.93"></a>
 <span class="sourceLineNo">094</span>         attachZugferdFile(doc, appendParameter.attachmentFile());<a name="line.94"></a>
 <span class="sourceLineNo">095</span>         doc.getDocument().setVersion(1.7f);<a name="line.95"></a>
 <span class="sourceLineNo">096</span>         doc.save(appendParameter.resultingPdf());<a name="line.96"></a>
@@ -153,21 +153,21 @@
 <span class="sourceLineNo">145</span>      documentCatalog.setNames(namesDictionary);<a name="line.145"></a>
 <span class="sourceLineNo">146</span>   }<a name="line.146"></a>
 <span class="sourceLineNo">147</span><a name="line.147"></a>
-<span class="sourceLineNo">148</span>   private PDDocumentCatalog setXmp(PDDocument doc, AppendParameter appendParameter) throws IOException,<a name="line.148"></a>
+<span class="sourceLineNo">148</span>   private void setMetadata(PDDocument doc, AppendParameter appendParameter) throws IOException,<a name="line.148"></a>
 <span class="sourceLineNo">149</span>         TransformerException, BadFieldValueException, XmpSerializationException {<a name="line.149"></a>
 <span class="sourceLineNo">150</span>      Calendar now = Calendar.getInstance();<a name="line.150"></a>
 <span class="sourceLineNo">151</span>      PDDocumentCatalog catalog = doc.getDocumentCatalog();<a name="line.151"></a>
-<span class="sourceLineNo">152</span>      PDMetadata metadata = new PDMetadata(doc);<a name="line.152"></a>
-<span class="sourceLineNo">153</span>      catalog.setMetadata(metadata);<a name="line.153"></a>
-<span class="sourceLineNo">154</span><a name="line.154"></a>
-<span class="sourceLineNo">155</span>      XMPMetadata xmp = XMPMetadata.createXMPMetadata();<a name="line.155"></a>
-<span class="sourceLineNo">156</span>      PDFAIdentificationSchema pdfaid = new PDFAIdentificationSchema(xmp);<a name="line.156"></a>
-<span class="sourceLineNo">157</span>      pdfaid.setPart(3);<a name="line.157"></a>
-<span class="sourceLineNo">158</span>      pdfaid.setConformance("B");<a name="line.158"></a>
-<span class="sourceLineNo">159</span>      xmp.addSchema(pdfaid);<a name="line.159"></a>
-<span class="sourceLineNo">160</span><a name="line.160"></a>
-<span class="sourceLineNo">161</span>      DublinCoreSchema dublicCore = new DublinCoreSchema(xmp);<a name="line.161"></a>
-<span class="sourceLineNo">162</span>      // dublicCore.addCreator(creator);<a name="line.162"></a>
+<span class="sourceLineNo">152</span>      <a name="line.152"></a>
+<span class="sourceLineNo">153</span>      PDMetadata metadata = new PDMetadata(doc);<a name="line.153"></a>
+<span class="sourceLineNo">154</span>      catalog.setMetadata(metadata);<a name="line.154"></a>
+<span class="sourceLineNo">155</span>      <a name="line.155"></a>
+<span class="sourceLineNo">156</span>      XMPMetadata xmp = XMPMetadata.createXMPMetadata();<a name="line.156"></a>
+<span class="sourceLineNo">157</span>      PDFAIdentificationSchema pdfaid = new PDFAIdentificationSchema(xmp);<a name="line.157"></a>
+<span class="sourceLineNo">158</span>      pdfaid.setPart(Integer.valueOf(3)); <a name="line.158"></a>
+<span class="sourceLineNo">159</span>      pdfaid.setConformance("B");<a name="line.159"></a>
+<span class="sourceLineNo">160</span>      xmp.addSchema(pdfaid);<a name="line.160"></a>
+<span class="sourceLineNo">161</span><a name="line.161"></a>
+<span class="sourceLineNo">162</span>      DublinCoreSchema dublicCore = new DublinCoreSchema(xmp);<a name="line.162"></a>
 <span class="sourceLineNo">163</span>      xmp.addSchema(dublicCore);<a name="line.163"></a>
 <span class="sourceLineNo">164</span><a name="line.164"></a>
 <span class="sourceLineNo">165</span>      XMPBasicSchema basicSchema = new XMPBasicSchema(xmp);<a name="line.165"></a>
@@ -175,10 +175,10 @@
 <span class="sourceLineNo">167</span>      basicSchema.setCreateDate(now);<a name="line.167"></a>
 <span class="sourceLineNo">168</span>      xmp.addSchema(basicSchema);<a name="line.168"></a>
 <span class="sourceLineNo">169</span><a name="line.169"></a>
-<span class="sourceLineNo">170</span>      PDDocumentInformation pdi = new PDDocumentInformation();<a name="line.170"></a>
+<span class="sourceLineNo">170</span>      PDDocumentInformation pdi = doc.getDocumentInformation();<a name="line.170"></a>
 <span class="sourceLineNo">171</span>      pdi.setModificationDate(now);<a name="line.171"></a>
 <span class="sourceLineNo">172</span>      pdi.setProducer(PRODUCER);<a name="line.172"></a>
-<span class="sourceLineNo">173</span>      pdi.setAuthor(System.getProperty("user.name"));<a name="line.173"></a>
+<span class="sourceLineNo">173</span>      pdi.setAuthor(getAuthor());<a name="line.173"></a>
 <span class="sourceLineNo">174</span>      doc.setDocumentInformation(pdi);<a name="line.174"></a>
 <span class="sourceLineNo">175</span><a name="line.175"></a>
 <span class="sourceLineNo">176</span>      AdobePDFSchema pdf = new AdobePDFSchema(xmp);<a name="line.176"></a>
@@ -196,10 +196,13 @@
 <span class="sourceLineNo">188</span>      xmp.addSchema(zf);<a name="line.188"></a>
 <span class="sourceLineNo">189</span><a name="line.189"></a>
 <span class="sourceLineNo">190</span>      new XmpSerializer().serialize(xmp, metadata.createOutputStream(), true);<a name="line.190"></a>
-<span class="sourceLineNo">191</span>      return catalog;<a name="line.191"></a>
-<span class="sourceLineNo">192</span>   }<a name="line.192"></a>
-<span class="sourceLineNo">193</span><a name="line.193"></a>
-<span class="sourceLineNo">194</span>}<a name="line.194"></a>
+<span class="sourceLineNo">191</span>   }<a name="line.191"></a>
+<span class="sourceLineNo">192</span><a name="line.192"></a>
+<span class="sourceLineNo">193</span>   private static String getAuthor() {<a name="line.193"></a>
+<span class="sourceLineNo">194</span>      return System.getProperty("user.name");<a name="line.194"></a>
+<span class="sourceLineNo">195</span>   }<a name="line.195"></a>
+<span class="sourceLineNo">196</span><a name="line.196"></a>
+<span class="sourceLineNo">197</span>}<a name="line.197"></a>
 
 
 
