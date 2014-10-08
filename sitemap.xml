@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
     <url>
         <loc>http://konik.io/docs/index.html</loc>
-        <lastmod>2014-10-07</lastmod>
+        <lastmod>2014-10-08</lastmod>
     </url>
     <url>
         <loc>http://konik.io/license.html</loc>
@@ -172,5 +173,19 @@
         <loc>http://konik.io/blog.html</loc>
         <lastmod>2013-12-12</lastmod>
     </url>
+
+    <url>
+        <loc>http://konik.io/docs/api/konik/</loc>
+        <lastmod>2014-10-08</lastmod>
+    </url>
+    <url>
+        <loc>http://konik.io/docs/api/pdfbox-carriage/</loc>
+        <lastmod>2014-10-08</lastmod>
+    </url>
+    <url>
+        <loc>http://konik.io/docs/api/itext-carriage/</loc>
+        <lastmod>2014-10-08</lastmod>
+    </url>
+
 </urlset>
 
