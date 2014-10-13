@@ -9,7 +9,7 @@
     <meta name="author" content="Vadim Bauer"/>
     <meta content="/img/logo.png" property="og:image"/>
     <meta name="keywords" content="Konik User Guide, Konik manual, Konik HowTo, Konik API, Konik JavaDocs, Konik JavaDoc"/>
-    <meta name="date" content='2014-10-08' scheme="YYYY-MM-DD"/>
+    <meta name="date" content='2014-10-13' scheme="YYYY-MM-DD"/>
 	<meta name="author" content="Vadim Bauer">
     
 	
@@ -94,6 +94,12 @@
 <li><a href="#__net_projects">.NET projects</a></li>
 </ul>
 </li>
+<li><a href="#_konik_configuration">Konik Configuration</a>
+<ul class="sectlevel2">
+<li><a href="#_property_file">Property file</a></li>
+<li><a href="#_system_property">System property</a></li>
+</ul>
+</li>
 <li><a href="#_javadoc_api_documentation">JavaDoc API Documentation</a></li>
 </ul>
 </div>
@@ -104,7 +110,7 @@
 <div class="sectionbody">
 <div class="paragraph">
 <p>The example code from
-<a href="https://github.com/konik-io/konik/blob/konik-0.8.1/src/test/java/io/konik/examples/MinimalInvoice.java#L72">MinimalInvoice.java</a>
+<a href="https://github.com/konik-io/konik/blob/konik-0.8.2/src/test/java/io/konik/examples/MinimalInvoice.java#L72">MinimalInvoice.java</a>
 represents a valid basic invoice and the steps on how to convert and attach an invoice to a PDF.</p>
 </div>
 <div class="paragraph">
@@ -264,7 +270,7 @@ The default option for Konik is to use Java
 <pre class="highlightjs highlight"><code class="language-xml" data-lang="xml">&lt;dependency&gt;
     &lt;groupId&gt;io.konik&lt;/groupId&gt;
     &lt;artifactId&gt;konik&lt;/artifactId&gt;
-    &lt;version&gt;0.8.1&lt;/version&gt;
+    &lt;version&gt;0.8.2&lt;/version&gt;
 &lt;/dependency&gt;</code></pre>
 </div>
 </div>
@@ -348,7 +354,7 @@ which is not JEE6+ or JSR330 compatible.</p>
 <pre class="highlightjs highlight"><code class="language-xml" data-lang="xml">&lt;dependency&gt;
     &lt;groupId&gt;io.konik&lt;/groupId&gt;
     &lt;artifactId&gt;konik&lt;/artifactId&gt;
-    &lt;version&gt;0.8.1&lt;/version&gt;
+    &lt;version&gt;0.8.2&lt;/version&gt;
 &lt;/dependency&gt;
 
 &lt;dependency&gt;
@@ -471,6 +477,52 @@ Everything bundled together in one package available via NuGet.</p>
 </div>
 </div>
 <div class="sect1 col-lg-12">
+<h2 id="_konik_configuration">Konik Configuration</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Konik is delivered with a sensible default configuration out of the box.
+In most cases you should not need to change the default settings.</p>
+</div>
+<div class="paragraph">
+<p>There are two possible ways how Konik can be configured.</p>
+</div>
+<div class="sect2">
+<h3 id="_property_file">Property file</h3>
+<div class="paragraph">
+<p>If a property file with the name io.konik.configuration.properties exists in the root of the classpath it will be loaded when accessing the configuration.
+When using maven <code>io.konik.configuration.properties</code> should be placed in <code>src/main/resources</code>.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_system_property">System property</h3>
+<div class="paragraph">
+<p>In addition system properties can be also used to change the Konik configuration.
+Setting System Properties is either done with <code>-D</code> command line argument on application start or with
+<code>System.setProperty("io.konik.key","value");</code> within the application.
+When using the later method make sure that the property needed are set before Konik Configuration is loaded.</p>
+</div>
+<div id="admonition" class="paragraph alert alert-info">
+<p><i class="fa fa-info-circle fa-3x col-lg-1"></i>
+System Properties override file properties.
+This is can be useful in cases where you define a default configuration in the property file but want to have different configuration in a particular application instance.</p>
+</div>
+<div class="paragraph">
+<p>List of default Konik configuration options.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">#default
+io.konik.stripTrailingZeros=true
+io.konik.jaxb.adapter.AmountLowRoundingAdapter=2
+io.konik.jaxb.adapter.AmountHighRoundingAdapter=4
+io.konik.jaxb.adapter.MeasureRoundingAdapter=2
+io.konik.jaxb.adapter.QuantityRoundingAdapter=4</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1 col-lg-12">
 <h2 id="_javadoc_api_documentation">JavaDoc API Documentation</h2>
 <div class="sectionbody">
 <div class="paragraph">
@@ -482,7 +534,7 @@ Everything bundled together in one package available via NuGet.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="api/konik/">Konik 0.8.1</a></p>
+<p><a href="api/konik/">Konik 0.8.2</a></p>
 </li>
 <li>
 <p><a href="api/pdfbox-carriage/">PDFBox-Carriage 0.8.2</a></p>
