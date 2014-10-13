@@ -101,6 +101,7 @@
 </ul>
 </li>
 <li><a href="#_javadoc_api_documentation">JavaDoc API Documentation</a></li>
+<li><a href="#_zugferd_specification">ZUGFeRD Specification</a></li>
 </ul>
 </div>
 </div>
@@ -490,10 +491,14 @@ In most cases you should not need to change the default settings.</p>
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">#default
 io.konik.stripTrailingZeros=true
-io.konik.jaxb.adapter.AmountLowRoundingAdapter=2
-io.konik.jaxb.adapter.AmountHighRoundingAdapter=4
-io.konik.jaxb.adapter.MeasureRoundingAdapter=2
-io.konik.jaxb.adapter.QuantityRoundingAdapter=4</code></pre>
+io.konik.jaxb.adapter.AmountLowRoundingAdapter.scale=2
+io.konik.jaxb.adapter.AmountLowRoundingAdapter.roundingMode=HALF_UP
+io.konik.jaxb.adapter.AmountHighRoundingAdapter.scale=4
+io.konik.jaxb.adapter.AmountHighRoundingAdapter.roundingMode=HALF_UP
+io.konik.jaxb.adapter.MeasureRoundingAdapter.scale=2
+io.konik.jaxb.adapter.MeasureRoundingAdapter.roundingMode=HALF_UP
+io.konik.jaxb.adapter.QuantityRoundingAdapter.scale=4
+io.konik.jaxb.adapter.QuantityRoundingAdapter.roundingMode=HALF_UP</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -541,6 +546,30 @@ This is can be useful in cases where you define a default configuration in the p
 </li>
 <li>
 <p><a href="api/itext-carriage/">iText-Carriage 0.8.0</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_zugferd_specification">ZUGFeRD Specification</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Collection of links to the original ZUGFeRD Specification by AWV e.V.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="/ZUGFeRD-Spezifikation/Das-ZUGFeRD-Format_1p0.pdf">Das ZUGFeRD-Format</a>, Spezifikation und Umsetzungsregeln zum branchen- übergreifenden Kern-Rechnungsformat des Forums elektronische Rechnung Deutschland (FeRD)</p>
+</li>
+<li>
+<p><a href="/ZUGFeRD-Spezifikation/Das-ZUGFeRD-Format_1p0_technische_Dokumentation.pdf">Technische Dokumentation</a>, Betriebswirtschaftliche Begriffe, Datenmodell und Schema</p>
+</li>
+<li>
+<p><a href="/ZUGFeRD-Spezifikation/Das-ZUGFeRD-Format_1p0_c1p0_Codelisten.pdf">Codelisten</a>, ZUGFeRD Version 1.0, Codelisten Version 1.0</p>
+</li>
+<li>
+<p><a href="/ZUGFeRD-Spezifikation/Das-ZUGFeRD-Format_1p0_Aenderungshistorie_zu_RC.pdf">Änderungshistorie ZU RC</a>, Hinweise zu Änderungen von Version ZUGFeRD Release Candidate (RC) zu ZUGFeRD 1.0</p>
 </li>
 </ul>
 </div>
