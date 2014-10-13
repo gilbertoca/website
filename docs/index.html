@@ -484,6 +484,19 @@ Everything bundled together in one package available via NuGet.</p>
 In most cases you should not need to change the default settings.</p>
 </div>
 <div class="paragraph">
+<p>List of default Konik configuration options.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">#default
+io.konik.stripTrailingZeros=true
+io.konik.jaxb.adapter.AmountLowRoundingAdapter=2
+io.konik.jaxb.adapter.AmountHighRoundingAdapter=4
+io.konik.jaxb.adapter.MeasureRoundingAdapter=2
+io.konik.jaxb.adapter.QuantityRoundingAdapter=4</code></pre>
+</div>
+</div>
+<div class="paragraph">
 <p>There are two possible ways how Konik can be configured.</p>
 </div>
 <div class="sect2">
@@ -505,19 +518,6 @@ When using the later method make sure that the property needed are set before Ko
 <p><i class="fa fa-info-circle fa-3x col-lg-1"></i>
 System Properties override file properties.
 This is can be useful in cases where you define a default configuration in the property file but want to have different configuration in a particular application instance.</p>
-</div>
-<div class="paragraph">
-<p>List of default Konik configuration options.</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">#default
-io.konik.stripTrailingZeros=true
-io.konik.jaxb.adapter.AmountLowRoundingAdapter=2
-io.konik.jaxb.adapter.AmountHighRoundingAdapter=4
-io.konik.jaxb.adapter.MeasureRoundingAdapter=2
-io.konik.jaxb.adapter.QuantityRoundingAdapter=4</code></pre>
-</div>
 </div>
 </div>
 </div>
