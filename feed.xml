@@ -6,9 +6,16 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>de-de</language>
-    <pubDate>Mon, 13 Oct 2014 10:46:36 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Oct 2014 10:46:36 +0000</lastBuildDate>
+    <pubDate>Tue, 14 Oct 2014 10:10:03 +0000</pubDate>
+    <lastBuildDate>Tue, 14 Oct 2014 10:10:03 +0000</lastBuildDate>
 
+    <item>
+      <title>Konik 1.0 Roadmap</title>
+      <link>http://konik.io/blog.html#Konik-1.0-Roadmap</link>
+      <pubDate>Tue, 14 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Konik-1.0-Roadmap</guid>
+      	<description>Konik 1.0 Roadmap</description>
+    </item>
     <item>
       <title>ZUGFeRD Weekly News #35</title>
       <link>http://konik.io/blog.html#ZUGFeRD-Weekly-News-%2335</link>
