@@ -3,7 +3,7 @@
 
     <url>
         <loc>http://konik.io/docs/index.html</loc>
-        <lastmod>2014-10-14</lastmod>
+        <lastmod>2014-10-16</lastmod>
     </url>
     <url>
         <loc>http://konik.io/license.html</loc>
@@ -180,15 +180,15 @@
 
     <url>
         <loc>http://konik.io/docs/api/konik/</loc>
-        <lastmod>2014-10-14</lastmod>
+        <lastmod>2014-10-16</lastmod>
     </url>
     <url>
         <loc>http://konik.io/docs/api/pdfbox-carriage/</loc>
-        <lastmod>2014-10-14</lastmod>
+        <lastmod>2014-10-16</lastmod>
     </url>
     <url>
         <loc>http://konik.io/docs/api/itext-carriage/</loc>
-        <lastmod>2014-10-14</lastmod>
+        <lastmod>2014-10-16</lastmod>
     </url>
 
 </urlset>
