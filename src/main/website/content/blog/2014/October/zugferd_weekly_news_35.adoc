@@ -1,0 +1,15 @@
+= ZUGFeRD Weekly News #35
+Vadim Bauer
+2014-10-31
+:jbake-type: post
+:jbake-status: draft
+:jbake-tags: ZUGFeRD Weekly	
+:idprefix:
+:linkattrs:
+:0: http://www.basware.com/blog/2014-10-07/von-ansi-asc-x12-bis-zugferd-%E2%80%93-ein-kurzer-leitfaden-durch-den-standard-dschungel
+
+
+
+Nachrichten und Neuigkeiten und rund um ZUGFeRD und elektronische Rechnungen im Zeitraum vom 31 August bis November.
+  
+
