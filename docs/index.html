@@ -9,7 +9,7 @@
     <meta name="author" content="Vadim Bauer"/>
     <meta content="/img/logo.png" property="og:image"/>
     <meta name="keywords" content="Konik User Guide, Konik manual, Konik HowTo, Konik API, Konik JavaDocs, Konik JavaDoc"/>
-    <meta name="date" content='2014-10-31' scheme="YYYY-MM-DD"/>
+    <meta name="date" content='2014-11-08' scheme="YYYY-MM-DD"/>
 	<meta name="author" content="Vadim Bauer">
     
 	
@@ -80,54 +80,56 @@
 <div id="toc" class="col-lg-12">
 <div id="toctitle" class="title">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_quick_start">Quick Start</a>
+<li><a href="#quick_start">1. Quick Start</a>
 <ul class="sectlevel2">
-<li><a href="#_creating_the_invoice_model">Creating the invoice model</a></li>
-<li><a href="#_transforming_invoice_model_to_xml">Transforming invoice model to XML</a></li>
-<li><a href="#_attaching_invoice_model_to_pdf">Attaching invoice model to PDF</a></li>
+<li><a href="#creating_the_invoice_model">1.1. Creating the invoice model</a></li>
+<li><a href="#transforming_invoice_model_to_xml">1.2. Transforming invoice model to XML</a></li>
+<li><a href="#append_a_zugferd_invoice_to_an_existing_pdf">1.3. Append a ZUGFeRD invoice to an existing PDF</a></li>
+<li><a href="#extract_zugferd_invoice_from_pdf">1.4. Extract ZUGFeRD invoice from PDF</a></li>
+<li><a href="#validate_correctness_of_a_zugferd_invoice">1.5. Validate correctness of a ZUGFeRD Invoice</a></li>
 </ul>
 </li>
-<li><a href="#_setup">Setup</a>
+<li><a href="#setup">2. Setup</a>
 <ul class="sectlevel2">
-<li><a href="#_java_projects">Java Projects</a></li>
-<li><a href="#_invoice_validator_option">Invoice Validator Option</a></li>
-<li><a href="#__net_projects">.NET projects</a></li>
+<li><a href="#java_projects">2.1. Java Projects</a></li>
+<li><a href="#invoice_validator_option">2.2. Invoice Validator Option</a></li>
+<li><a href="#net_projects">2.3. .NET projects</a></li>
 </ul>
 </li>
-<li><a href="#_konik_configuration">Konik Configuration</a>
+<li><a href="#konik_configuration">3. Konik Configuration</a>
 <ul class="sectlevel2">
-<li><a href="#_property_file">Property file</a></li>
-<li><a href="#_system_property">System property</a></li>
+<li><a href="#property_file">3.1. Property file</a></li>
+<li><a href="#system_property">3.2. System property</a></li>
 </ul>
 </li>
-<li><a href="#_javadoc_api_documentation">JavaDoc API Documentation</a></li>
-<li><a href="#_zugferd_specification">ZUGFeRD Specification</a></li>
+<li><a href="#javadoc_api_documentation">4. JavaDoc API Documentation</a></li>
+<li><a href="#zugferd_specification">5. ZUGFeRD Specification</a></li>
 </ul>
 </div>
 </div>
 </div>
 <div class="sect1 col-lg-12">
-<h2 id="_quick_start">Quick Start</h2>
+<h2 id="quick_start"><a class="anchor" href="#quick_start"></a>1. Quick Start</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>The example code from
-<a href="https://github.com/konik-io/konik/blob/konik-0.9.0/src/test/java/io/konik/examples/MinimalInvoice.java#L72">MinimalInvoice.java</a>
-represents a valid basic invoice and the steps on how to convert and attach an invoice to a PDF.</p>
+<a href="https://github.com/konik-io/konik/blob/master/src/test/java/io/konik/examples/MinimalInvoice.java">MinimalInvoice.java</a> represents a valid basic invoice and the steps on how to convert and attach an invoice to a PDF.</p>
 </div>
 <div class="paragraph">
 <p>Let us step through the code and take a look at the interesting parts.</p>
 </div>
 <div class="sect2">
-<h3 id="_creating_the_invoice_model">Creating the invoice model</h3>
+<h3 id="creating_the_invoice_model"><a class="anchor" href="#creating_the_invoice_model"></a>1.1. Creating the invoice model</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-java" data-lang="java">private Invoice createMinimalInvoiceModel() {
+<pre class="highlightjs highlight"><code class="language-java" data-lang="java">private Invoice createInvoice() {
 
    Invoice invoice = new Invoice(BASIC);    <i class="conum" data-value="1"></i><b>(1)</b>
    invoice.setHeader(new Header()
       .setInvoiceNumber("20131122-42")
       .setCode(_380)
       .setIssued(today)
+      .addNote(new Note("MFG"))
       .setName("Rechnung"));
 
    Trade trade = new Trade();
@@ -151,6 +153,9 @@ represents a valid basic invoice and the steps on how to convert and attach an i
                .setPayerInstitution(new FinancialInstitution("GENO...")))
          .setMonetarySummation(new MonetarySummation()
             .setLineTotal(new Amount(100, EUR))
+            .setChargeTotal(new Amount(0,EUR))
+            .setAllowanceTotal(new Amount(0, EUR))
+            .setTaxBasisTotal(new Amount(100, EUR))
             .setTaxTotal(new Amount(19, EUR))
             .setGrandTotal(new Amount(119, EUR))));
 
@@ -177,13 +182,13 @@ represents a valid basic invoice and the steps on how to convert and attach an i
 </div>
 </div>
 <div class="sect2">
-<h3 id="_transforming_invoice_model_to_xml">Transforming invoice model to XML</h3>
+<h3 id="transforming_invoice_model_to_xml"><a class="anchor" href="#transforming_invoice_model_to_xml"></a>1.2. Transforming invoice model to XML</h3>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void createXmlFromModel(Invoice invoice) throws IOException {
-   InvoiceTransformer transformer = new InvoiceTransformer();     <i class="conum" data-value="1"></i><b>(1)</b>
+<pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void transformInvoiceToXml(Invoice invoice) throws IOException {
+   InvoiceTransformer transformer = new InvoiceTransformer(); <i class="conum" data-value="1"></i><b>(1)</b>
    FileOutputStream outputStream = new FileOutputStream("target/minimal-invoice.xml");
-   transformer.fromModel(invoice, outputStream);      <i class="conum" data-value="2"></i><b>(2)</b>
+   transformer.fromModel(invoice, outputStream); <i class="conum" data-value="2"></i><b>(2)</b>
 }</code></pre>
 </div>
 </div>
@@ -201,18 +206,18 @@ represents a valid basic invoice and the steps on how to convert and attach an i
 </div>
 </div>
 <div class="sect2">
-<h3 id="_attaching_invoice_model_to_pdf">Attaching invoice model to PDF</h3>
+<h3 id="append_a_zugferd_invoice_to_an_existing_pdf"><a class="anchor" href="#append_a_zugferd_invoice_to_an_existing_pdf"></a>1.3. Append a ZUGFeRD invoice to an existing PDF</h3>
 <div class="paragraph">
 <p>This alternative step performs a model conversation. So you don&#8217;t have to do it yourself.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void creatInvoiceAndAttachToPDF() throws IOException {
-   Invoice invoice = createMinimalInvoiceModel();
-   PdfHandler handler = new PdfHandler();    <i class="conum" data-value="1"></i><b>(1)</b>
+<pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void appendInvoiceToPdf() throws IOException {
+   Invoice invoice = createInvoice();
+   PdfHandler handler = new PdfHandler(); <i class="conum" data-value="1"></i><b>(1)</b>
    InputStream inputPdf = getClass().getResourceAsStream("/acme_invoice-42.pdf");
    OutputStream resultingPdf = new FileOutputStream("target/acme_invoice-42_ZUGFeRD.pdf");
-   handler.appendInvoice(invoice, inputPdf, resultingPdf);     <i class="conum" data-value="2"></i><b>(2)</b>
+   handler.appendInvoice(invoice, inputPdf, resultingPdf); <i class="conum" data-value="2"></i><b>(2)</b>
 }</code></pre>
 </div>
 </div>
@@ -229,13 +234,78 @@ represents a valid basic invoice and the steps on how to convert and attach an i
 </table>
 </div>
 </div>
+<div class="sect2">
+<h3 id="extract_zugferd_invoice_from_pdf"><a class="anchor" href="#extract_zugferd_invoice_from_pdf"></a>1.4. Extract ZUGFeRD invoice from PDF</h3>
+<div class="paragraph">
+<p>This step internally also performs a model conversation.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void extracInvoiceFromPdf() {
+   PdfHandler handler = new PdfHandler(); <i class="conum" data-value="1"></i><b>(1)</b>
+   InputStream inputZugferdPdfStream = getClass().getResourceAsStream("/acme_invoice-42_ZUGFeRD.pdf");
+   Invoice invoice = handler.extractInvoice(inputZugferdPdfStream);<i class="conum" data-value="1"></i><b>(1)</b>
+   assertThat(invoice).isNotNull();
+}</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Create a new PdfHandler or reuse existing.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>Append Invoice to existing PDF defined in inputPdf the result will be written to resultingPdf.</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="validate_correctness_of_a_zugferd_invoice"><a class="anchor" href="#validate_correctness_of_a_zugferd_invoice"></a>1.5. Validate correctness of a ZUGFeRD Invoice</h3>
+<div class="paragraph">
+<p>This example shows how one can validates the correction of an invoice.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void validateInvoice() {
+   //setup
+   Invoice invoice = createInvoice();
+   InvoiceValidator invoiceValidator = new InvoiceValidator();<i class="conum" data-value="1"></i><b>(1)</b>
+
+   //execute
+   Set&lt;ConstraintViolation&lt;Invoice&gt;&gt; violations = invoiceValidator.validate(invoice);<i class="conum" data-value="2"></i><b>(2)</b>
+
+   //verify
+   assertThat(violations.size()).isZero();<i class="conum" data-value="3"></i><b>(3)</b>
+}</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td>Create a new default InvoiceValidator. See the <a href="#invoice_validator_option">setup section</a> on how to integrate a Validation Framework into your project.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="2"></i><b>2</b></td>
+<td>Performs the validation by calling the validate(...) method assigning the result to a <a href="http://docs.oracle.com/javaee/7/api/javax/validation/ConstraintViolation.html">ConstraintViolation</a> set.</td>
+</tr>
+<tr>
+<td><i class="conum" data-value="3"></i><b>3</b></td>
+<td>If there aren&#8217;t any error the resulting Set should&#8217;t have any elements.</td>
+</tr>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1 col-lg-12">
-<h2 id="_setup">Setup</h2>
+<h2 id="setup"><a class="anchor" href="#setup"></a>2. Setup</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>or how to integrate the Konik library into my project.</p>
+<p>Or how to integrate the Konik library into a project.</p>
 </div>
 <div class="paragraph">
 <p>Broadly there are two different ways on how to
@@ -247,11 +317,11 @@ of the application and the Invoice Validator implementation.</p>
 <p>Friends of .NET have only one option to choose from.</p>
 </div>
 <div class="sect2">
-<h3 id="_java_projects">Java Projects</h3>
+<h3 id="java_projects"><a class="anchor" href="#java_projects"></a>2.1. Java Projects</h3>
 <div class="paragraph">
 <p>The minimal requirement for Konik is Java 6 although we recommend
 Java 7 and above because of newer JaxB libraries.
-The <a href="#_working_with_java_6">Working with Java 6</a> section contains instructions
+The <a href="#working_with_java_6">Working with Java 6</a> section contains instructions
 on how Java 6 users can overcome these issues.</p>
 </div>
 <div class="paragraph">
@@ -262,7 +332,7 @@ The default option for Konik is to use Java
 <a href="http://docs.oracle.com/javase/tutorial/ext/basics/spi.html">Service provider interface (SPI)</a>.</p>
 </div>
 <div class="sect3">
-<h4 id="_jee_environment">JEE Environment</h4>
+<h4 id="jee_environment"><a class="anchor" href="#jee_environment"></a>2.1.1. JEE Environment</h4>
 <div class="paragraph">
 <p>If your environment is JEE6 and above include just</p>
 </div>
@@ -295,10 +365,10 @@ Make sure there is only one PDF carriage on the classpath.</td>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_spring">Spring</h4>
+<h4 id="spring"><a class="anchor" href="#spring"></a>2.1.2. Spring</h4>
 <div class="paragraph">
 <p>Select the dependencies according to the
-<a href="#_jee_environment">JEE Environment</a> description.
+<a href="#jee_environment">JEE Environment</a> description.
 As Konik has an optional dependency to javax.inject also known as
 JRS330 which takes not part of Spring by default see
 <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#beans-standard-annotations">use of JSR 330 Standard Annotations</a>
@@ -342,7 +412,7 @@ Configuration refer to <a href="http://docs.spring.io/spring/docs/current/spring
 </div>
 </div>
 <div class="sect3">
-<h4 id="_java_standalone">Java standalone</h4>
+<h4 id="java_standalone"><a class="anchor" href="#java_standalone"></a>2.1.3. Java standalone</h4>
 <div class="paragraph">
 <p>Working in a standalone Java project or any other environment
 which is not JEE6+ or JSR330 compatible.</p>
@@ -388,7 +458,7 @@ Make sure there is only one PDF carriage on the classpath.</td>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_working_with_java_6">Working with Java 6</h4>
+<h4 id="working_with_java_6"><a class="anchor" href="#working_with_java_6"></a>2.1.4. Working with Java 6</h4>
 <div class="paragraph">
 <p>We recommend Java 7 and above because of newer JaxB library
 which does not contain namespace prefix issues. If you still need to
@@ -423,7 +493,7 @@ XML implementations who will receive your invoice might still complain about it.
 </div>
 </div>
 <div class="sect2">
-<h3 id="_invoice_validator_option">Invoice Validator Option</h3>
+<h3 id="invoice_validator_option"><a class="anchor" href="#invoice_validator_option"></a>2.2. Invoice Validator Option</h3>
 <div class="paragraph">
 <p>The second option to choose from is the {http://beanvalidation.org/}[Java Bean Validation] Provider.
 With the support of Bean Validation you can verify the correctness
@@ -453,7 +523,7 @@ on what dependencies you might need in your environment.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_references">References</h4>
+<h4 id="references"><a class="anchor" href="#references"></a>2.2.1. References</h4>
 <div class="paragraph">
 <p>A Blog entry deals with the topic of
 <a href="/blog.html#Dependency-Injection-with-the-Konik-library">Konik and dependeny injection</a>.</p>
@@ -461,7 +531,7 @@ on what dependencies you might need in your environment.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="__net_projects">.NET projects</h3>
+<h3 id="net_projects"><a class="anchor" href="#net_projects"></a>2.3. .NET projects</h3>
 <div class="paragraph">
 <p>The .NET package consists of Konik, PDFBox-carriage &amp; BVal for Invoice Validation.
 Everything bundled together in one package available via NuGet.</p>
@@ -478,7 +548,7 @@ Everything bundled together in one package available via NuGet.</p>
 </div>
 </div>
 <div class="sect1 col-lg-12">
-<h2 id="_konik_configuration">Konik Configuration</h2>
+<h2 id="konik_configuration"><a class="anchor" href="#konik_configuration"></a>3. Konik Configuration</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Konik is delivered with a sensible default configuration out of the box.
@@ -505,14 +575,14 @@ io.konik.jaxb.adapter.QuantityRoundingAdapter.roundingMode=HALF_UP</code></pre>
 <p>There are two possible ways how Konik can be configured.</p>
 </div>
 <div class="sect2">
-<h3 id="_property_file">Property file</h3>
+<h3 id="property_file"><a class="anchor" href="#property_file"></a>3.1. Property file</h3>
 <div class="paragraph">
 <p>If a property file with the name io.konik.configuration.properties exists in the root of the classpath it will be loaded when accessing the configuration.
 When using maven <code>io.konik.configuration.properties</code> should be placed in <code>src/main/resources</code>.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_system_property">System property</h3>
+<h3 id="system_property"><a class="anchor" href="#system_property"></a>3.2. System property</h3>
 <div class="paragraph">
 <p>In addition system properties can be also used to change the Konik configuration.
 Setting System Properties is either done with <code>-D</code> command line argument on application start or with
@@ -528,7 +598,7 @@ This is can be useful in cases where you define a default configuration in the p
 </div>
 </div>
 <div class="sect1 col-lg-12">
-<h2 id="_javadoc_api_documentation">JavaDoc API Documentation</h2>
+<h2 id="javadoc_api_documentation"><a class="anchor" href="#javadoc_api_documentation"></a>4. JavaDoc API Documentation</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>We host the API Documentation for the last stable release.</p>
@@ -552,7 +622,7 @@ This is can be useful in cases where you define a default configuration in the p
 </div>
 </div>
 <div class="sect1">
-<h2 id="_zugferd_specification">ZUGFeRD Specification</h2>
+<h2 id="zugferd_specification"><a class="anchor" href="#zugferd_specification"></a>5. ZUGFeRD Specification</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Collection of links to the original ZUGFeRD Specification by AWV e.V.</p>
