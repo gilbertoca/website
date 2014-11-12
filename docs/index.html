@@ -9,7 +9,7 @@
     <meta name="author" content="Vadim Bauer"/>
     <meta content="/img/logo.png" property="og:image"/>
     <meta name="keywords" content="Konik User Guide, Konik manual, Konik HowTo, Konik API, Konik JavaDocs, Konik JavaDoc"/>
-    <meta name="date" content='2014-11-08' scheme="YYYY-MM-DD"/>
+    <meta name="date" content='2014-11-12' scheme="YYYY-MM-DD"/>
 	<meta name="author" content="Vadim Bauer">
     
 	
@@ -61,7 +61,7 @@
         <li><a href="/ZUGFeRD.html">ZUGFeRD</a></li>
         <li><a href="/docs/index.html">Dokumentation</a></li>
         <li><a href="/development.html">Entwicklung</a></li>
-        <li><a href="/validation.html">Validation Service</a></li>
+        <li><a href="/validation/#/">Validation Service</a></li>
         <li><a href="/blog.html">Blog</a></li>
          <li><a href="/index.html#Support">Hilfe</a></li>
       </ul>
@@ -133,7 +133,7 @@
       .setName("Rechnung"));
 
    Trade trade = new Trade();
-   trade.setAgreement(new Agreement()     <i class="conum" data-value="2"></i><b>(2)</b>
+   trade.setAgreement(new Agreement()    <i class="conum" data-value="2"></i><b>(2)</b>
          .setSeller(new TradeParty()
                .setName("Seller Inc.")
                .setAddress(new Address("80331", "Marienplatz 1", "München", DE))
@@ -149,7 +149,7 @@
          .setPaymentReference("20131122-42")
          .setCurrency(EUR)
          .addPaymentMeans(new PaymentMeans()
-            .setPayerAccount(new FinancialAccount("DE01234.."))
+            .setPayerAccount(new DebtorFinancialAccount("DE01234.."))
                .setPayerInstitution(new FinancialInstitution("GENO...")))
          .setMonetarySummation(new MonetarySummation()
             .setLineTotal(new Amount(100, EUR))
@@ -186,9 +186,9 @@
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void transformInvoiceToXml(Invoice invoice) throws IOException {
-   InvoiceTransformer transformer = new InvoiceTransformer(); <i class="conum" data-value="1"></i><b>(1)</b>
+   InvoiceTransformer transformer = new InvoiceTransformer();   <i class="conum" data-value="1"></i><b>(1)</b>
    FileOutputStream outputStream = new FileOutputStream("target/minimal-invoice.xml");
-   transformer.fromModel(invoice, outputStream); <i class="conum" data-value="2"></i><b>(2)</b>
+   transformer.fromModel(invoice, outputStream);   <i class="conum" data-value="2"></i><b>(2)</b>
 }</code></pre>
 </div>
 </div>
@@ -214,10 +214,10 @@
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void appendInvoiceToPdf() throws IOException {
    Invoice invoice = createInvoice();
-   PdfHandler handler = new PdfHandler(); <i class="conum" data-value="1"></i><b>(1)</b>
+   PdfHandler handler = new PdfHandler();   <i class="conum" data-value="1"></i><b>(1)</b>
    InputStream inputPdf = getClass().getResourceAsStream("/acme_invoice-42.pdf");
    OutputStream resultingPdf = new FileOutputStream("target/acme_invoice-42_ZUGFeRD.pdf");
-   handler.appendInvoice(invoice, inputPdf, resultingPdf); <i class="conum" data-value="2"></i><b>(2)</b>
+   handler.appendInvoice(invoice, inputPdf, resultingPdf);   <i class="conum" data-value="2"></i><b>(2)</b>
 }</code></pre>
 </div>
 </div>
@@ -242,9 +242,9 @@
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void extracInvoiceFromPdf() {
-   PdfHandler handler = new PdfHandler(); <i class="conum" data-value="1"></i><b>(1)</b>
+   PdfHandler handler = new PdfHandler();   <i class="conum" data-value="1"></i><b>(1)</b>
    InputStream inputZugferdPdfStream = getClass().getResourceAsStream("/acme_invoice-42_ZUGFeRD.pdf");
-   Invoice invoice = handler.extractInvoice(inputZugferdPdfStream);<i class="conum" data-value="1"></i><b>(1)</b>
+   Invoice invoice = handler.extractInvoice(inputZugferdPdfStream);   <i class="conum" data-value="2"></i><b>(2)</b>
    assertThat(invoice).isNotNull();
 }</code></pre>
 </div>
@@ -272,13 +272,13 @@
 <pre class="highlightjs highlight"><code class="language-java" data-lang="java">public void validateInvoice() {
    //setup
    Invoice invoice = createInvoice();
-   InvoiceValidator invoiceValidator = new InvoiceValidator();<i class="conum" data-value="1"></i><b>(1)</b>
+   InvoiceValidator invoiceValidator = new InvoiceValidator();   <i class="conum" data-value="1"></i><b>(1)</b>
 
    //execute
-   Set&lt;ConstraintViolation&lt;Invoice&gt;&gt; violations = invoiceValidator.validate(invoice);<i class="conum" data-value="2"></i><b>(2)</b>
+   Set&lt;ConstraintViolation&lt;Invoice&gt;&gt; violations = invoiceValidator.validate(invoice);   <i class="conum" data-value="2"></i><b>(2)</b>
 
    //verify
-   assertThat(violations.size()).isZero();<i class="conum" data-value="3"></i><b>(3)</b>
+   assertThat(violations.size()).isZero();   <i class="conum" data-value="3"></i><b>(3)</b>
 }</code></pre>
 </div>
 </div>

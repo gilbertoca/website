@@ -3,7 +3,7 @@
 
     <url>
         <loc>http://konik.io/docs/index.html</loc>
-        <lastmod>2014-11-08</lastmod>
+        <lastmod>2014-11-12</lastmod>
     </url>
     <url>
         <loc>http://konik.io/license.html</loc>
@@ -18,7 +18,7 @@
         <lastmod>2014-05-25</lastmod>
     </url>
     <url>
-        <loc>http://konik.io/validation.html</loc>
+        <loc>http://konik.io/validation/index.html</loc>
         <lastmod>2014-03-10</lastmod>
     </url>
     <url>
@@ -184,15 +184,15 @@
 
     <url>
         <loc>http://konik.io/docs/api/konik/</loc>
-        <lastmod>2014-11-08</lastmod>
+        <lastmod>2014-11-12</lastmod>
     </url>
     <url>
         <loc>http://konik.io/docs/api/pdfbox-carriage/</loc>
-        <lastmod>2014-11-08</lastmod>
+        <lastmod>2014-11-12</lastmod>
     </url>
     <url>
         <loc>http://konik.io/docs/api/itext-carriage/</loc>
-        <lastmod>2014-11-08</lastmod>
+        <lastmod>2014-11-12</lastmod>
     </url>
 
 </urlset>
