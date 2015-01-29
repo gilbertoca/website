@@ -6,9 +6,16 @@
     <atom:link href="http://konik.io/feed.xml" rel="self" type="application/rss+xml" />
     <description>Konik Blog Feed</description>
     <language>de-de</language>
-    <pubDate>Wed, 12 Nov 2014 22:07:21 +0000</pubDate>
-    <lastBuildDate>Wed, 12 Nov 2014 22:07:21 +0000</lastBuildDate>
+    <pubDate>Thu, 29 Jan 2015 09:55:10 +0000</pubDate>
+    <lastBuildDate>Thu, 29 Jan 2015 09:55:10 +0000</lastBuildDate>
 
+    <item>
+      <title>Konik 1.0 Release und Update ZUGFeRD Validatioin Service</title>
+      <link>http://konik.io/blog.html#Konik-1.0-Release-und-Update-ZUGFeRD-Validatioin-Service</link>
+      <pubDate>Wed, 28 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://konik.io/blog.html#Konik-1.0-Release-und-Update-ZUGFeRD-Validatioin-Service</guid>
+      	<description>Konik 1.0 Release und Update ZUGFeRD Validatioin Service</description>
+    </item>
     <item>
       <title>PdfBox-Carriage Release-0.8.3</title>
       <link>http://konik.io/blog.html#PdfBox-Carriage-Release-0.8.3</link>
